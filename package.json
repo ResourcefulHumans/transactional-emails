@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "ghooks": "^1.1.1",
+    "glob": "^7.0.3",
     "semantic-release": "^4.3.5",
     "standard": "^6.0.8",
     "validate-commit-msg": "^2.5.0"
