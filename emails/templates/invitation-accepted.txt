@@ -1,0 +1,14 @@
+Hi <%= firstname %> <%=  surname %>,
+
+<%= sender.firstname %> <%= sender.surname %> just accepted your invitation to:
+
+-----------------------------------------------------------------------
+
+<%= contribution.title %>
+
+<%= contribution.description['@text'] %>
+
+-----------------------------------------------------------------------
+
+Go to your netwoRHk:
+<%= link %>
