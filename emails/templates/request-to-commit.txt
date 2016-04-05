@@ -1,0 +1,17 @@
+Hi <%= firstname %> <%=  surname %>,
+
+<%= sender.firstname %> <%= sender.surname %> asks to contribute to:
+
+-----------------------------------------------------------------------
+
+<%= contribution.title %>
+
+<%= contribution.description['@text'] %>
+
+-----------------------------------------------------------------------
+
+Yes, I want to add my colleague.
+<%= commitLink %>
+
+No, I reject it:
+<%= rejectLink %>

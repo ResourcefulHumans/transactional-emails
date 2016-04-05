@@ -20,3 +20,4 @@ They are installable via npm and are also published to this repositories gh-page
  - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-rejected.txt)
  - Request accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-accepted.txt)
  - Added to contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.txt)
+ - Request to commit: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-commit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-commit.txt)
