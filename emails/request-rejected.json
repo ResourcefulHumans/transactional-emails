@@ -1,0 +1,18 @@
+{
+  "subject": "[Networhk] <%= sender.firstname %> <%= sender.lastname %> rejected to add you to: <%= contribution.title %>",
+  "defaults": {
+    "firstname": "Jason",
+    "surname": "Wilkes",
+    "sender": {
+      "firstname": "Tony",
+      "surname": "Stark"
+    },
+    "contribution": {
+      "title": "Build the Gamma Cannon",
+      "description": {
+        "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+      }
+    },
+    "link": "http://networhk.com/"
+  }
+}

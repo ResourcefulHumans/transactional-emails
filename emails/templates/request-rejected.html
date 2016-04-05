@@ -1,0 +1,27 @@
+<div class="header">
+  <h1>Request Rejected</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= firstname %> <%= surname %>,</strong></p>
+
+  <p>
+    <%= sender.firstname %> <%= sender.surname %> just rejected to add you to:
+  </p>
+
+  <hr>
+
+  <h2><%= contribution.title %></h2>
+
+  <%= contribution.description['@html'] %>
+
+  <hr>
+
+  <p>
+    <a href="<%= link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Go to your netwoRHk …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+</div>

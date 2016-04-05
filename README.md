@@ -15,3 +15,7 @@ They are installable via npm and are also published to this repositories gh-page
  - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
  - Invitation to commit: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.txt)
  - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
+ - Invitation accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.txt)
+ - Invitation rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.txt)
+ - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-rejected.txt)
+ - Request accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-accepted.txt)
