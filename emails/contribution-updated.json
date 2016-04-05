@@ -1,0 +1,15 @@
+{
+  "subject": "[Networhk] Contribution has changed: <%= contribution.title %>",
+  "defaults": {
+    "firstname": "John",
+    "surname": "Doe",
+    "link": "http://networhk.com/",
+    "contribution": {
+      "title": "Build the Gamma Cannon",
+      "status": "gold",
+      "description": {
+        "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+      }
+    }
+  }
+}
