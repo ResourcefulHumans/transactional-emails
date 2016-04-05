@@ -12,4 +12,4 @@ They are installable via npm and are also published to this repositories gh-page
 
 ### netwoRHk
 
- - Lost Password: [HTML](http://resourcefulhumans.github.io/transactional-emails/lost-password.html), [Text](http://resourcefulhumans.github.io/transactional-emails/lost-password.txt)
+ - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
