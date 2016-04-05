@@ -13,3 +13,5 @@ They are installable via npm and are also published to this repositories gh-page
 ### netwoRHk
 
  - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
+ - Invitation to commit: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.txt)
+ - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
