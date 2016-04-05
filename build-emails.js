@@ -43,6 +43,22 @@ function run () {
           _merge(data, templatedata)
           _merge(data, email.defaults)
           data.subject = _template(email.subject)(data)
+          let formatContent = (data) => {
+            if (!(typeof data === 'object')) {
+              return data
+            }
+            if (data['@markdown']) {
+              return {
+                '@text': data['@markdown'],
+                '@html': converter.makeHtml(data['@markdown'])
+              }
+            }
+            _forEach(data, (value, key) => {
+              data[key] = formatContent(value)
+            })
+            return data
+          }
+          formatContent(data)
           return Promise.join(
             fs.writeFileAsync(target + '.html', _template(html)(data)),
             fs.writeFileAsync(target + '.txt', _template(email.text)(data))
