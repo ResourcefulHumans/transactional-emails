@@ -1,0 +1,16 @@
+Hi <%= firstname %> <%=  surname %>,
+
+You have been added to:
+
+-----------------------------------------------------------------------
+
+<%= contribution.title %>
+
+Status: <%= contribution.status %>
+
+<%= contribution.description['@text'] %>
+
+-----------------------------------------------------------------------
+
+Go to your netwoRHk:
+<%= link %>
