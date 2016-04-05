@@ -41,7 +41,7 @@ function run () {
           .spread((htmlTemplate, textTemplate) => {
             let e = require(email)
             return {
-              identifier: identifier,
+              identifier,
               subject: e.subject,
               defaults: _defaults({}, e.defaults),
               html: htmlLayout.replace('{{content}}', htmlTemplate),
