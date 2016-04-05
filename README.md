@@ -5,6 +5,8 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/f76cf365e37c43ab8b04ac24972f31e2)](https://www.codacy.com/app/coderbyheart/transactional-emails) [![semantic-release](https://img.shields.io/badge/semver-semantic%20release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+[![NPM](https://nodei.co/npm/transactional-emails.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/transactional-emails/)
+
 This repository contains the transactional emails we send from our products. 
 They are installable via npm and are also published to this repositories gh-pages branch for preview.
 
