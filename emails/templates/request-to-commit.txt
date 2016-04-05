@@ -1,4 +1,4 @@
-Hi <%= firstname %> <%=  surname %>,
+Hi <%= recipient.firstname %> <%= recipient.surname %>,
 
 <%= sender.firstname %> <%= sender.surname %> asks to contribute to:
 

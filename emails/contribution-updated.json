@@ -1,8 +1,10 @@
 {
   "subject": "[Networhk] Contribution has changed: <%= contribution.title %>",
   "defaults": {
-    "firstname": "John",
-    "surname": "Doe",
+    "recipient": {
+      "firstname": "Jason",
+      "surname": "Wilkes"
+    },
     "link": "http://networhk.com/",
     "contribution": {
       "title": "Build the Gamma Cannon",

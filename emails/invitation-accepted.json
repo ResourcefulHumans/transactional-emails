@@ -1,8 +1,10 @@
 {
   "subject": "[Networhk] <%= sender.firstname %> <%= sender.lastname %> accepted the invitation to: <%= contribution.title %>",
   "defaults": {
-    "firstname": "Tony",
-    "surname": "Stark",
+    "recipient": {
+      "firstname": "Tony",
+      "surname": "Stark"
+    },
     "sender": {
       "firstname": "Jason",
       "surname": "Wilkes"
