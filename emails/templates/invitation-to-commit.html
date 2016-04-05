@@ -1,0 +1,35 @@
+<div class="header">
+  <h1>Invitation</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= firstname %> <%= surname %>,</strong></p>
+
+  <p>
+    You are warmly invited by <%= sender.firstname %> <%= sender.surname %>
+    to contribute to the contribution:
+  </p>
+
+  <hr>
+
+  <h2><%= contribution.title %></h2>
+
+  <%= contribution.description['@html'] %>
+
+  <hr>
+
+  <p>
+    <a href="<%= commitLink %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Yes, I commit myself …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+  <p>
+    <a href="<%= rejectLink %>" target="_blank" class="btn btn-danger">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>No, I reject to commit myself …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+</div>

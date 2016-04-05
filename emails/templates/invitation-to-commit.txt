@@ -1,0 +1,18 @@
+Hi <%= firstname %> <%=  surname %>,
+
+You are warmly invited by <%= sender.firstname %> <%= sender.surname %>
+to contribute to the contribution:
+
+-----------------------------------------------------------------------
+
+<%= contribution.title %>
+
+<%= contribution.description['@text'] %>
+
+-----------------------------------------------------------------------
+
+Click this link to commit yourself:
+<%= commitLink %>
+
+Click this link to reject the request:
+<%= rejectLink %>
