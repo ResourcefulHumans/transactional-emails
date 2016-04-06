@@ -7,6 +7,8 @@ let glob = require('glob')
 let globAsync = Promise.promisify(glob)
 let fs = require('fs')
 let _defaults = require('lodash/defaults')
+let juice = require('juice')
+let juiceResourcesAsync = Promise.promisify(juice.juiceResources)
 
 module.exports = {
   /**
@@ -22,9 +24,19 @@ module.exports = {
       .spread((htmlLayout, textLayout, emails) => {
         return Promise.map(emails, (email) => {
           let identifier = path.basename(email, '.json')
-          return Promise.join(
-            fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.html'), 'utf8'),
-            fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.txt'), 'utf8')
+          return Promise
+            .join(
+              fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.html'), 'utf8')
+                .then((htmlTemplate) => {
+                  return juiceResourcesAsync(
+                    htmlLayout.replace('{{content}}', htmlTemplate), {
+                      webResources: {
+                        images: true,
+                        relativeTo: path.join(__dirname, '/emails/')
+                      }
+                    })
+                }),
+              fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.txt'), 'utf8')
             )
             .spread((htmlTemplate, textTemplate) => {
               let e = require(email)
@@ -32,7 +44,7 @@ module.exports = {
                 identifier,
                 subject: e.subject,
                 defaults: _defaults({}, e.defaults),
-                html: htmlLayout.replace('{{content}}', htmlTemplate),
+                html: htmlTemplate,
                 text: textLayout.replace('{{content}}', textTemplate)
               }
             })
