@@ -15,16 +15,16 @@ module.exports = {
   load: () => {
     return Promise
       .join(
-        fs.readFileAsync('./emails/templates/layout.html', 'utf8'),
-        fs.readFileAsync('./emails/templates/layout.txt', 'utf8'),
+        fs.readFileAsync(path.join(__dirname, '/emails/templates/layout.html'), 'utf8'),
+        fs.readFileAsync(path.join(__dirname, '/emails/templates/layout.txt'), 'utf8'),
         globAsync(path.join(__dirname, '/emails/*.json'))
       )
       .spread((htmlLayout, textLayout, emails) => {
         return Promise.map(emails, (email) => {
           let identifier = path.basename(email, '.json')
           return Promise.join(
-            fs.readFileAsync('./emails/templates/' + identifier + '.html', 'utf8'),
-            fs.readFileAsync('./emails/templates/' + identifier + '.txt', 'utf8')
+            fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.html'), 'utf8'),
+            fs.readFileAsync(path.join(__dirname, '/emails/templates/' + identifier + '.txt'), 'utf8')
             )
             .spread((htmlTemplate, textTemplate) => {
               let e = require(email)
