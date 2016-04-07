@@ -1,6 +1,6 @@
-Hi <%= recipient.firstname %> <%= recipient.surname %>,
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.surname %> asks to contribute to:
+<%= sender.firstname %> <%= sender.lastname %> asks to contribute to:
 
 -----------------------------------------------------------------------
 

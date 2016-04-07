@@ -1,6 +1,6 @@
-Hi <%= recipient.firstname %> <%= recipient.surname %>,
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.surname %> just rejected your invitation to:
+<%= sender.firstname %> <%= sender.lastname %> just rejected your invitation to:
 
 -----------------------------------------------------------------------
 

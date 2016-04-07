@@ -3,11 +3,11 @@
   "defaults": {
     "recipient": {
       "firstname": "Tony",
-      "surname": "Stark"
+      "lastname": "Stark"
     },
     "sender": {
       "firstname": "Jason",
-      "surname": "Wilkes"
+      "lastname": "Wilkes"
     },
     "contribution": {
       "title": "Build the Gamma Cannon",

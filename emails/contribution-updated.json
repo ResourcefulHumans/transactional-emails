@@ -3,7 +3,7 @@
   "defaults": {
     "recipient": {
       "firstname": "Jason",
-      "surname": "Wilkes"
+      "lastname": "Wilkes"
     },
     "link": "http://networhk.com/",
     "contribution": {

@@ -1,4 +1,4 @@
-Hi <%= recipient.firstname %> <%= recipient.surname %>,
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 Following contribution has been updated:
 

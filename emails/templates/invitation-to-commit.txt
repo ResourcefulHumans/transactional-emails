@@ -1,6 +1,6 @@
-Hi <%= recipient.firstname %> <%= recipient.surname %>,
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-You are warmly invited by <%= sender.firstname %> <%= sender.surname %>
+You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
 to contribute to the contribution:
 
 -----------------------------------------------------------------------
