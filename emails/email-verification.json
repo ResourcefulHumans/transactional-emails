@@ -1,0 +1,10 @@
+{
+  "subject": "[Networhk] <%= recipient.firstname %>, please confirm your email address",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "surname": "Wilkes"
+    },
+    "link": "http://networhk.com/"
+  }
+}

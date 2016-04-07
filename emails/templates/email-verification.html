@@ -1,0 +1,21 @@
+<div class="header">
+  <h1>Email Verification</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= recipient.firstname %> <%= recipient.surname %>,</strong></p>
+
+  <p>
+      Please click this link to verify your email address:
+  </p>
+
+  <a href="<%= link %>" target="_blank" class="btn">
+    <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    <strong>Yes, that is my address …</strong>
+    <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+  </a>
+
+  <hr/>
+
+  <p>If you did not give use your email address, just ignore this message.</p>
+
+</div>

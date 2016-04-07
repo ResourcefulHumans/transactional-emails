@@ -1,0 +1,9 @@
+Hi <%= recipient.firstname %> <%= recipient.surname %>,
+
+Please click this link to verify your email address:
+
+<%= link %>
+
+-----------------------------------------------------------------------
+
+If you did not give use your email address, just ignore this message.
