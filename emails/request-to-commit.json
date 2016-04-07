@@ -1,5 +1,5 @@
 {
-  "subject": "[Networhk] <%= sender.firstname %> <%= sender.lastname %> wants to contribute to: <%= contribution.title %>",
+  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to contribute to: <%= contribution.title %>",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
