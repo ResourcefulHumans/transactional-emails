@@ -11,8 +11,5 @@ to contribute to the contribution:
 
 -----------------------------------------------------------------------
 
-Click this link to commit yourself:
-<%= commitLink %>
-
-Click this link to reject the request:
-<%= rejectLink %>
+To accept or reject this invite, open this link:
+<%= link %>

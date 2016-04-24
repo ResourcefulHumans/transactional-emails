@@ -15,7 +15,7 @@ They are installable via npm and are also published to this repositories gh-page
 ### netwoRHk
 
  - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
- - Invitation to commit: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-to-commit.txt)
+ - Invitation to commit: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.txt)
  - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
  - Invitation accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.txt)
  - Invitation rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.txt)
