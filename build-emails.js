@@ -14,7 +14,7 @@ let transactionTemplates = require('./')
 
 function run () {
   let templatedata = {
-    httpHost: process.env.HTTP_HOST || 'http://example.com/'
+    webHost: process.env.WEB_HOST || 'http://example.com/'
   }
 
   console.log()
