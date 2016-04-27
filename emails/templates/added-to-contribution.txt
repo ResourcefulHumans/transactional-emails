@@ -6,11 +6,11 @@ You have been added to:
 
 <%= contribution.title %>
 
-Status: <%= contribution.status %>
+Priority: <%= contribution.priority %>
 
 <%= contribution.description['@text'] %>
 
 -----------------------------------------------------------------------
 
 View contribution:
-<%= contributiontLink %>
+<%= contributionLink %>

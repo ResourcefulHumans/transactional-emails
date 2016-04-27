@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.lastname %> just rejected to add you to:
+<%= sender.firstname %> <%= sender.lastname %> just rejected your invitation to:
 
 -----------------------------------------------------------------------
 
@@ -11,4 +11,4 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 -----------------------------------------------------------------------
 
 View contribution:
-<%= contributiontLink %>
+<%= contributionLink %>

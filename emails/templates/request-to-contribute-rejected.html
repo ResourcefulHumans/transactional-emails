@@ -1,11 +1,11 @@
 <div class="header">
-  <h1>Invitation Rejected</h1>
+  <h1>Request Rejected</h1>
 </div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> just rejected your invitation to:
+    <%= sender.firstname %> <%= sender.lastname %> just rejected to add you to:
   </p>
 
   <hr>
@@ -17,7 +17,7 @@
   <hr>
 
   <p>
-    <a href="<%= contributiontLink %>" target="_blank" class="btn">
+    <a href="<%= contributionLink %>" target="_blank" class="btn">
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
       <strong>View contribution …</strong>
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
@@ -29,7 +29,7 @@
 <!-- Action link for GMail -->
 <div itemscope itemtype="http://schema.org/EmailMessage">
   <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= contributiontLink %>">
+    <link itemprop="url" href="<%= contributionLink %>">
     <meta itemprop="name" content="View contribution">
   </div>
   <meta itemprop="description" content="View this contribution on netwoRHk">

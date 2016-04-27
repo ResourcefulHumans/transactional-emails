@@ -6,11 +6,14 @@ Following contribution has been updated:
 
 <%= contribution.title %>
 
-Status: <%= contribution.status %>
+Priority: <%= contribution.priority %>
+Open: <%= contribution.open %>
+Done: <%= contribution.done %>
+Pending: <%= contribution.pending %>
 
 <%= contribution.description['@text'] %>
 
 -----------------------------------------------------------------------
 
 View contribution:
-<%= contributiontLink %>
+<%= contributionLink %>
