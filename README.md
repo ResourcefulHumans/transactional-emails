@@ -14,12 +14,19 @@ They are installable via npm and are also published to this repositories gh-page
 
 ### netwoRHk
 
- - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
- - Invite to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.txt)
- - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
- - Invitation accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-accepted.txt)
- - Invitation rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-rejected.txt)
- - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-rejected.txt)
- - Request accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-accepted.txt)
- - Added to contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.txt)
- - Request to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.txt)
+#### Users
+   
+- Email verification: [HTML](http://resourcefulhumans.github.io/transactional-emails/email-verification.html), [Text](http://resourcefulhumans.github.io/transactional-emails/email-verification.txt)
+- Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
+ 
+#### Commitments
+
+- Invite to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.txt)
+    - Invitation declined: [HTML](http://resourcefulhumans.github.io/transactional-emails/invitation-declined.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invitation-declined.txt)
+- Request to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.txt)
+    - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-rejected.txt)
+- Added to contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.txt)
+
+#### Contributions 
+
+- Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
