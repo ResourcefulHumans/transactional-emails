@@ -17,11 +17,20 @@
   <hr>
 
   <p>
-    <a href="<%= link %>" target="_blank" class="btn">
+    <a href="<%= contributiontLink %>" target="_blank" class="btn">
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Go to your netwoRHk …</strong>
+      <strong>View contribution …</strong>
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
     </a>
   </p>
 
+</div>
+
+<!-- Action link for GMail -->
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="<%= contributiontLink %>">
+    <meta itemprop="name" content="View contribution">
+  </div>
+  <meta itemprop="description" content="View this contribution on netwoRHk">
 </div>

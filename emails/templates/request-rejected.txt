@@ -10,5 +10,5 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 -----------------------------------------------------------------------
 
-Go to your netwoRHk:
-<%= link %>
+View contribution:
+<%= contributiontLink %>

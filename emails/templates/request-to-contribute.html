@@ -1,27 +1,25 @@
 <div class="header">
-  <h1>Added to contribution</h1>
+  <h1>Request to contribute</h1>
 </div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    You have been added to:
+    <%= sender.firstname %> <%= sender.lastname %> asks to contribute to:
   </p>
 
   <hr>
 
   <h2><%= contribution.title %></h2>
 
-  <p>Status: <b><%= contribution.status %></b></p>
-
   <%= contribution.description['@html'] %>
 
   <hr>
 
   <p>
-    <a href="<%= contributiontLink %>" target="_blank" class="btn">
+    <a href="<%= commitmentLink %>" target="_blank" class="btn">
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>View contribution …</strong>
+      <strong>Click here to Approve or Reject this request …</strong>
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
     </a>
   </p>
@@ -31,8 +29,8 @@
 <!-- Action link for GMail -->
 <div itemscope itemtype="http://schema.org/EmailMessage">
   <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= contributiontLink %>">
-    <meta itemprop="name" content="View contribution">
+    <link itemprop="url" href="<%= commitmentLink %>">
+    <meta itemprop="name" content="Approve or Reject">
   </div>
-  <meta itemprop="description" content="View this contribution on netwoRHk">
+  <meta itemprop="description" content="Approve or Reject this request to contribute">
 </div>

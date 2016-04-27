@@ -12,5 +12,5 @@ Status: <%= contribution.status %>
 
 -----------------------------------------------------------------------
 
-Go to your netwoRHk:
-<%= link %>
+View contribution:
+<%= contributiontLink %>

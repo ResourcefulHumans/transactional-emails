@@ -18,11 +18,20 @@
   <hr>
 
   <p>
-    <a href="<%= link %>" target="_blank" class="btn">
+    <a href="<%= commitmentLink %>" target="_blank" class="btn">
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Click here to accept or reject this invite …</strong>
+      <strong>Click here to Accept or Decline this invite …</strong>
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
     </a>
   </p>
 
+</div>
+
+<!-- Action link for GMail -->
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="<%= commitmentLink %>">
+    <meta itemprop="name" content="Accept or Decline">
+  </div>
+  <meta itemprop="description" content="Accept or Decline this invite to contribute">
 </div>
