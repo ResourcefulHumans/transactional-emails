@@ -10,8 +10,5 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 -----------------------------------------------------------------------
 
-Yes, I want to add my colleague.
-<%= commitLink %>
-
-No, I reject it:
-<%= rejectLink %>
+Click here to Approve or Reject this request:
+<%= commitmentLink %>
