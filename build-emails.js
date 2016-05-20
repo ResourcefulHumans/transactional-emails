@@ -49,6 +49,7 @@ function run () {
         return data
       }
       formatContent(data)
+      data._ = require('lodash')
       return Promise.join(
         fs.writeFileAsync(target + '.html', _template(email.html)(data)),
         fs.writeFileAsync(target + '.txt', _template(email.text)(data))

@@ -1,0 +1,35 @@
+{
+  "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will degraded soon",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "contributions": [
+      {
+        "title": "Build the Gamma Cannon",
+        "priority": "gold",
+        "description": {
+          "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+        },
+        "contributionLink": "http://networhk.com/"
+      },
+      {
+        "title": "Fix the Tracker Receiver",
+        "description": {
+          "@markdown": "Please fix the Tracker Receiver so we can find Underwood and mount a rescue attempt."
+        },
+        "priority": "bronze",
+        "contributionLink": "http://networhk.com/"
+      }
+    ],
+    "networhk": {
+      "label": "Strategic Scientific Reserve",
+      "networhkLink": "http://networhk.com/"
+    },
+    "healthEngine": {
+      "degradesAfter": "7 days",
+      "degradesIn": "16 hours"
+    }
+  }
+}

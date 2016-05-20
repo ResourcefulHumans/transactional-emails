@@ -30,3 +30,8 @@ They are installable via npm and are also published to this repositories gh-page
 #### Contributions 
 
 - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
+
+#### Health Engine
+
+- Commitments degraded: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.txt)
+- Commitments degrade pending: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.txt)

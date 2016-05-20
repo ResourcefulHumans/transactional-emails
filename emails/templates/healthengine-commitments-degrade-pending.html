@@ -1,0 +1,45 @@
+<div class="header">
+  <h1>Health degrade pending</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+  <p>
+    the health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
+    soon if you do not reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
+  </p>
+
+  <p>
+    Please go to your netwoRHk and review your commitments.
+  </p>
+
+  <% _.forEach(contributions, function(contribution) { %>
+
+  <hr>
+
+  <h2><%= contribution.title %></h2>
+
+  <%= contribution.description['@html'] %>
+
+  <% }); %>
+
+  <hr>
+
+  <p>
+    <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Go to your netwoRHk …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+</div>
+
+<!-- Action link for GMail -->
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="<%= networhk.networhkLink %>">
+    <meta itemprop="name" content="View netwoRHk">
+  </div>
+  <meta itemprop="description" content="View the <%= networhk.label %> netwoRHk">
+</div>
