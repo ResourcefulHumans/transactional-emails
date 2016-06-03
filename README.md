@@ -35,3 +35,11 @@ They are installable via npm and are also published to this repositories gh-page
 
 - Commitments degraded: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.txt)
 - Commitments degrade pending: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.txt)
+
+### caRHds
+
+#### Users
+             
+- Email verification: [HTML](http://resourcefulhumans.github.io/transactional-emails/carhds-email-verification.html), [Text](http://resourcefulhumans.github.io/transactional-emails/carhds-email-verification.txt)
+- Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/carhds-password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/carhds-password-change.txt)
+           

@@ -1,0 +1,12 @@
+{
+  "subject": "[caRHds 🎴🎴] <%= recipient.firstname %>, please confirm your email address",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "link": "https://carhds.me/"
+  },
+  "template": "email-verification",
+  "product": "caRHds"
+}
