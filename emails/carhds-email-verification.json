@@ -1,5 +1,5 @@
 {
-  "subject": "[caRHds 🎴🎴] <%= recipient.firstname %>, please confirm your email address",
+  "subject": "[caRHds 🎴 ] <%= recipient.firstname %>, please confirm your email address",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
