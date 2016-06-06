@@ -1,0 +1,36 @@
+<div class="header">
+  <h1>Invitation</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+  <p>
+    You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
+    to join the meeting:<br/>
+    <strong><%= meeting.name %></strong>
+  </p>
+
+  <p>
+    <a href="<%= meetingLink %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Click here to join the meeting …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+  <hr>
+
+  <p>
+    If you were invited by accident, just ignore this message.
+  </p>
+
+</div>
+
+<!-- Action link for GMail -->
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="<%= meetingLink %>">
+    <meta itemprop="name" content="Join meeting">
+  </div>
+  <meta itemprop="description" content="Click here to join the meeting …">
+</div>

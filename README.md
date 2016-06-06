@@ -42,4 +42,8 @@ They are installable via npm and are also published to this repositories gh-page
              
 - Email verification: [HTML](http://resourcefulhumans.github.io/transactional-emails/carhds-email-verification.html), [Text](http://resourcefulhumans.github.io/transactional-emails/carhds-email-verification.txt)
 - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/carhds-password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/carhds-password-change.txt)
+
+#### Meetings
+
+- Invite to Meeting: [HTML](http://resourcefulhumans.github.io/transactional-emails/carhds-invite-to-meeting.html), [Text](http://resourcefulhumans.github.io/transactional-emails/carhds-invite-to-meeting.txt)
            

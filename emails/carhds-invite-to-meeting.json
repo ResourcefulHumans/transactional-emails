@@ -1,0 +1,18 @@
+{
+  "subject": "[caRHds 🎴 ] <%= recipient.firstname %>, <%= sender.firstname %> <%= sender.lastname %> invites you to the meeting: <%= meeting.name %>",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "sender": {
+      "firstname": "Tony",
+      "lastname": "Stark"
+    },
+    "meeting": {
+      "name": "Kill Whitney"
+    },
+    "meetingLink": "http://carhds.me/"
+  },
+  "product": "caRHds"
+}
