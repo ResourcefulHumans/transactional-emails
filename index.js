@@ -34,12 +34,14 @@ module.exports = {
                   return juiceResourcesAsync(
                     htmlLayout
                       .replace('{{content}}', htmlTemplate)
-                      .replace('{{product}}', product), {
+                      .replace('{{product}}', product),
+                    {
                       webResources: {
                         images: true,
                         relativeTo: path.join(__dirname, '/emails/')
                       }
-                    })
+                    }
+                  )
                 }),
               fs.readFileAsync(path.join(__dirname, '/emails/templates/' + template + '.txt'), 'utf8')
             )
