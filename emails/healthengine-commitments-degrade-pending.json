@@ -1,5 +1,5 @@
 {
-  "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will degraded soon",
+  "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will be degraded soon",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
