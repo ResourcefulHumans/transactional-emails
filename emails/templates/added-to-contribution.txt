@@ -2,15 +2,4 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 You have been added to:
 
------------------------------------------------------------------------
-
-<%= contribution.title %>
-
-Priority: <%= contribution.priority %>
-
-<%= contribution.description['@text'] %>
-
------------------------------------------------------------------------
-
-View contribution:
-<%= contributionLink %>
+{{includes.contribution}}

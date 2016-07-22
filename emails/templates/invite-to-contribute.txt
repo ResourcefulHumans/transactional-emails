@@ -3,13 +3,7 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
 to contribute to the contribution:
 
------------------------------------------------------------------------
-
-<%= contribution.title %>
-
-<%= contribution.description['@text'] %>
-
------------------------------------------------------------------------
+{{includes.contribution}}
 
 To accept or reject this invite, open this link:
 <%= commitmentLink %>

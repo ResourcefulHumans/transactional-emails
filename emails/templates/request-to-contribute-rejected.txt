@@ -1,14 +1,7 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 <%= sender.firstname %> <%= sender.lastname %> just rejected to add you to:
-
------------------------------------------------------------------------
-
 <%= contribution.title %>
-
-<%= contribution.description['@text'] %>
-
------------------------------------------------------------------------
 
 View contribution:
 <%= contributionLink %>

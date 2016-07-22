@@ -1,0 +1,33 @@
+<hr>
+
+<h2><%= contribution.title %></h2>
+
+<p>Priority: <b><%= contribution.priority %></b></p>
+<% if(contribution.open) { %><p>Open: <b><%= contribution.open %></b></p><% }; %>
+<% if(contribution.done) { %><p>Done: <b><%= contribution.done %></b></p><% }; %>
+<% if(contribution.pending) { %><p>Pending: <b><%= contribution.pending %></b></p><% }; %>
+
+<%= contribution.description['@html'] %>
+
+<% if(contribution.tasks.length) { %>
+<h3>Tasks <small>(<%= contribution.tasks.length %>)</small></h3>
+<ul>
+  <% _.forEach(contribution.tasks, function(task) { %>
+  <li>
+    <% if(task.complete) { %>
+    <del><%= task.description %></del>
+    <% } else { %>
+    <%= task.description %>
+    <% } %>
+  </li>
+  <% }); %>
+</ul>
+<% }; %>
+
+<p>
+  <a href="<%= contributionLink %>" target="_blank" class="btn">
+    <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    <strong>View contribution …</strong>
+    <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+  </a>
+</p>

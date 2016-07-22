@@ -1,14 +1,7 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 <%= sender.firstname %> <%= sender.lastname %> asks to contribute to:
-
------------------------------------------------------------------------
-
 <%= contribution.title %>
-
-<%= contribution.description['@text'] %>
-
------------------------------------------------------------------------
 
 Click here to Approve or Reject this request:
 <%= commitmentLink %>

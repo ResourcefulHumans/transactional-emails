@@ -13,15 +13,11 @@
     Please go to your netwoRHk and review your commitments.
   </p>
 
+  <ul>
   <% _.forEach(contributions, function(contribution) { %>
-
-  <hr>
-
-  <h2><%= contribution.title %></h2>
-
-  <%= contribution.description['@html'] %>
-
+  <li><%= contribution.title %></li>
   <% }); %>
+  </ul>
 
   <hr>
 
@@ -33,13 +29,4 @@
     </a>
   </p>
 
-</div>
-
-<!-- Action link for GMail -->
-<div itemscope itemtype="http://schema.org/EmailMessage">
-  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= networhk.networhkLink %>">
-    <meta itemprop="name" content="View netwoRHk">
-  </div>
-  <meta itemprop="description" content="View the <%= networhk.label %> netwoRHk">
 </div>

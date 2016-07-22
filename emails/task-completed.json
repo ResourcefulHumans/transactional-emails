@@ -1,5 +1,5 @@
 {
-  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> invites you to contribute to: <%= contribution.title %>",
+  "subject": "[netwoRHk] ✓ completed task in <%= contribution.title %>: <%= task.description %>",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
@@ -22,7 +22,7 @@
         },
         {
           "description": "Finish the construction",
-          "complete": false
+          "complete": true
         },
         {
           "description": "Test it",
@@ -34,7 +34,10 @@
         }
       ]
     },
-    "contributionLink": "http://networhk.com/",
-    "commitmentLink": "http://networhk.com/"
+    "task": {
+      "description": "Finish the construction",
+      "complete": true
+    },
+    "contributionLink": "http://networhk.com/"
   }
 }

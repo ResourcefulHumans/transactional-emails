@@ -8,31 +8,6 @@
     You have been added to:
   </p>
 
-  <hr>
+  {{includes.contribution}}
 
-  <h2><%= contribution.title %></h2>
-
-  <p>Priority: <b><%= contribution.priority %></b></p>
-
-  <%= contribution.description['@html'] %>
-
-  <hr>
-
-  <p>
-    <a href="<%= contributionLink %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>View contribution …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
-  </p>
-
-</div>
-
-<!-- Action link for GMail -->
-<div itemscope itemtype="http://schema.org/EmailMessage">
-  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= contributionLink %>">
-    <meta itemprop="name" content="View contribution">
-  </div>
-  <meta itemprop="description" content="View this contribution on netwoRHk">
 </div>

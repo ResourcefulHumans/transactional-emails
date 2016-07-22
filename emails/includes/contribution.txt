@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------
+
+# <%= contribution.title %>
+
+Priority: <%= contribution.priority %>
+Open:     <%= contribution.open %>
+Done:     <%= contribution.done %>
+Pending:  <%= contribution.pending %>
+
+<%= contribution.description['@text'] %>
+
+<% if(contribution.tasks.length) { %>## Tasks (<%= contribution.tasks.length %>)
+
+<% _.forEach(contribution.tasks, function(task) { %><% if(task.complete) { %>[x]<% } else { %>[ ]<% } %> <%= task.description %>
+<% }); %><% }; %>
+
+View contribution:
+<%= contributionLink %>

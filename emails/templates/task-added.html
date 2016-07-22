@@ -1,12 +1,16 @@
 <div class="header">
-  <h1>Update</h1>
+  <h1><%= contribution.title %></h1>
 </div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    Following contribution has been updated:
+    <%= sender.firstname %> <%= sender.lastname %> has added a new task:
   </p>
+
+  <ul>
+    <li><%= task.description %></li>
+  </ul>
 
   {{includes.contribution}}
 

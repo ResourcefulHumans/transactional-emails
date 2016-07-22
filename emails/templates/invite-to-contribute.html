@@ -11,9 +11,7 @@
 
   <hr>
 
-  <h2><%= contribution.title %></h2>
-
-  <%= contribution.description['@html'] %>
+  {{includes.contribution}}
 
   <hr>
 
@@ -25,13 +23,4 @@
     </a>
   </p>
 
-</div>
-
-<!-- Action link for GMail -->
-<div itemscope itemtype="http://schema.org/EmailMessage">
-  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= commitmentLink %>">
-    <meta itemprop="name" content="Accept or Decline">
-  </div>
-  <meta itemprop="description" content="Accept or Decline this invite to contribute">
 </div>

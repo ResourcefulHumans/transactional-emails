@@ -6,15 +6,8 @@
 
   <p>
     <%= sender.firstname %> <%= sender.lastname %> just rejected your invitation to:
+    <em><%= contribution.title %></em>
   </p>
-
-  <hr>
-
-  <h2><%= contribution.title %></h2>
-
-  <%= contribution.description['@html'] %>
-
-  <hr>
 
   <p>
     <a href="<%= contributionLink %>" target="_blank" class="btn">
@@ -24,13 +17,4 @@
     </a>
   </p>
 
-</div>
-
-<!-- Action link for GMail -->
-<div itemscope itemtype="http://schema.org/EmailMessage">
-  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
-    <link itemprop="url" href="<%= contributionLink %>">
-    <meta itemprop="name" content="View contribution">
-  </div>
-  <meta itemprop="description" content="View this contribution on netwoRHk">
 </div>

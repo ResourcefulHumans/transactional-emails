@@ -4,16 +4,8 @@ the health of your commitments in the <%= networhk.label %> netwoRHk
 listed below will be degraded soon if you do not reinforce your
 commitment within <%= healthEngine.degradesIn %>.
 
-<% _.forEach(contributions, function(contribution) { %>
------------------------------------------------------------------------
-
-<%= contribution.title %>
-
-<%= contribution.description['@text'] %>
-
+<% _.forEach(contributions, function(contribution) { %>- <%= contribution.title %>
 <% }); %>
-
------------------------------------------------------------------------
 
 Go to your netwoRHk:
 <%= networhk.networhkLink %>
