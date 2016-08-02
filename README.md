@@ -26,6 +26,9 @@ They are installable via npm and are also published to this repositories gh-page
 - Request to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.txt)
     - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute-rejected.txt)
 - Added to contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/added-to-contribution.txt)
+- Request to uncommit: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit.txt)
+  - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit-rejected.txt)
+- Removed from contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/removed-from-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/removed-from-contribution.txt)
 
 #### Contributions 
 
