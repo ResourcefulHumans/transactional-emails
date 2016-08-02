@@ -1,0 +1,20 @@
+<div class="header">
+  <h1>Request Rejected</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+  <p>
+    <%= sender.firstname %> <%= sender.lastname %> just rejected to uncommit you from:
+    <em><%= contribution.title %></em>
+  </p>
+
+  <p>
+    <a href="<%= contributionLink %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>View contribution …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+</div>

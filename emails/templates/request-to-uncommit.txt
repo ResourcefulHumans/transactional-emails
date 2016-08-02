@@ -1,0 +1,7 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+<%= sender.firstname %> <%= sender.lastname %> asks to uncommit from:
+<%= contribution.title %>
+
+Click here to Approve or Reject this request:
+<%= commitmentLink %>

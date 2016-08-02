@@ -1,0 +1,5 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+You have been removed from:
+
+{{includes.contribution}}

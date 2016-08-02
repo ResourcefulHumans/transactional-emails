@@ -1,0 +1,39 @@
+{
+  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to uncommit from: <%= contribution.title %>",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "sender": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "contribution": {
+      "title": "Build the Gamma Cannon",
+      "priority": "gold",
+      "description": {
+        "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+      },
+      "tasks": [
+        {
+          "description": "Bring the prototype to the lab",
+          "complete": true
+        },
+        {
+          "description": "Finish the construction",
+          "complete": false
+        },
+        {
+          "description": "Test it",
+          "complete": false
+        },
+        {
+          "description": "Fire it at Whitney Frost!",
+          "complete": false
+        }
+      ]
+    },
+    "commitmentLink": "http://networhk.com/"
+  }
+}

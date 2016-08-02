@@ -1,0 +1,7 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+<%= sender.firstname %> <%= sender.lastname %> just rejected to uncommit you from:
+<%= contribution.title %>
+
+View contribution:
+<%= contributionLink %>

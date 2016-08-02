@@ -1,0 +1,20 @@
+<div class="header">
+  <h1>Request to uncommit</h1>
+</div>
+<div class="content">
+  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+  <p>
+    <%= sender.firstname %> <%= sender.lastname %> asks to uncommit from:
+    <em><%= contribution.title %></em>
+  </p>
+
+  <p>
+    <a href="<%= commitmentLink %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Click here to Approve or Reject this request …</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </p>
+
+</div>
