@@ -2,8 +2,8 @@
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to contribute to: <%= contribution.title %>",
   "defaults": {
     "recipient": {
-      "firstname": "Jason",
-      "lastname": "Wilkes"
+      "firstname": "Tony",
+      "lastname": "Stark"
     },
     "sender": {
       "firstname": "Jason",
