@@ -10,28 +10,26 @@ let _defaults = require('lodash/defaults')
 let juice = require('juice')
 let juiceResourcesAsync = Promise.promisify(juice.juiceResources)
 
-const loadIncludes = () => {
-  return globAsync(path.join(__dirname, '/emails/includes/*.{txt,html}'))
-    .then(includes => {
-      const includeData = {
-        txt: [],
-        html: []
-      }
-      return Promise
-        .map(includes, include => {
-          return fs.readFileAsync(include, 'utf8')
-            .then(data => {
-              const id = include.replace(path.join(__dirname, '/emails/includes/'), '').replace(/\.[^\.]+$/, '')
-              if ((/\.txt$/.test(include))) {
-                includeData.txt.push({id, data})
-              } else {
-                includeData.html.push({id, data})
-              }
-            })
-        })
-        .then(() => includeData)
-    })
-}
+const loadIncludes = () => globAsync(path.join(__dirname, '/emails/includes/*.{txt,html}'))
+  .then((includes) => {
+    const includeData = {
+      txt: [],
+      html: []
+    }
+    return Promise
+      .map(includes, (include) => {
+        return fs.readFileAsync(include, 'utf8')
+          .then((data) => {
+            const id = include.replace(path.join(__dirname, '/emails/includes/'), '').replace(/\.[^\.]+$/, '')
+            if ((/\.txt$/.test(include))) {
+              includeData.txt.push({id, data})
+            } else {
+              includeData.html.push({id, data})
+            }
+          })
+      })
+      .then(() => includeData)
+  })
 
 module.exports = {
   /**
@@ -56,7 +54,7 @@ module.exports = {
               fs.readFileAsync(path.join(__dirname, '/emails/templates/' + template + '.html'), 'utf8')
                 .then((htmlTemplate) => {
                   return Promise
-                    .map(includes.html, include => {
+                    .map(includes.html, (include) => {
                       htmlTemplate = htmlTemplate.replace('{{includes.' + include.id + '}}', include.data)
                     })
                     .then(() => juiceResourcesAsync(
@@ -76,7 +74,7 @@ module.exports = {
             .spread((htmlTemplate, textTemplate) => {
               let e = require(email)
               return Promise
-                .map(includes.txt, include => {
+                .map(includes.txt, (include) => {
                   textTemplate = textTemplate.replace('{{includes.' + include.id + '}}', include.data)
                 })
                 .then(() => {
