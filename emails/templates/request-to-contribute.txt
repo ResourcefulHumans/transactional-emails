@@ -4,4 +4,4 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 <%= contribution.title %>
 
 Click here to Approve or Reject this request:
-<%= commitmentLink %>
+<%= contribution.$link %>

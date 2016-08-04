@@ -7,12 +7,12 @@
     },
     "contributions": [
       {
+        "$link": "http://networhk.com/",
         "title": "Build the Gamma Cannon",
         "priority": "gold",
         "description": {
           "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
         },
-        "contributionLink": "http://networhk.com/",
         "tasks": [
           {
             "description": "Bring the prototype to the lab",
@@ -33,12 +33,12 @@
         ]
       },
       {
+        "$link": "http://networhk.com/",
         "title": "Fix the Tracker Receiver",
         "description": {
           "@markdown": "Please fix the Tracker Receiver so we can find Underwood and mount a rescue attempt."
         },
-        "priority": "bronze",
-        "contributionLink": "http://networhk.com/"
+        "priority": "bronze"
       }
     ],
     "networhk": {

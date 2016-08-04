@@ -7,16 +7,13 @@
   <p>
     You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
     to contribute to the contribution:
+    <em><%= contribution.title %></em>
   </p>
 
-  {{includes.contribution}}
-
-  <hr>
-
   <p>
-    <a href="<%= commitmentLink %>" target="_blank" class="btn">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Click here to Accept or Decline this invite …</strong>
+      <strong>Click here to Accept or Reject this invite …</strong>
       <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
     </a>
   </p>

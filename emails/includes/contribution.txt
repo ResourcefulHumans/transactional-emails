@@ -15,4 +15,4 @@ Pending:  <%= contribution.pending %>
 <% }); %><% }; %>
 
 View contribution:
-<%= contributionLink %>
+<%= contribution.$link %>

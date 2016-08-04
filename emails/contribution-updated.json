@@ -5,8 +5,8 @@
       "firstname": "Jason",
       "lastname": "Wilkes"
     },
-    "contributionLink": "http://networhk.com/",
     "contribution": {
+      "$link": "http://networhk.com/",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "open": "no",

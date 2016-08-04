@@ -10,6 +10,7 @@
       "lastname": "Stark"
     },
     "contribution": {
+      "$link": "http://networhk.com/",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "description": {
@@ -33,7 +34,6 @@
           "complete": false
         }
       ]
-    },
-    "contributionLink": "http://networhk.com/"
+    }
   }
 }

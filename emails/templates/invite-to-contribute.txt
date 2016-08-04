@@ -2,8 +2,7 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
 to contribute to the contribution:
+<%= contribution.title %>
 
-{{includes.contribution}}
-
-To accept or reject this invite, open this link:
-<%= commitmentLink %>
+Click here to Accept or Reject this invite:
+<%= contribution.$link %>

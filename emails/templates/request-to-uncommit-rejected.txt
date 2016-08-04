@@ -4,4 +4,4 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 <%= contribution.title %>
 
 View contribution:
-<%= contributionLink %>
+<%= contribution.$link %>

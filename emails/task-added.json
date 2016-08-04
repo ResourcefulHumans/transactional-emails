@@ -10,6 +10,7 @@
       "lastname": "Stark"
     },
     "contribution": {
+      "$link": "http://networhk.com/",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "description": {
@@ -37,7 +38,6 @@
     "task": {
       "description": "Fire it at Whitney Frost!",
       "complete": false
-    },
-    "contributionLink": "http://networhk.com/"
+    }
   }
 }
