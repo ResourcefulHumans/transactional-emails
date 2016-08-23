@@ -33,6 +33,11 @@ They are installable via npm and are also published to this repositories gh-page
 #### Contributions 
 
 - Contribution updated: [HTML](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/contribution-updated.txt)
+- Tasks
+  - Task added: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-added.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-added.txt)
+  - Task completed: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-completed.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-completed.txt)
+  - Task incompleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.txt)
+  - Task deleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-deleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-deleted.txt)
 
 #### Health Engine
 
