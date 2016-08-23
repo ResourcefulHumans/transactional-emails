@@ -1,0 +1,7 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+<%= sender.firstname %> <%= sender.lastname %> has deleted this task:
+
+[-] <%= task.description %>
+
+{{includes.contribution}}
