@@ -1,0 +1,10 @@
+{
+  "subject": "[netwoRHk] <%= recipient.firstname %>, here is your verification code for Slack",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "code": "123456"
+  }
+}
