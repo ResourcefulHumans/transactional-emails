@@ -1,0 +1,20 @@
+<%= _.repeat('*', starh.amount) %>
+
+Wow <%= recipient.firstname %> <%= recipient.lastname %>,
+<%= sender.firstname %> <%= sender.lastname %> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
+
+-----------------------------------------------------------------------
+
+<%= starh.message %>
+
+-----------------------------------------------------------------------
+
+Suggestion: Review the Feedback. Reach out to the Sender if anything is
+unclear. Consider the positive effect of your recognized action! Share
+the Feedback with your manager and team-members.
+
+Now head over to your <%= networhk.label %> netwoRHk
+and share a staRH today, if you haven't already!
+
+Go to your netwoRHk:
+<%= networhk.networhkLink %>

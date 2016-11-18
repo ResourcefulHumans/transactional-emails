@@ -1,0 +1,21 @@
+{
+  "subject": "[netwoRHk] <%= sender.firstname %> sent you staRHs! 🌠",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "sender": {
+      "firstname": "Tony",
+      "lastname": "Stark"
+    },
+    "starh": {
+      "message": "For your help in defeating Whitney Frost! #teamstark",
+      "amount": 3
+    },
+    "networhk": {
+      "label": "Strategic Scientific Reserve",
+      "networhkLink": "http://networhk.com/"
+    }
+  }
+}

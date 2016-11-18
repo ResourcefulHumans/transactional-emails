@@ -46,7 +46,11 @@ They are installable via npm and are also published to this repositories gh-page
 
 #### Slack
 
-- Link verification code : [HTML](http://resourcefulhumans.github.io/transactional-emails/slack-link.html), [Text](http://resourcefulhumans.github.io/transactional-emails/slack-link.txt)
+- Link verification code: [HTML](http://resourcefulhumans.github.io/transactional-emails/slack-link.html), [Text](http://resourcefulhumans.github.io/transactional-emails/slack-link.txt)
+
+#### staRHs
+
+- staRHs notification: [HTML](http://resourcefulhumans.github.io/transactional-emails/starhs.html), [Text](http://resourcefulhumans.github.io/transactional-emails/starhs.txt)
 
 ### caRHds
 
