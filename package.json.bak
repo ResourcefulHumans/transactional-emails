@@ -1,0 +1,44 @@
+{
+  "name": "transactional-emails",
+  "description": "Transactional emails for our products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ResourcefulHumans/transactional-emails.git"
+  },
+  "keywords": [
+    "transactional",
+    "emails",
+    "javascript"
+  ],
+  "author": "Resourceful Humans <info@resourceful-humans.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ResourcefulHumans/transactional-emails/issues"
+  },
+  "homepage": "https://github.com/ResourcefulHumans/transactional-emails#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "glob": "^7.1.1",
+    "juice": "^4.0.0",
+    "lodash": "^4.16.6",
+    "showdown": "^1.4.4"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "devDependencies": {
+    "ghooks": "^1.3.2",
+    "semantic-release": "^6.3.2",
+    "standard": "^8.5.0",
+    "validate-commit-msg": "^2.8.2"
+  }
+}
