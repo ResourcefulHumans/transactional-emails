@@ -38,6 +38,7 @@ They are installable via npm and are also published to this repositories gh-page
   - Task completed: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-completed.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-completed.txt)
   - Task incompleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.txt)
   - Task deleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-deleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-deleted.txt)
+- Notification about new, open contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/interesting-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/interesting-contribution.txt)
 
 #### Health Engine
 
