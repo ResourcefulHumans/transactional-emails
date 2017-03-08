@@ -20,7 +20,7 @@ const loadIncludes = () => globAsync(path.join(__dirname, '/emails/includes/*.{t
       .map(includes, (include) => {
         return fs.readFileAsync(include, 'utf8')
           .then((data) => {
-            const id = include.replace(path.join(__dirname, '/emails/includes/'), '').replace(/\.[^\.]+$/, '')
+            const id = include.replace(path.join(__dirname, '/emails/includes/'), '').replace(/\.[^.]+$/, '')
             if ((/\.txt$/.test(include))) {
               includeData.txt.push({id, data})
             } else {
