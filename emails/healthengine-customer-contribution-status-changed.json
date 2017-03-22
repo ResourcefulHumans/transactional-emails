@@ -1,5 +1,5 @@
 {
-  "subject": "[<%= networhk.label %> netwoRHk] <% customer.name %> changed the status of <%= contribution.title %> to: <%= status.status %>",
+  "subject": "[<%= networhk.label %> netwoRHk] <%= customer.name %> changed the status of <%= contribution.title %> to: <%= status.status %>",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
