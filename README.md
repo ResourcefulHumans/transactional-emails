@@ -44,6 +44,9 @@ They are installable via npm and are also published to this repositories gh-page
 
 - Commitments degraded: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degraded.txt)
 - Commitments degrade pending: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-commitments-degrade-pending.txt)
+- Customer Contribution Status degraded: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-customer-contribution-status-degraded.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-customer-contribution-status-degraded.txt)
+- Customer Contribution Status degrade pending: [HTML](http://resourcefulhumans.github.io/transactional-emails/healthengine-customer-contribution-status-degrade-pending.html), [Text](http://resourcefulhumans.github.io/transactional-emails/healthengine-customer-contribution-status-degrade-pending.txt)
+
 
 #### Slack
 

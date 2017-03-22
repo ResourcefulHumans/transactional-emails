@@ -1,0 +1,7 @@
+The health of the contribution in the <%= networhk.label %> netwoRHk,
+to which <%= recipient.name %> has been assigned,
+will be degraded soon if you do not confirm your good standing in the
+within <%= healthEngine.degradesIn %>.
+
+Confirm your good standing here:
+<%= updateStatusLink %>
