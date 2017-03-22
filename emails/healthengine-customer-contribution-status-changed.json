@@ -1,0 +1,45 @@
+{
+  "subject": "[<%= networhk.label %> netwoRHk] <% customer.name %> changed the status of <%= contribution.title %> to: <%= status.status %>",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "contribution": {
+      "$link": "http://networhk.com/",
+      "title": "Build the Gamma Cannon",
+      "priority": "gold",
+      "description": {
+        "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+      },
+      "tasks": [
+        {
+          "description": "Bring the prototype to the lab",
+          "complete": true
+        },
+        {
+          "description": "Finish the construction",
+          "complete": false
+        },
+        {
+          "description": "Test it",
+          "complete": false
+        },
+        {
+          "description": "Fire it at Whitney Frost!",
+          "complete": false
+        }
+      ]
+    },
+    "customer": {
+      "name": "ACME Inc."
+    },
+    "status": {
+      "status": "good"
+    },
+    "networhk": {
+      "label": "Strategic Scientific Reserve",
+      "networhkLink": "http://networhk.com/"
+    }
+  }
+}

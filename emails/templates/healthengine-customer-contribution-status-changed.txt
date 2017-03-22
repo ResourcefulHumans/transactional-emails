@@ -1,0 +1,3 @@
+<% customer.name %> says: <% status.status %>!
+
+They just changed the status of the contribution to <% status.status %>!
