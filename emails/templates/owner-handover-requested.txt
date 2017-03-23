@@ -1,0 +1,6 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+ <% sender.firstname %> <% sender.lastname %> is asking you to take over ownership
+for this contribution:
+
+{{includes.contribution}}

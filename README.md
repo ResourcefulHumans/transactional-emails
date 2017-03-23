@@ -39,6 +39,10 @@ They are installable via npm and are also published to this repositories gh-page
   - Task incompleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-incompleted.txt)
   - Task deleted: [HTML](http://resourcefulhumans.github.io/transactional-emails/task-deleted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/task-deleted.txt)
 - Notification about new, open contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/interesting-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/interesting-contribution.txt)
+- Ownership Handover
+  - Requested: [HTML](http://resourcefulhumans.github.io/transactional-emails/owner-handover-requested.html), [Text](http://resourcefulhumans.github.io/transactional-emails/owner-handover-requested.txt)
+  - Approved: [HTML](http://resourcefulhumans.github.io/transactional-emails/owner-handover-approved.html), [Text](http://resourcefulhumans.github.io/transactional-emails/owner-handover-approved.txt)
+  - Rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/owner-handover-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/owner-handover-rejected.txt)
 
 #### Health Engine
 

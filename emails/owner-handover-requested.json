@@ -1,0 +1,42 @@
+{
+  "subject": "[netwoRHk] <%= recipient.firstname %>, <% sender.firstname %> wants you to take over ownership of <%= contribution.title %>",
+  "defaults": {
+    "sender": {
+      "firstname": "Tony",
+      "lastname": "Stark"
+    },
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "contribution": {
+      "$link": "http://networhk.com/",
+      "title": "Build the Gamma Cannon",
+      "priority": "gold",
+      "open": "no",
+      "done": "no",
+      "pending": "no",
+      "description": {
+        "@markdown": "I need your help to build the Gamma Cannon so we can stop Whitney Frost!\n\nOnce it's build we need to\n\n- Test it (we might skip that…)\n- Fire it at Whitney!"
+      },
+      "tasks": [
+        {
+          "description": "Bring the prototype to the lab",
+          "complete": true
+        },
+        {
+          "description": "Finish the construction",
+          "complete": false
+        },
+        {
+          "description": "Test it",
+          "complete": false
+        },
+        {
+          "description": "Fire it at Whitney Frost!",
+          "complete": false
+        }
+      ]
+    }
+  }
+}
