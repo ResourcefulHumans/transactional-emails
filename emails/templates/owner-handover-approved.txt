@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
- <% sender.firstname %> <% sender.lastname %> accepted to take over ownership
+ <%= sender.firstname %> <%= sender.lastname %> accepted to take over ownership
 for this contribution:
 
 {{includes.contribution}}

@@ -1,5 +1,5 @@
 {
-  "subject": "[netwoRHk] <%= recipient.firstname %>, <% sender.firstname %> rejected to take over ownership of <%= contribution.title %>",
+  "subject": "[netwoRHk] <%= recipient.firstname %>, <%= sender.firstname %> rejected to take over ownership of <%= contribution.title %>",
   "defaults": {
     "sender": {
       "firstname": "Jason",
