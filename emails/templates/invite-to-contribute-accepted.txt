@@ -1,0 +1,7 @@
+Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+
+<%= sender.firstname %> <%= sender.lastname %> just accepted your invitation to:
+<%= contribution.title %>
+
+View contribution:
+<%= contribution.$link %>

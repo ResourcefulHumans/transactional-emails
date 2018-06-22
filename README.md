@@ -22,6 +22,7 @@ They are installable via npm and are also published to this repositories gh-page
 #### Commitments
 
 - Invite to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.txt)
+    - Invite accepted: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute-accepted.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute-accepted.txt)
     - Invite declined: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute-declined.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute-declined.txt)
 - Request to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute.txt)
     - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-contribute-rejected.txt)
