@@ -30,6 +30,7 @@ They are installable via npm and are also published to this repositories gh-page
 - Request to uncommit: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit.txt)
   - Request rejected: [HTML](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit-rejected.html), [Text](http://resourcefulhumans.github.io/transactional-emails/request-to-uncommit-rejected.txt)
 - Removed from contribution: [HTML](http://resourcefulhumans.github.io/transactional-emails/removed-from-contribution.html), [Text](http://resourcefulhumans.github.io/transactional-emails/removed-from-contribution.txt)
+- Update status to commitment: [HTML](http://resourcefulhumans.github.io/transactional-emails/commitment-status-updated.html), [Text](http://resourcefulhumans.github.io/transactional-emails/commitment-status-updated.txt)
 
 #### Contributions 
 
