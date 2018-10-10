@@ -8,4 +8,4 @@ commitment within <%= healthEngine.degradesIn %>.
 <% }); %>
 
 Go to your netwoRHk:
-<%= networhk.networhkLink %>
+<%= networhk.networhkLink %>/activity-feed

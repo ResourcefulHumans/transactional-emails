@@ -8,4 +8,4 @@ commitment in the last <%= healthEngine.degradesAfter %>.
 <% }); %>
 
 Go to your netwoRHk:
-<%= networhk.networhkLink %>
+<%= networhk.networhkLink %>/my
