@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] ✓ completed task in <%= contribution.title %>: <%= task.description %>",
+  "title": "<%= contribution.title %>",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

@@ -1,21 +1,29 @@
-<div class="header">
-  <h1>Invitation</h1>
-</div>
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  <p><strong>Hello <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
-  <p>
-    You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
-    to contribute to the contribution:
+  <p> 
+    You must be AWESOME!! <%= sender.firstname %> <%= sender.lastname %>
+    has invited you to contribute to 
     <em><%= contribution.title %></em>
+    contribution crew.
   </p>
+
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <p>
+          <a href="<%= contribution.$link %>" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>Click here to Accept or Reject their invitation:</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+      </div>
+  </div>
 
   <p>
-    <a href="<%= contribution.$link %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Click here to Accept or Reject this invite …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
+    Rock on,<br/>
+    AImee
   </p>
-
+  
 </div>

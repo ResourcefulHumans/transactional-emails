@@ -1,5 +1,7 @@
 {
   "subject": "[<%= networhk.label %> netwoRHk] The <%= contribution.title %> contributions' health has been degraded",
+  "title": "Health degraded",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "name": "ACME Inc."

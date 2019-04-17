@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] <%= sender.firstname %> sent you staRHs! 🌠",
+  "title": "Wow you got <%= starh.amount %> staRHs!",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

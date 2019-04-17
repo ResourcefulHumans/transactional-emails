@@ -1,13 +1,20 @@
-<div class="header">
-  <h1>Update</h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    Following contribution has been updated:
+    FYI, the following contribution has been updated:
   </p>
 
-  {{includes.contribution}}
+  <div class="aimee">
+    <img src="/assets/aimee/check_health.png" alt="">
+    <div>
+      {{includes.contribution}}
+    </div>
+  </div>
+
+<p>
+  All the best,<br/>
+  AImee
+</p>
 
 </div>

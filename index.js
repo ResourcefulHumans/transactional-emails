@@ -81,6 +81,8 @@ module.exports = {
                   return {
                     identifier,
                     subject: e.subject,
+                    title: e.title,
+                    type_error: e.type_error,
                     defaults: _defaults({}, e.defaults),
                     html: htmlTemplate,
                     text: textLayout

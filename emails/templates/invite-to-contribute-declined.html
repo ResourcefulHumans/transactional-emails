@@ -1,20 +1,31 @@
-<div class="header">
-  <h1>Invitation Rejected</h1>
-</div>
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> just rejected your invitation to:
+    I have some disappointing news. <%= sender.firstname %> <%= sender.lastname %> rejected your invitation to:
     <em><%= contribution.title %></em>
   </p>
 
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <p>
+          <a href="<%= contribution.$link %>" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>View contribution …</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+
+        <p>
+            You might want to reach out and if you want to know why.
+        </p>
+      </div>
+  </div>
+
   <p>
-    <a href="<%= contribution.$link %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>View contribution …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
+    Hugs,<br/>
+    AImee
   </p>
 
 </div>

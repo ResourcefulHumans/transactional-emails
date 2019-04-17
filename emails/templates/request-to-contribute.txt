@@ -1,7 +1,10 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+Hey <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.lastname %> asks to contribute to:
+You must be doing something cool because a <%= sender.firstname %> <%= sender.lastname %> has asked to contribute to:
 <%= contribution.title %>
 
-Click here to Approve or Reject this request:
+Click here to Approve or Reject this request …
 <%= contribution.$link %>
+
+Rock on,
+AImee

@@ -1,7 +1,9 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.lastname %> has added a new task:
+FYI, <%= sender.firstname %> <%= sender.lastname %> has added a new task:
 
 [ ] <%= task.description %>
 
 {{includes.contribution}}
+
+-AImee

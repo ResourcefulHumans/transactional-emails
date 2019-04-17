@@ -17,6 +17,7 @@ They are installable via npm and are also published to this repositories gh-page
 #### Users
    
 - Email verification: [HTML](http://resourcefulhumans.github.io/transactional-emails/email-verification.html), [Text](http://resourcefulhumans.github.io/transactional-emails/email-verification.txt)
+- Email Change: [HTML](http://resourcefulhumans.github.io/transactional-emails/email-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/email-change.txt)
 - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
  
 #### Commitments

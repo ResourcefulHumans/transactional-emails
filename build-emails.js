@@ -33,6 +33,8 @@ function run () {
       _merge(data, templatedata)
       _merge(data, email.defaults)
       data.subject = _template(email.subject)(data)
+      data.title = _template(email.title)(data)
+      data.type_error = email.type_error
       let formatContent = (data) => {
         if (!(typeof data === 'object')) {
           return data

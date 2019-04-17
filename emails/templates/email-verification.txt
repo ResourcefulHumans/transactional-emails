@@ -1,9 +1,12 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+Hello <%= recipient.firstname %> <%= recipient.lastname %>,
 
-Please click this link to verify your email address:
+You’re almost there. Please click the link below to verify your email address:
 
 <%= link %>
 
+Thanks a million,
+AImee
+
 -----------------------------------------------------------------------
 
-If you did not give use your email address, just ignore this message.
+P.S. Ignore this message if you did not give us your email address.

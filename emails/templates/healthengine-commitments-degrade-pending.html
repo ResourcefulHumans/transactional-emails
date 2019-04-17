@@ -1,32 +1,35 @@
-<div class="header">
-  <h1>Health degrade pending</h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    the health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
-    soon if you do not reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
+    It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
+    soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
   </p>
 
-  <p>
-    Please go to your netwoRHk and review your commitments.
-  </p>
+  <div class="aimee">
+    <img src="/assets/aimee/check_health.png" alt="">
+    <div>
+      <ul>
+      <% _.forEach(contributions, function(contribution) { %>
+        <li><%= contribution.title %></li>
+      <% }); %>
+      </ul>
 
-  <ul>
-  <% _.forEach(contributions, function(contribution) { %>
-  <li><%= contribution.title %></li>
-  <% }); %>
-  </ul>
+    <hr>
 
-  <hr>
+    <p>
+      <a href="<%= networhk.networhkLink %>/activity-feed" target="_blank" class="btn">
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+        <strong>Go to your netwoRHk …</strong>
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      </a>
+    </p>
+  </div>
+</div>  
 
-  <p>
-    <a href="<%= networhk.networhkLink %>/activity-feed" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Go to your netwoRHk …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
-  </p>
+<p>
+  All the best,<br/>
+  AImee
+</p>
 
 </div>

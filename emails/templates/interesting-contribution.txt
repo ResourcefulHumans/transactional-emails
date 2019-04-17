@@ -1,5 +1,8 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-A new open contribution was just created, that you might find interesting:
+Check this out! A new open contribution was just created, that you might find interesting:
 
 {{includes.contribution}}
+
+All the best,
+AImee

@@ -1,6 +1,8 @@
 {
   "subject": "[netwoRHk] Contribution has changed: <%= contribution.title %>",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> updated his/her status to <%= commitment.status %> to: <%= contribution.title %>",
+  "title": "Update",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Tony",

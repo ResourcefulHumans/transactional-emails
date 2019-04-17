@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] 🗑 deleted task in <%= contribution.title %>: <%= task.description %>",
+  "title": "<%= contribution.title %>",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

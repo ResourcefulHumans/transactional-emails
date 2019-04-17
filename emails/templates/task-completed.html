@@ -1,17 +1,23 @@
-<div class="header">
-  <h1><%= contribution.title %></h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> has completed this task:
+    FYI, <%= sender.firstname %> <%= sender.lastname %> has completed this task:
   </p>
 
-  <ul>
-    <li><del><%= task.description %></del></li>
-  </ul>
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <ul>
+          <li><del><%= task.description %></del></li>
+        </ul>
 
-  {{includes.contribution}}
+        {{includes.contribution}}
+      </div>
+  </div>
+
+<p>
+  -AImee
+</p>
 
 </div>

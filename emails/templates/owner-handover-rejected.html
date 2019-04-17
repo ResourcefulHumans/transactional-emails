@@ -1,14 +1,21 @@
-<div class="header">
-  <h1>Ownership Takeover Rejected</h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> rejected to take over ownership
+    I have some disappointing news. <%= sender.firstname %> <%= sender.lastname %> rejected to take over ownership
     for this contribution:
   </p>
 
-  {{includes.contribution}}
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        {{includes.contribution}}
+      </div>
+  </div>
+
+<p>
+  Hugs,<br/>
+  AImee
+</p> 
 
 </div>

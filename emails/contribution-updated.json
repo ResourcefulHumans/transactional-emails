@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] Contribution has changed: <%= contribution.title %>",
+  "title": "Update",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

@@ -1,0 +1,13 @@
+{
+    "subject": "[netwoRHk] <%= recipient.firstname %>, please confirm your email address",
+    "title": "Email Change",
+    "type_error": false,
+    "defaults": {
+      "recipient": {
+        "firstname": "Jason",
+        "lastname": "Wilkes"
+      },
+      "link": "http://networhk.com/"
+    }
+  }
+  

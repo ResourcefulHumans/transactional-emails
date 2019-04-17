@@ -1,6 +1,9 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
- <%= sender.firstname %> <%= sender.lastname %> rejected to take over ownership
+I have some disappointing news. <%= sender.firstname %> <%= sender.lastname %> rejected to take over ownership
 for this contribution:
 
 {{includes.contribution}}
+
+Hugs,
+AImee

@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> invites you to contribute to: <%= contribution.title %>",
+  "title": "Invitation",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

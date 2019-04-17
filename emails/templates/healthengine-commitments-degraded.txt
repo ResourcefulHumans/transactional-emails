@@ -1,11 +1,13 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-the health of your commitments in the <%= networhk.label %> netwoRHk
-listed below has been degraded because you did not reinforce your
-commitment in the last <%= healthEngine.degradesAfter %>.
+You missed the window. The health of your commitments listed below in the <%= networhk.label %> netwoRHk has been degraded 
+last <%= healthEngine.degradesAfter %>.
 
 <% _.forEach(contributions, function(contribution) { %>- <%= contribution.title %>
 <% }); %>
 
 Go to your netwoRHk:
 <%= networhk.networhkLink %>/my
+
+All the best,
+AImee

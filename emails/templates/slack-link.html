@@ -1,6 +1,3 @@
-<div class="header">
-  <h1>Slack Verification Code</h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
@@ -8,12 +5,17 @@
     Please enter this code in the Slack conversation with our friendly bot:<br>
   </p>
 
-  <p style="text-align: center; font-weight: bold; font-size: 200%;">
-    <code><%= code %></code>
-  </p>
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <p style="text-align: center; font-weight: bold; font-size: 200%;">
+          <code><%= code %></code>
+        </p>
 
-  <hr/>
+        <hr/>
 
-  <p>If you did not request to link your account, just ignore this message.</p>
+        <p>If you did not request to link your account, just ignore this message.</p>
+      </div>
+  </div>
 
 </div>

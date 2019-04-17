@@ -1,5 +1,7 @@
 {
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> rejected to add you to: <%= contribution.title %>",
+  "title": "Request Rejected",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

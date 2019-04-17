@@ -1,5 +1,8 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+Hey <%= recipient.firstname %> <%= recipient.lastname %>,
 
-You have been added to:
+Great news! You have been added to:
 
 {{includes.contribution}}
+
+Have fun,
+AImee

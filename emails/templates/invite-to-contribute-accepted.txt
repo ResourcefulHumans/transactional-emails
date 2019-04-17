@@ -1,7 +1,10 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+Hey <%= recipient.firstname %> <%= recipient.lastname %>,
 
-<%= sender.firstname %> <%= sender.lastname %> just accepted your invitation to:
+Great news! <%= sender.firstname %> <%= sender.lastname %>  just accepted your invitation to:
 <%= contribution.title %>
 
 View contribution:
 <%= contribution.$link %>
+
+Have fun,<br/>
+AImee

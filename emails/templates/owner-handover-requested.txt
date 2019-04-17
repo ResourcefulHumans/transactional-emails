@@ -1,6 +1,9 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
- <%= sender.firstname %> <%= sender.lastname %> is asking you to take over ownership
+You must be good. <%= sender.firstname %> <%= sender.lastname %> is asking you to take over ownership
 for this contribution:
 
 {{includes.contribution}}
+
+Rock on,
+AImee

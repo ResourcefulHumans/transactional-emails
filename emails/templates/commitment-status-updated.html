@@ -1,20 +1,27 @@
-<div class="header">
-  <h1>Update</h1>
-</div>
 <div class="content">
   <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> just updated his/her status to <strong><%= commitment.status %></strong> to:
+    FYI, <%= sender.firstname %> <%= sender.lastname %> just updated his/her status to <strong><%= commitment.status %></strong> to:
     <em><%= contribution.title %></em>
   </p>
 
-  <p>
-    <a href="<%= contribution.$link %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>View contribution …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
-  </p>
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <p>
+          <a href="<%= contribution.$link %>" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>View contribution …</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+      </div>
+  </div>
+
+<p>
+  All the best,<br/>
+  AImee
+</p>
 
 </div>

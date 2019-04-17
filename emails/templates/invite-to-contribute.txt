@@ -1,8 +1,12 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
+  Hello <%= recipient.firstname %> <%= recipient.lastname %>,
 
-You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
-to contribute to the contribution:
+You must be AWESOME!! <%= sender.firstname %> <%= sender.lastname %>
+has invited you to contribute to 
 <%= contribution.title %>
+contribution crew.
 
-Click here to Accept or Reject this invite:
+Click here to Accept or Reject their invitation:
 <%= contribution.$link %>
+
+Rock on,
+AImee

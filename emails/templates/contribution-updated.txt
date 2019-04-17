@@ -1,5 +1,8 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-Following contribution has been updated:
+FYI, the following contribution has been updated:
 
 {{includes.contribution}}
+
+All the best,
+AImee

@@ -1,43 +1,42 @@
-<div class="header">
-  <h1 class="gold">
-    <%= _.repeat('⭐', starh.amount) %><br>
-    <small>
-      <% if(starh.amount > 1) { %>
-      You've got staRHs!
-      <% } else { %>
-      You've got a staRH!
-      <% } %>
-    </small>
-  </h1>
-</div>
 <div class="content">
+  
   <p>
-    <strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
+    <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
     <%= sender.firstname %> <%= sender.lastname %> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
   </p>
 
-  <hr>
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <hr>
 
-  <p style="text-align: center">
-    <%= starh.message %>
-  </p>
+        <p style="text-align: center">
+          <%= starh.message %>
+        </p>
 
-  <hr>
+        <hr>
 
-  <p>
-    <small>Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members.</small>
-  </p>
+        <p>
+          <small>Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members.</small>
+        </p>
 
-  <p>
-    Now head over to your <strong><%= networhk.label %> netwoRHk</strong> and share a staRH today, if you haven't already!
-  </p>
+        <p>
+          Now head over to your <strong><%= networhk.label %> netwoRHk</strong> and share a staRH today, if you haven't already!
+        </p>
 
-  <p>
-    <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Go to your netwoRHk …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
-  </p>
+        <p>
+          <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>Go to your netwoRHk …</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+      </div>
+  </div>
+
+<p>
+  Rock on,<br/>
+  AImee
+</p>
 
 </div>

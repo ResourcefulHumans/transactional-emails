@@ -1,20 +1,27 @@
-<div class="header">
-  <h1>Request to contribute</h1>
-</div>
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
   <p>
-    <%= sender.firstname %> <%= sender.lastname %> asks to contribute to:
+      You must be doing something cool because a <%= sender.firstname %> <%= sender.lastname %> has asked to contribute to:
     <em><%= contribution.title %></em>
   </p>
 
-  <p>
-    <a href="<%= contribution.$link %>" target="_blank" class="btn">
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      <strong>Click here to Approve or Reject this request …</strong>
-      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-    </a>
-  </p>
+  <div class="aimee">
+      <img src="/assets/aimee/check_health.png" alt="">
+      <div>
+        <p>
+          <a href="<%= contribution.$link %>" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>Click here to Approve or Reject this request …</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+      </div>
+  </div>
 
+  <p>
+    Rock on,<br/>
+    AImee
+  </p>
+  
 </div>
