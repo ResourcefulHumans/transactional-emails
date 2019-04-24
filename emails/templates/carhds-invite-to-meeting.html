@@ -1,33 +1,47 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    You are warmly invited by <%= sender.firstname %> <%= sender.lastname %>
-    to join the meeting:<br/>
-    <strong><%= meeting.name %></strong>
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+      <p>
+        You are warmly invited by <strong><%= sender.firstname %> <%= sender.lastname %></strong>
+        to join the meeting:<br/>
+        <strong><%= meeting.name %></strong>
+      </p>
+    </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
-        <p>
-          <a href="<%= meetingLink %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Click here to join the meeting …</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-        </p>
-
-        <hr>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
         <p>
-          If you were invited by accident, just ignore this message.
+          You are warmly invited by <strong><%= sender.firstname %> <%= sender.lastname %></strong>
+          to join the meeting:<br/>
+          <strong><%= meeting.name %></strong>
         </p>
       </div>
-  </div>
-<p>
-  Have fun,<br/>
-  AImee
-</p>
+        <div>
+          <p>
+            <a href="<%= meetingLink %>" target="_blank" class="btn">
+              <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+              <strong>Join the meeting</strong>
+              <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            </a>
+          </p>
 
+          <hr>
+
+          <p>
+            If you were invited by accident, just ignore this message.
+          </p>
+        </div>
+      
+      <p>
+        Have fun,<br/>
+        AImee
+      </p>
+    </div>
+  </div>
 </div>

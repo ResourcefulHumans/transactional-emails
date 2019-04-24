@@ -1,20 +1,32 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    Great news! <%= sender.firstname %> <%= sender.lastname %> accepted to take over ownership
-    for this contribution:
-  </p>
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Great news! <strong><%= sender.firstname %> <%= sender.lastname %></strong> accepted to take over ownership
+          for this contribution:
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Great news! <strong><%= sender.firstname %> <%= sender.lastname %></strong> accepted to take over ownership
+          for this contribution:
+        </p>
+      </div>
+      <div class="include_div">
         {{includes.contribution}}
       </div>
+      <p>
+        Have fun,<br/>
+        AImee
+      </p>
   </div>
-
-<p>
-  Have fun,<br/>
-  AImee
-</p>
-
+  </div>
 </div>

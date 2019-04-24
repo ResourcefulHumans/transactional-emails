@@ -1,18 +1,31 @@
 <div class="content">
-  <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    Great news! You have been added to:
-  </p>
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+        <p>
+          Great news! You have been added to:
+        </p>
+    </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
-        {{includes.contribution}}
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+        <p>
+          Great news! You have been added to:
+        </p>
       </div>
-  </div>
-<p>
-  Have fun,<br/>
-  AImee
-</p>
-  
+      <div>
+          <div class="include_div">
+            {{includes.contribution}}
+          </div>
+
+        <p>
+          Have fun,<br/>
+          AImee
+        </p>
+      </div>
+    </div>
+  </div>  
 </div>

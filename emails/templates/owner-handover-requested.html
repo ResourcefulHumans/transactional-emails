@@ -1,21 +1,33 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    You must be good. <%= sender.firstname %> <%= sender.lastname %> is asking you to take over ownership
-    for this contribution:
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          You must be good. <strong><%= sender.firstname %> <%= sender.lastname %></strong> is asking you to take over ownership
+          for this contribution:
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          You must be good. <strong><%= sender.firstname %> <%= sender.lastname %></strong> is asking you to take over ownership
+          for this contribution:
+        </p>
+      </div>
+      <div class="include_div">
         {{includes.contribution}}
       </div>
+
+      <p>
+        Rock on,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-<p>
-  Rock on,<br/>
-  AImee
-</p>
-
 </div>

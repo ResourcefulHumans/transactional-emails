@@ -5,81 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= subject %></title>
   <style type="text/css">
-    /* Fonts */
-    @import url('https://fonts.googleapis.com/css?family=Barlow:400,600');
-    @import url('https://fast.fonts.net/t/1.css?apiType=css&projectid=c115fcee-8558-4e08-9942-a55fa58cc545');
-    @font-face {
-      font-family: 'Avenir Next';
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      src: url('./fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix');
-      src: url('./fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix')
-          format('eot'),
-        url('./fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2')
-          format('woff2'),
-        url('./fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff')
-          format('woff'),
-        url('./fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf')
-          format('truetype'),
-        url('./fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f')
-          format('svg');
-    }
-    @font-face {
-      font-family: 'Avenir Next';
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      src: url('./fonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix');
-      src: url('./fonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix')
-          format('eot'),
-        url('./fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2')
-          format('woff2'),
-        url('./fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff')
-          format('woff'),
-        url('./fonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf')
-          format('truetype'),
-        url('./fonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857')
-          format('svg');
-    }
-    @font-face {
-      font-family: 'Avenir Next';
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: condensed;
-      src: url('./fonts/f737d53f-f6ed-4f15-8fe7-925fb68a8851.eot?#iefix');
-      src: url('./fonts/f737d53f-f6ed-4f15-8fe7-925fb68a8851.eot?#iefix')
-          format('eot'),
-        url('./fonts/7fb4cb78-601f-4bb2-995a-442252089573.woff2')
-          format('woff2'),
-        url('./fonts/19db35b6-b3e8-400b-ae62-a3d37cc9fa56.woff')
-          format('woff'),
-        url('./fonts/61860563-e9eb-40bd-844e-48e96af9d063.ttf')
-          format('truetype'),
-        url('./fonts/94f6e6be-004d-4b3a-8b0e-f07609dc1726.svg#94f6e6be-004d-4b3a-8b0e-f07609dc1726')
-          format('svg');
-    }
-    @font-face {
-      font-family: 'Avenir Next';
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: condensed;
-      src: url('./fonts/07690b8a-c348-4c53-8de3-59f7cfef9ee8.eot?#iefix');
-      src: url('./fonts/07690b8a-c348-4c53-8de3-59f7cfef9ee8.eot?#iefix')
-          format('eot'),
-        url('./fonts/9f6106aa-36e0-4cfb-8cda-c3354eab2461.woff2')
-          format('woff2'),
-        url('./fonts/ff039068-be8b-415c-b1a9-24eedee1c3ab.woff')
-          format('woff'),
-        url('./fonts/cdd2cecb-bd0e-41e5-9ecd-ef60f52a35be.ttf')
-          format('truetype'),
-        url('./fonts/390c08bc-8d21-4af3-95a1-a73c21f189cd.svg#390c08bc-8d21-4af3-95a1-a73c21f189cd')
-          format('svg');
-    }
-
     /* Template styling */
     body {
-      font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
       width: 100%;
       max-width: 100%;
       font-size: 17px;
@@ -88,7 +16,8 @@
     }
 
     h1 {
-      font-family: "Avenir Next", "Helvetica Neue", Helvetica;
+      font-family: "Trebuchet", "Tahoma", "Helvetica Neue", Helvetica;
+      text-transform: uppercase;
       text-align: center;
       font-size: 40px;
       font-weight: normal;
@@ -161,6 +90,28 @@
 
     .aimee {
       display: flex;
+    }
+
+    .image_div {
+      display:flex;
+    }
+
+    .image_div img {
+      max-width: inherit;
+      height: 405px;
+      margin: 0 auto;
+    }
+
+    .include_div {
+      margin:16px auto;
+    }
+
+    .mobile_header {
+        display: none;
+    }
+
+    .desktop_header {
+      display: block;
     }
 
     .title {
@@ -266,6 +217,14 @@
         font-size: 30px !important;
       }
 
+      .mobile_header {
+        display: block !important;
+      }
+
+      .desktop_header {
+        display: none !important;
+      }
+
     }
 
     /* Not all email clients will obey these, but the important ones will */
@@ -291,6 +250,15 @@
         flex-direction: column !important;
         font-size: 30px !important;
       }
+
+      .mobile_header {
+        display: block !important;
+      }
+
+      .desktop_header {
+        display: none !important;
+      }
+
     }
 
     /* More Specific Targeting */
@@ -322,13 +290,13 @@
 
     .btn {
       display: block;
-      margin: 0 auto;
+      margin: 16px auto;
       text-decoration: none;
       border-style: none;
       border: 0;
       padding: 10px;
       font-size: 15px;
-      font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Trebuchet', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       color: #008FD5;
       text-decoration: none;
       -webkit-border-radius: 3px;
@@ -377,6 +345,14 @@
         font-size: 30px !important;
       }
       
+      .mobile_header {
+        display: block !important;
+      }
+
+      .desktop_header {
+        display: none !important;
+      }
+
     }
 
     /* Android targeting */
@@ -394,6 +370,14 @@
       .title {
         flex-direction: column !important;
         font-size: 30px !important;
+      }
+
+      .mobile_header {
+        display: block !important;
+      }
+
+      .desktop_header {
+        display: none !important;
       }
 
     }
@@ -422,6 +406,14 @@
         font-size: 30px !important;
       }
 
+      .mobile_header {
+        display: block !important;
+      }
+
+      .desktop_header {
+        display: none !important;
+      }
+
     }
 
     /* Galaxy Nexus */
@@ -440,7 +432,7 @@
   </style>
 </head>
 <body
-  style="font-family: 'Barlow', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 24px; max-width: 100%; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;">
+  style="font-family: 'Roboto', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 24px; max-width: 100%; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;">
 <table width="100%" cellpadding="0" cellspacing="0" border="0"
        style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 24px; margin: 0; padding: 0; width: 100%; font-size: 17px; background: #3399ff;">
   <tr>

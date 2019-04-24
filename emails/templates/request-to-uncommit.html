@@ -1,27 +1,39 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    I hope this doesn’t come as a shock. <%= sender.firstname %> <%= sender.lastname %> asks to uncommit from:
-    <em><%= contribution.title %></em>
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          I hope this doesn’t come as a shock. <strong><%= sender.firstname %> <%= sender.lastname %></strong> asks to uncommit from:
+          <em><%= contribution.title %></em>
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          I hope this doesn’t come as a shock. <strong><%= sender.firstname %> <%= sender.lastname %></strong> asks to uncommit from:
+          <em><%= contribution.title %></em>
+        </p>
+      </div>
       <div>
         <p>
           <a href="<%= contribution.$link %>" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Click here to Approve or Reject this request …</strong>
+            <strong>Click here to Answer</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
       </div>
+
+      <p>
+        Kindly,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-  <p>
-    Kindly,<br/>
-    AImee
-  </p>
-
 </div>

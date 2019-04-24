@@ -1,13 +1,24 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    Please enter this code in the Slack conversation with our friendly bot:<br>
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Please enter this code in the Slack conversation with our friendly bot:<br>
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Please enter this code in the Slack conversation with our friendly bot:<br>
+        </p>
+      </div>
+      <div class="include_div">
         <p style="text-align: center; font-weight: bold; font-size: 200%;">
           <code><%= code %></code>
         </p>
@@ -16,6 +27,6 @@
 
         <p>If you did not request to link your account, just ignore this message.</p>
       </div>
+    </div>
   </div>
-
 </div>

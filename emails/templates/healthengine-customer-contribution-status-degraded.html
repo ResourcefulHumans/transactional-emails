@@ -1,13 +1,25 @@
 <div class="content">
-  <p>
-    The health of the contribution in the <strong><%= networhk.label %> netwoRHk</strong>,
-    to which <strong><%= recipient.name %></strong> has been assigned,
-    has been automatically degraded because you did not confirm your good standing in the
-    <em>last <%= healthEngine.degradesAfter %></em>.
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+      <p>
+        The health of the contribution in the <strong><%= networhk.label %> netwoRHk</strong>,
+        to which <strong><%= recipient.name %></strong> has been assigned,
+        has been automatically degraded because you did not confirm your good standing in the
+        <em>last <%= healthEngine.degradesAfter %></em>.
+      </p>
+    </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p>
+          The health of the contribution in the <strong><%= networhk.label %> netwoRHk</strong>,
+          to which <strong><%= recipient.name %></strong> has been assigned,
+          has been automatically degraded because you did not confirm your good standing in the
+          <em>last <%= healthEngine.degradesAfter %></em>.
+        </p>
+      </div>
       <div>
         <p>
           <a href="<%= updateStatusLink %>" target="_blank" class="btn">
@@ -17,6 +29,6 @@
           </a>
         </p>
       </div>
+    </div>
   </div>
-
 </div>

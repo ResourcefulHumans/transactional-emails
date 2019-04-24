@@ -1,20 +1,30 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    Thank you for contributing. You’ve been successfully removed from:
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Thank you for contributing. You’ve been successfully removed from:
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          Thank you for contributing. You’ve been successfully removed from:
+        </p>
+      </div>
+      <div class="include_div">
         {{includes.contribution}}
       </div>
+      <p>
+        Take care,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-  <p>
-    Take care,<br/>
-    AImee
-  </p>
-
 </div>

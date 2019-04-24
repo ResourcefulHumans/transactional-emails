@@ -1,27 +1,38 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    FYI, <%= sender.firstname %> <%= sender.lastname %> just updated his/her status to <strong><%= commitment.status %></strong> to:
-    <em><%= contribution.title %></em>
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+      <p>
+        FYI, <strong><%= sender.firstname %> <%= sender.lastname %></strong> just updated his/her status to <strong><%= commitment.status %></strong> to:
+        <em><%= contribution.title %></em>
+      </p>
+    </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          FYI, <strong><%= sender.firstname %> <%= sender.lastname %></strong> just updated his/her status to <strong><%= commitment.status %></strong> to:
+          <em><%= contribution.title %></em>
+        </p>
+      </div>
       <div>
         <p>
           <a href="<%= contribution.$link %>" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>View contribution …</strong>
+            <strong>View contribution</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
       </div>
-  </div>
-
-<p>
-  All the best,<br/>
-  AImee
-</p>
-
+      <p>
+        All the best,<br/>
+        AImee
+      </p>
+    </div>
+  </div>    
 </div>

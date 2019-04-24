@@ -1,23 +1,34 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    FYI, <%= sender.firstname %> <%= sender.lastname %> has completed this task:
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          FYI, <strong><%= sender.firstname %> <%= sender.lastname %></strong> has completed this task:
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          FYI, <strong><%= sender.firstname %> <%= sender.lastname %></strong> has completed this task:
+        </p>
+      </div>
+      <div class="include_div">
         <ul>
           <li><del><%= task.description %></del></li>
         </ul>
 
         {{includes.contribution}}
       </div>
+
+      <p>
+        -AImee
+      </p>
+    </div>
   </div>
-
-<p>
-  -AImee
-</p>
-
 </div>

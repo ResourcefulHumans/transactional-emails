@@ -1,20 +1,31 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    FYI, the following contribution has been updated:
-  </p>
-
   <div class="aimee">
-    <img src="/assets/aimee/check_health.png" alt="">
+    <div class="mobile_header">
+      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+      <p>
+        FYI, the following contribution has been updated:
+      </p>
+    </div>
+    <div class="image_div">  
+      <img src="/assets/aimee/check_health.png" alt="">
+    </div>
     <div>
-      {{includes.contribution}}
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          FYI, the following contribution has been updated:
+        </p>
+      </div>
+      <div class="include_div">
+        {{includes.contribution}}
+      </div>
+
+      <p>
+        All the best,<br/>
+        AImee
+      </p>
     </div>
   </div>
-
-<p>
-  All the best,<br/>
-  AImee
-</p>
-
 </div>

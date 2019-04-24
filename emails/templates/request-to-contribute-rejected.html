@@ -1,18 +1,30 @@
 <div class="content">
-  <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    I have some disappointing news. <%= sender.firstname %> <%= sender.lastname %> rejected to add you to:
-    <em><%= contribution.title %></em>
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          I have some disappointing news. <strong><%= sender.firstname %> <%= sender.lastname %></strong> rejected to add you to:
+          <em><%= contribution.title %></em>
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          I have some disappointing news. <strong><%= sender.firstname %> <%= sender.lastname %></strong> rejected to add you to:
+          <em><%= contribution.title %></em>
+        </p>
+      </div>
       <div>
         <p>
           <a href="<%= contribution.$link %>" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>View contribution …</strong>
+            <strong>View contribution</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
@@ -21,11 +33,10 @@
             You might want to reach out and if you want to know why.
         </p>
       </div>
+      <p>
+        Hugs,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-  <p>
-    Hugs,<br/>
-    AImee
-  </p>
-
 </div>

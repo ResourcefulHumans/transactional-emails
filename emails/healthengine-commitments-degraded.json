@@ -1,7 +1,7 @@
 {
   "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health has been degraded",
   "title": "Health degraded",
-  "type_error": false,
+  "type_error": true,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

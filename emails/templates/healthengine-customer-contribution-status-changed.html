@@ -1,11 +1,21 @@
 <div class="content">
-    <div class="aimee">
-        <img src="/assets/aimee/check_health.png" alt="">
-        <div>
-          <p>
-            <strong><%= customer.name %></strong> just changed the status of the contribution
-            to <strong><%= status.status %></strong>!
-          </p>
-        </div>
+  <div class="aimee">
+    <div class="mobile_header">
+      <p>
+        <strong><%= customer.name %></strong> just changed the status of the contribution
+        to <strong><%= status.status %></strong>!
+      </p>
     </div>
+    <div class="image_div">  
+      <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p>
+          <strong><%= customer.name %></strong> just changed the status of the contribution
+          to <strong><%= status.status %></strong>!
+        </p>
+      </div>
+    </div>
+  </div>
 </div>

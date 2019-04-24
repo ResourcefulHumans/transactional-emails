@@ -1,12 +1,21 @@
 <div class="content">
-  
-  <p>
-    <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-    <%= sender.firstname %> <%= sender.lastname %> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">      
+        <p>
+          <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
+          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
+        </p>
+      </div>
+    <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
+    </div>
+    <div>
+      <div class="desktop_header">      
+        <p>
+          <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
+          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
+        </p>
+      </div>
       <div>
         <hr>
 
@@ -27,16 +36,16 @@
         <p>
           <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Go to your netwoRHk …</strong>
+            <strong>Go to your netwoRHk</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
       </div>
+
+      <p>
+        Rock on,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-<p>
-  Rock on,<br/>
-  AImee
-</p>
-
 </div>

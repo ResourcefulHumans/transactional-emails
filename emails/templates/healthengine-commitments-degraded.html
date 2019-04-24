@@ -1,14 +1,26 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    You missed the window. The health of your commitments listed below in the <strong><%= networhk.label %> netwoRHk</strong> has been degraded 
-    <em>last <%= healthEngine.degradesAfter %></em>.
-  </p>
-
   <div class="aimee">
+    <div class="mobile_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          You missed the window. The health of your commitments listed below in the <strong><%= networhk.label %> netwoRHk</strong> has been degraded 
+          <em>last <%= healthEngine.degradesAfter %></em>.
+        </p>
+      </div>
+      <div class="image_div">  
       <img src="/assets/aimee/check_health.png" alt="">
-      <div>
+    </div>
+    <div>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+        <p>
+          You missed the window. The health of your commitments listed below in the <strong><%= networhk.label %> netwoRHk</strong> has been degraded 
+          <em>last <%= healthEngine.degradesAfter %></em>.
+        </p>
+      </div>
+      <div class="include_div">
         <ul>
           <% _.forEach(contributions, function(contribution) { %>
           <li><%= contribution.title %></li>
@@ -18,16 +30,15 @@
         <p>
           <a href="<%= networhk.networhkLink %>/my" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Go to your netwoRHk …</strong>
+            <strong>Go to your netwoRHk</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
       </div>
+      <p>
+        All the best,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-
-<p>
-  All the best,<br/>
-  AImee
-</p>
-
 </div>

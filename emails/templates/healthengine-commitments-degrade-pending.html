@@ -1,35 +1,46 @@
 <div class="content">
-  <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-  <p>
-    It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
-    soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
-  </p>
-
   <div class="aimee">
-    <img src="/assets/aimee/check_health.png" alt="">
+    <div class="mobile_header">
+      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+
+      <p>
+        It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
+        soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
+      </p>
+    </div>
+    <div class="image_div">  
+      <img src="/assets/aimee/check_health.png" alt="">
+    </div>
     <div>
-      <ul>
-      <% _.forEach(contributions, function(contribution) { %>
-        <li><%= contribution.title %></li>
-      <% }); %>
-      </ul>
+      <div class="desktop_header">
+        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
 
-    <hr>
+        <p>
+          It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
+          soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
+        </p>
+      </div>
+      <div class="include_div">
+        <ul>
+        <% _.forEach(contributions, function(contribution) { %>
+          <li><%= contribution.title %></li>
+        <% }); %>
+        </ul>
 
-    <p>
-      <a href="<%= networhk.networhkLink %>/activity-feed" target="_blank" class="btn">
-        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-        <strong>Go to your netwoRHk …</strong>
-        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-      </a>
-    </p>
+        <hr>
+
+        <p>
+          <a href="<%= networhk.networhkLink %>/activity-feed" target="_blank" class="btn">
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+            <strong>Go to your netwoRHk</strong>
+            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+          </a>
+        </p>
+      </div>
+      <p>
+        All the best,<br/>
+        AImee
+      </p>
+    </div>
   </div>
-</div>  
-
-<p>
-  All the best,<br/>
-  AImee
-</p>
-
 </div>
