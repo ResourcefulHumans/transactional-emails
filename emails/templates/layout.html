@@ -10,25 +10,25 @@
       font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
       width: 100%;
       max-width: 100%;
-      font-size: 17px;
+      font-size: 16px;
       line-height: 24px;
       color: #373737;
     }
 
     h1 {
-      font-family: "Trebuchet", "Tahoma", "Helvetica Neue", Helvetica;
+      font-family: "Trebuchet MS", "Tahoma", "Helvetica Neue", Helvetica;
       text-transform: uppercase;
       text-align: center;
       font-size: 40px;
       font-weight: normal;
       color: #fff;
       margin: 0;
-      padding: 2em 0;
+      padding: 30px 0;
       line-height: 1em;
     }
 
     p, ul, ul li {
-      font-size: 17px;
+      font-size: 16px;
       margin: 0 0 16px;
       line-height: 24px;
     }
@@ -95,7 +95,8 @@
 
     .image_div {
       display:flex;
-      margin-right: 16px;
+      margin-right: 32px;
+      margin-left: 32px;
     }
 
     .image_div img {
@@ -110,10 +111,17 @@
 
     .mobile_header {
         display: none;
+        margin: 32px 24px 32px 0;
     }
 
     .desktop_header {
       display: block;
+      margin: 40px 24px 32px 0;
+    }
+
+    .logo {
+      width: 37.87px;
+      height: 40px;
     }
 
     .title {
@@ -292,13 +300,13 @@
 
     .btn {
       display: block;
-      margin: 16px auto;
+      margin: 40px auto;
       text-decoration: none;
       border-style: none;
       border: 0;
       padding: 10px;
-      font-size: 15px;
-      font-family: 'Trebuchet', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       color: #008FD5;
       text-decoration: none;
       -webkit-border-radius: 3px;
@@ -308,11 +316,12 @@
       background: #fff;
       border: 1px solid #3399ff;
       display: block;
-      width: 50%;
+      width: 300px;
       min-width: 200px;
       vertical-align: center;
       text-align: center;
       -webkit-font-smoothing: antialiased;
+      text-transform: uppercase;
     }
 
     .btn-danger {
@@ -442,11 +451,7 @@
       <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
               style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #0686CB; color: #fff;">
         <tr>
-          <td
-            style="border-collapse: collapse; height: 5px; background-repeat: repeat-x; background-size: auto 5px;"></td>
-        </tr>
-        <tr>
-          <td valign="top" align="center" style="border-collapse: collapse; padding: 16px 8px 24px;">
+          <td valign="top" align="center" style="border-collapse: collapse;">
             <div style="max-width: 700px; margin: 0 auto;">
               
               <h1 class="title">
@@ -499,7 +504,7 @@
             style="border-collapse: collapse; height: 5px; background-repeat: repeat-x; background-size: auto 5px;"></td>
         </tr>
         <tr>
-          <td valign="top" align="center" style="border-collapse: collapse; padding: 16px 8px 24px;">
+          <td valign="top" align="center" style="border-collapse: collapse;">
             <div style="max-width: 700px; margin: 0 auto;">
               <p style=" color: #2162A2; font-size: 12px; line-height: 20px; margin: 0 0 16px; margin-top: 16px;">
                 NetwoRHk - 2019<br/>
@@ -508,7 +513,7 @@
                    style="color: #2162A2; font-weight: bold; text-decoration: none; word-break: break-word;">
                   Resourceful Humans
                 </a><br/>
-                <img src="/assets/RHlogo.png">
+                <img class="logo" src="/assets/RHlogo.png">
               </p>
             </div>
           </td>
