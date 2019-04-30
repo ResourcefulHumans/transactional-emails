@@ -3,7 +3,7 @@
     <div class="mobile_header">      
         <p>
           <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
+          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>stars<% } else { %>a star<% } %>!
         </p>
       </div>
     <div class="image_div">  
@@ -12,8 +12,8 @@
     <div>
       <div class="desktop_header">      
         <p>
-          <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
+          <strong>Wow, <%= recipient.firstname %> <%= recipient.lastname %>!</strong><br>
+          You got some stars from <strong><%= sender.firstname %> <%= sender.lastname %></strong>
         </p>
       </div>
       <div>
@@ -26,10 +26,6 @@
         <hr>
 
         <p>
-          <small>Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members.</small>
-        </p>
-
-        <p>
           Now head over to your <strong><%= networhk.label %> netwoRHk</strong> and share a staRH today, if you haven't already!
         </p>
 
@@ -40,6 +36,11 @@
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
+
+        <p>
+          Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members.
+        </p>
+
       </div>
 
       <p>
