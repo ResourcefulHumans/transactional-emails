@@ -355,7 +355,7 @@
         flex-direction: column !important;
         font-size: 30px !important;
       }
-      
+
       .mobile_header {
         display: block !important;
       }
@@ -453,29 +453,28 @@
         <tr>
           <td valign="top" align="center" style="border-collapse: collapse;">
             <div style="max-width: 700px; margin: 0 auto;">
-              
+
               <h1 class="title">
 
-                <% if(type_error) { %>
+                {{#if type_error}}
                   <div style="margin:0 5px 5px 0;">
                     <img src="/assets/icons/warning_round.png">
                   </div>
-                <% } %>
-                  
-                  <%= title %>
-                
+                {{/if}}
+
+                {{title}}
               </h1>
 
             </div>
           </td>
         </tr>
-        <% if(type_error) { %>  
-          <tr>   
-            <td style="border-collapse: collapse; height: 2px; background-color: #E31919 ; background-repeat: repeat-x; background-size: auto 5px;"></td> 
+        {{#if type_error}}
+          <tr>
+            <td style="border-collapse: collapse; height: 2px; background-color: #E31919 ; background-repeat: repeat-x; background-size: auto 5px;"></td>
           </tr>
-        <% } else { %>
+         {{else}}
          <!-- <td style="border-collapse: collapse; height: 2px; background-color: #fff ; background-repeat: repeat-x; background-size: auto 5px;"></td>-->
-        <% } %>
+         {{/if}}
       </table>
     </td>
   </tr>
@@ -487,7 +486,7 @@
           <td width="700" valign="top" style="border-collapse: collapse;">
             <div style="max-width: 700px; margin: 0 auto;">
 
-              {{content}}
+              {{{content}}}
 
             </div>
           </td>
@@ -508,7 +507,7 @@
             <div style="max-width: 700px; margin: 0 auto;">
               <p style=" color: #2162A2; font-size: 12px; line-height: 20px; margin: 0 0 16px; margin-top: 16px;">
                 NetwoRHk - 2019<br/>
-                Made with <span class="heart">❤</span> by 
+                Made with <span class="heart">❤</span> by
                 <a href="http://resourceful-humans.com/"
                    style="color: #2162A2; font-weight: bold; text-decoration: none; word-break: break-word;">
                   Resourceful Humans

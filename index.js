@@ -9,6 +9,7 @@ let fs = require('fs')
 let _defaults = require('lodash/defaults')
 let juice = require('juice')
 let juiceResourcesAsync = Promise.promisify(juice.juiceResources)
+let handlebars = require('handlebars')
 
 const loadIncludes = () => globAsync(path.join(__dirname, '/emails/includes/*.{txt,html}'))
   .then((includes) => {
@@ -58,9 +59,12 @@ module.exports = {
                       htmlTemplate = htmlTemplate.replace('{{includes.' + include.id + '}}', include.data)
                     })
                     .then(() => juiceResourcesAsync(
-                      htmlLayout
-                        .replace('{{content}}', htmlTemplate)
-                        .replace('{{product}}', product),
+                      handlebars.compile(htmlLayout)({
+                        content: htmlTemplate,
+                        product,
+                        title: emailConfig.title,
+                        type_error: emailConfig.type_error
+                      }),
                       {
                         webResources: {
                           images: true,
@@ -72,7 +76,6 @@ module.exports = {
               fs.readFileAsync(path.join(__dirname, '/emails/templates/' + template + '.txt'), 'utf8')
             )
             .spread((htmlTemplate, textTemplate) => {
-              let e = require(email)
               return Promise
                 .map(includes.txt, (include) => {
                   textTemplate = textTemplate.replace('{{includes.' + include.id + '}}', include.data)
@@ -80,14 +83,15 @@ module.exports = {
                 .then(() => {
                   return {
                     identifier,
-                    subject: e.subject,
-                    title: e.title,
-                    type_error: e.type_error,
-                    defaults: _defaults({}, e.defaults),
+                    subject: emailConfig.subject,
+                    defaults: _defaults({}, emailConfig.defaults),
                     html: htmlTemplate,
-                    text: textLayout
-                      .replace('{{content}}', textTemplate)
-                      .replace('{{product}}', product)
+                    text: handlebars.compile(textLayout)({
+                      content: textTemplate,
+                      product,
+                      title: emailConfig.title,
+                      type_error: emailConfig.type_error
+                    })
                   }
                 })
             })
