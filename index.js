@@ -67,7 +67,6 @@ module.exports = {
                       }),
                       {
                         webResources: {
-                          images: true,
                           relativeTo: path.join(__dirname, '/emails/')
                         }
                       })
