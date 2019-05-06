@@ -7,7 +7,7 @@ soon. You can reinforce your commitment within <%= healthEngine.degradesIn %>.
 <% }); %>
 
 Go to your netwoRHk:
-<%= networhk.networhkLink %>/activity-feed
+<%= networhk.networhkLink %>
 
 All the best,
 AImee
