@@ -1,13 +1,13 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-You missed the window. The health of your commitments listed below in the <%= networhk.label %> netwoRHk has been degraded 
+You missed the window. The health of your commitments listed below in the <%= networhk.label %> netwoRHk has been degraded
 last <%= healthEngine.degradesAfter %>.
 
 <% _.forEach(contributions, function(contribution) { %>- <%= contribution.title %>
 <% }); %>
 
 Go to your netwoRHk:
-<%= networhk.networhkLink %>/my
+<%= networhk.networhkLink %>
 
 All the best,
 AImee
