@@ -3,7 +3,7 @@
     <div class="mobile_header">      
         <p>
           <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %>stars<% } else { %>a star<% } %>!
+          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!
         </p>
       </div>
     <div class="image_div">  
@@ -12,8 +12,8 @@
     <div>
       <div class="desktop_header">      
         <p>
-          <strong>Wow, <%= recipient.firstname %> <%= recipient.lastname %>!</strong><br>
-          You got some stars from <strong><%= sender.firstname %> <%= sender.lastname %></strong>
+          <strong>Wow, <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
+          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!
         </p>
       </div>
       <div>
@@ -26,13 +26,13 @@
         <hr>
 
         <p>
-          Now head over to your <strong><%= networhk.label %> netwoRHk</strong> and share a staRH today, if you haven't already!
+          Now head over to staRHs and share a star today, if you haven't already!
         </p>
 
         <p>
-          <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
+          <a href="https://app.starhs.net" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Go to your netwoRHk</strong>
+            <strong>Go to staRHs</strong>
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>

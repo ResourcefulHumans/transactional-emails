@@ -1,6 +1,6 @@
 {
-  "subject": "[netwoRHk] <%= sender.firstname %> sent you stars! 🌠",
-  "title": "Wow you got <%= starh.amount %> stars!",
+  "subject": "[staRHs] <%= sender.firstname %> sent you stars! 🌠",
+  "title": "Wow you got <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!",
   "type_error": false,
   "defaults": {
     "recipient": {

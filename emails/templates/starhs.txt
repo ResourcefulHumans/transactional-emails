@@ -13,11 +13,10 @@ Suggestion: Review the Feedback. Reach out to the Sender if anything is
 unclear. Consider the positive effect of your recognized action! Share
 the Feedback with your manager and team-members.
 
-Now head over to your <%= networhk.label %> netwoRHk
-and share a staRH today, if you haven't already!
+Now head over to staRHs and share a star today, if you haven't already!
 
-Go to your netwoRHk:
-<%= networhk.networhkLink %>
+Go to staRHs:
+https://app.starhs.net
 
 Rock on,
 AImee
