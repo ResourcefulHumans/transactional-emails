@@ -1,34 +1,20 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">      
+    <div class="mobile_header">
         <p>
           <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
           <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!
         </p>
       </div>
-    <div class="image_div">  
+    <div class="image_div">
       <img src="https://networhk.net/img/aimee/stars_received.png" alt="">
     </div>
     <div>
-      <div class="desktop_header">      
-        <p>
-          <strong>Wow, <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!
-        </p>
-      </div>
       <div>
-        <hr>
-
-        <p style="text-align: center">
-          <%= starh.message %>
-        </p>
-
-        <hr>
-
         <p>
-          Now head over to staRHs and share a star today, if you haven't already!
+          <%= emailBody %>
         </p>
-
+        <hr>
         <p>
           <a href="https://app.starhs.net" target="_blank" class="btn">
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->

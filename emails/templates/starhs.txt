@@ -1,11 +1,4 @@
-<%= _.repeat('*', starh.amount) %>
-
-Wow <%= recipient.firstname %> <%= recipient.lastname %>,
-<%= sender.firstname %> <%= sender.lastname %> sent you <% if(starh.amount > 1) { %>staRHs<% } else { %>a staRH<% } %>!
-
------------------------------------------------------------------------
-
-<%= starh.message %>
+<%= emailBody %>
 
 -----------------------------------------------------------------------
 
