@@ -1,19 +1,16 @@
 <div class="content">
   <div class="aimee">
     <div class="mobile_header">
-        <p>
-          <strong>Wow <%= recipient.firstname %> <%= recipient.lastname %>,</strong><br>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> sent you <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!
-        </p>
-      </div>
+      <%= nl2br(emailBody) %>
+    </div>
     <div class="image_div">
       <img src="https://networhk.net/img/aimee/stars_received.png" alt="">
     </div>
     <div>
+      <div class="desktop_header">
+        <%= nl2br(emailBody) %>
+      </div>
       <div>
-        <p>
-          <%= emailBody %>
-        </p>
         <hr>
         <p>
           <a href="https://app.starhs.net" target="_blank" class="btn">
@@ -22,17 +19,7 @@
             <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
           </a>
         </p>
-
-        <p>
-          Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members.
-        </p>
-
       </div>
-
-      <p>
-        Rock on,<br/>
-        AImee
-      </p>
     </div>
   </div>
 </div>
