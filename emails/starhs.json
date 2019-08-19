@@ -4,7 +4,8 @@
   "type_error": false,
   "defaults": {
     "emailSubject": "[staRHs] {{ sender.firstname }} sent you stars! 🌠",
-    "emailBody": "Servus  {{ recipient.lastname }}! \n Wow you got  {{ starh.amount }} star/s from {{ sender.lastname }} {{ sender.firstname }} for: \n \n {{ starh.message }}\n \n Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members. \n Now head over to #StaRHsURL# and share a star today, if you haven’t already! \n Warm regards, \n {{ networhk.label }}",
+    "emailBodyTxt": "Servus  {{ recipient.lastname }}! \n Wow you got  {{ starh.amount }} star/s from {{ sender.lastname }} {{ sender.firstname }} for: \n \n {{ starh.message }}\n \n Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members. \n Now head over to #StaRHsURL# and share a star today, if you haven’t already! \n Warm regards, \n {{ networhk.label }}",
+    "emailBodyHtml": "Servus  {{ recipient.lastname }}! <br> Wow you got  {{ starh.amount }} star/s from {{ sender.lastname }} {{ sender.firstname }} for: <br> <br> {{ starh.message }}<br> <br> Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members. <br> Now head over to #StaRHsURL# and share a star today, if you haven’t already! <br> Warm regards, <br> {{ networhk.label }}",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"

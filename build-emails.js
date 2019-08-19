@@ -11,10 +11,6 @@ let _forEach = require('lodash/forEach')
 let showdown = require('showdown')
 let converter = new showdown.Converter()
 let transactionTemplates = require('./')
-let nl2br = (text) => {
-  return (text + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2')
-}
-let templateSettings = {imports: {nl2br}}
 
 function run () {
   let templatedata = {
@@ -36,8 +32,8 @@ function run () {
       let data = {}
       _merge(data, templatedata)
       _merge(data, email.defaults)
-      data.subject = _template(email.subject, templateSettings)(data)
-      data.title = _template(email.title, templateSettings)(data)
+      data.subject = _template(email.subject)(data)
+      data.title = _template(email.title)(data)
       data.type_error = email.type_error
       let formatContent = (data) => {
         if (!(typeof data === 'object')) {
@@ -57,8 +53,8 @@ function run () {
       formatContent(data)
       data._ = require('lodash')
       return Promise.join(
-        fs.writeFileAsync(target + '.html', _template(email.html, templateSettings)(data)),
-        fs.writeFileAsync(target + '.txt', _template(email.text, templateSettings)(data))
+        fs.writeFileAsync(target + '.html', _template(email.html)(data)),
+        fs.writeFileAsync(target + '.txt', _template(email.text)(data))
       )
     })
 }
