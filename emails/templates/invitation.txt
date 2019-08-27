@@ -1,0 +1,13 @@
+Hey <%= recipient.firstname %> <%= recipient.lastname %>,
+
+Aye aye, Capitan!.
+Please click the link to set your password:
+
+<%= link %>
+
+Cheers,
+AImee
+
+-----------------------------------------------------------------------
+
+P.S. Ignore this message if you did not request a password reset.
