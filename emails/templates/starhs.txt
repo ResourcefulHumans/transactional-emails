@@ -3,4 +3,4 @@
 -----------------------------------------------------------------------
 
 Go to staRHs:
-https://app.starhs.net
+https://app.starhs.net/#/stars/<%= starh.id %>
