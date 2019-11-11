@@ -3,7 +3,6 @@
 # <%= contribution.title %>
 
 Priority: <%= contribution.priority %>
-Open:     <%= contribution.open %>
 Done:     <%= contribution.done %>
 Pending:  <%= contribution.pending %>
 
