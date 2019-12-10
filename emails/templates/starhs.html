@@ -1,25 +1,43 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-      <%= emailBodyHtml %>
-    </div>
     <div class="image_div">
       <img src="https://networhk.net/img/aimee/stars_received.png" alt="">
     </div>
     <div>
-      <div class="desktop_header">
-        <%= emailBodyHtml %>
-      </div>
-      <div>
-        <hr>
-        <p>
-          <a href="https://app.starhs.net/#/stars/<%= starh.id %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Rate Feedback</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-        </p>
-      </div>
+      <%= emailBodyHtml %>
     </div>
   </div>
+  <div>
+      <hr>
+      <h2 style="text-align: center; font-variant: small-caps;">Please Rate This Feedback!</h2>
+      <div class="bck_slider_img"></div>
+      <div class="rate_images">
+        <a href="https://app.starhs.net/#/stars/<%= starh.id %>/1" target="_blank">
+          <img src="https://networhk.net/img/finger1.svg" alt="" style="width: 1.5rem; height: 1.5rem;">
+        </a>
+        <a href="https://app.starhs.net/#/stars/<%= starh.id %>/2" target="_blank">
+          <img src="https://networhk.net/img/finger2.svg" alt="" style="width: 1.6rem; height: 1.6rem;">
+        </a>
+        <a href="https://app.starhs.net/#/stars/<%= starh.id %>/3" target="_blank">
+          <img src="https://networhk.net/img/finger3.svg" alt="" style="width: 1.8rem; height: 1.8rem;">
+        </a>
+        <a href="https://app.starhs.net/#/stars/<%= starh.id %>/4" target="_blank">
+          <img src="https://networhk.net/img/finger4.svg" alt="" style="width: 2rem; height: 2rem;">
+        </a>
+      </div>
+      <div class="rate">
+          <a href="https://app.starhs.net/#/stars/<%= starh.id %>/1" target="_blank">
+            <p>NOT <br> VALUABLE</p>
+          </a>
+          <a href="https://app.starhs.net/#/stars/<%= starh.id %>/2" target="_blank">
+            <p>A LITTLE <br> VALUABLE</p>
+          </a>
+          <a href="https://app.starhs.net/#/stars/<%= starh.id %>/3" target="_blank">
+            <p>VALUABLE</p>
+          </a>
+          <a href="https://app.starhs.net/#/stars/<%= starh.id %>/4" target="_blank">
+            <p>INSANELY <br> VALUABLE</p>
+          </a>
+      </div>
+    </div>
 </div>

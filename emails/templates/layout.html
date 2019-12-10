@@ -201,6 +201,58 @@
       mso-table-rspace: 0pt;
     }
 
+    /* Rate */
+    .rate {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .rate_images {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end !important;
+    } 
+
+    .rate a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .rate p {
+      display: flex;
+      font-family: "Avenir Next Condensed", "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 16px;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      word-break: break-word;
+      margin:0 1px;
+    }
+
+    .rate img {
+      display: flex;
+      width: 32px; 
+      height: 32px;
+      margin: 0 auto 16px auto;
+    }
+
+    /* slider background */
+    .bck_slider_img {
+      background-image: url("https://networhk.net/img/aimee_slider_desktop.png");
+      height: 40px;
+      width: 75%; 
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:center center;
+      margin-bottom: 5px;
+      margin: auto;
+    }
+
     /* Mobile */
     @media only screen and (max-device-width: 480px) {
       /* Part one of controlling phone number linking for mobile. */
@@ -235,6 +287,11 @@
         display: none !important;
       }
 
+        /* slider background */
+      .bck_slider_img {
+        background-image: url("https://networhk.net/img/aimee_slider_mobile.png") !important;
+      }
+
     }
 
     /* Not all email clients will obey these, but the important ones will */
@@ -267,6 +324,11 @@
 
       .desktop_header {
         display: none !important;
+      }
+
+      /* slider background */
+      .bck_slider_img {
+        background-image: url(".https://networhk.net/img/aimee_slider_mobile.png") !important;
       }
 
     }
