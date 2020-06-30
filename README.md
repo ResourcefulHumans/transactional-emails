@@ -10,6 +10,10 @@
 This repository contains the transactional emails we send from our products. 
 They are installable via npm and are also published to this repositories gh-pages branch for preview.
 
+To deploy new version do following steps:
+- ssh to production
+- run node dist/console configure-mailer
+
 ## E-Mails
 
 ### netwoRHk
