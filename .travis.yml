@@ -14,7 +14,7 @@ install:
   - npm-install-peers
 script:
   - npm run lint
-  - HTTP_HOST=http://resourcefulhumans.github.io/transactional-emails/ make build
+  - HTTP_HOST=https://resourcefulhumans.github.io/transactional-emails/ make build
 after_success:
   - npm run semantic-release
   - cd build
