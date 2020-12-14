@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-FYI, <%= sender.firstname %> <%= sender.lastname %> just updated his/her status to <%= commitment.status %> to:
+<%= sender.firstname %> <%= sender.lastname %> just updated his/her status to <%= commitment.status %> to:
 <%= contribution.title %>
 
 View contribution:
