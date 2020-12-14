@@ -1,6 +1,6 @@
 {
   "subject": "<%= emailSubject %>",
-  "title": "Wow you got <% if(starh.amount > 1) { %><%= starh.amount %> stars<% } else { %>a star<% } %>!",
+  "title": "You are awesome!",
   "type_error": false,
   "defaults": {
     "emailSubject": "[staRHs] {{ sender.firstname }} sent you stars! 🌠",
