@@ -5,7 +5,7 @@
   "defaults": {
     "emailSubject": "[staRHs] You got a Star! 🌠",
     "emailBodyTxt": "C'mon let's check out what feedback you got!",
-    "emailBodyHtml": "C'mon let's check out what feedback you got!",
+    "emailBodyHtml": "",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"

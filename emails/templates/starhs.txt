@@ -1,6 +1,4 @@
 <%= emailBodyTxt %>
 
------------------------------------------------------------------------
-
-Go to staRHs:
+Check out the feedback you got:
 https://app.networhk.net/#/stars/<%= starh.id %>
