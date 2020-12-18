@@ -3,9 +3,9 @@
   "title": "You are awesome!",
   "type_error": false,
   "defaults": {
-    "emailSubject": "[staRHs] {{ sender.firstname }} sent you stars! 🌠",
-    "emailBodyTxt": "Servus  {{ recipient.lastname }}! \n Wow you got  {{ starh.amount }} star/s from {{ sender.lastname }} {{ sender.firstname }} for: \n \n {{ starh.message }}\n \n Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members. \n Warm regards, \n {{ networhk.label }}",
-    "emailBodyHtml": "Servus  {{ recipient.lastname }}! <br> Wow you got  {{ starh.amount }} star/s from {{ sender.lastname }} {{ sender.firstname }} for: <br> <br> {{ starh.message }}<br> <br> Suggestion: Review the Feedback. Reach out to the Sender if anything is unclear. Consider the positive effect of your recognized action! Share the Feedback with your manager and team-members. <br> Warm regards, <br> {{ networhk.label }}",
+    "emailSubject": "[staRHs] You got a Star! 🌠",
+    "emailBodyTxt": "C'mon let's check out what feedback you got!",
+    "emailBodyHtml": "C'mon let's check out what feedback you got!",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"
