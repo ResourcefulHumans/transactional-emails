@@ -62,6 +62,7 @@ module.exports = {
                       handlebars.compile(htmlLayout)({
                         content: htmlTemplate,
                         product,
+                        area: emailConfig.area,
                         title: emailConfig.title,
                         type_error: emailConfig.type_error
                       }),

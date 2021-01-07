@@ -1,4 +1,5 @@
 {
+  "area": "caRHds",
   "subject": "[caRHds 🎴 ] <%= recipient.firstname %>, please confirm your email address",
   "title": "Verification",
   "type_error": false,  

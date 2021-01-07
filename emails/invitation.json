@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= recipient.firstname %>, reset your password",
   "title": "Password Reset",
   "type_error": false,

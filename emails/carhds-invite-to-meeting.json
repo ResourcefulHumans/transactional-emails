@@ -1,4 +1,5 @@
 {
+  "area": "caRHds",
   "subject": "[caRHds 🎴 ] <%= recipient.firstname %>, <%= sender.firstname %> <%= sender.lastname %> invites you to the meeting: <%= meeting.name %>",
   "title": "Invitation",
   "type_error": false,

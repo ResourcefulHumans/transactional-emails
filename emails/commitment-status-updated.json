@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] - <%= sender.firstname %> <%= sender.lastname %> updated his/her status to <%= commitment.status %> to: <%= contribution.title %>",
   "title": "Commitment Updated",
   "type_error": false,

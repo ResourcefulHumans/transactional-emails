@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> accepted the invitation to: <%= contribution.title %>",
   "title": "Invitation Accepted",
   "type_error": false,

@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to contribute to: <%= contribution.title %>",
   "title": "Request to contribute",
   "type_error": false,

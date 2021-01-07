@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] You have been added to: <%= contribution.title %>",
   "title": "Added to contribution",
   "type_error": false,  

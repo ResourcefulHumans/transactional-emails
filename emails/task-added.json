@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] ✓ new task in <%= contribution.title %>: <%= task.description %>",
   "title": "<%= contribution.title %>",
   "type_error": false,

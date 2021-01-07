@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to uncommit from: <%= contribution.title %>",
   "title": "Request to uncommit",
   "type_error": false,

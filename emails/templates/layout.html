@@ -4,25 +4,31 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= subject %></title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,600,700&amp;lang=en" />
+
   <style type="text/css">
     /* Template styling */
     body {
-      font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Roboto Condensed", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
       width: 100%;
       max-width: 100%;
       font-size: 16px;
       line-height: 24px;
-      color: #373737;
+      color: #fff;
+      background: #3399ff; 
     }
 
-    h1 {
-      font-family: "Trebuchet MS", "Tahoma", "Helvetica Neue", Helvetica;
+    .staRHs {
+      background: #1D1E20; 
+    }
+
+    h1.title {
       text-transform: uppercase;
-      font-size: 40px;
-      font-weight: normal;
+      font-size: 64px;
+      font-weight: bold;
       color: #fff;
       margin: 0 auto;
-      padding: 30px 0;
+      padding: 60px 0 30px 0;
       line-height: 1em;
     }
 
@@ -88,6 +94,10 @@
       color: red;
     }
 
+    .staRHs .heart {
+      color: #008FD5;
+    }
+
     .aimee {
       display: flex;
     }
@@ -131,8 +141,9 @@
     }
 
     .logo {
-      width: 37.87px;
-      height: 40px;
+      margin-left: 10px;
+      width: 265px;
+      height: 45px;
     }
 
     .title {
@@ -225,7 +236,6 @@
     }
 
     .rate p {
-      font-family: "Avenir Next Condensed", "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 12px;
       line-height: 16px;
       color: #fff;
@@ -276,7 +286,7 @@
 
       .title {
         flex-direction: column !important;
-        font-size: 30px !important;
+        font-size: 46px !important;
       }
 
       .mobile_header {
@@ -315,7 +325,7 @@
 
       .title {
         flex-direction: column !important;
-        font-size: 30px !important;
+        font-size: 46px !important;
       }
 
       .mobile_header {
@@ -352,38 +362,34 @@
       }
     }
 
-    div.header {
-      background-color: #0686CB;
-    }
-
     div.content {
       padding: 32px;
     }
+    div.action {
+      display: flex;
+    }
 
     .btn {
-      display: block;
+      display: inline;
       margin: 40px auto;
       text-decoration: none;
       border-style: none;
       border: 0;
       padding: 10px;
-      font-size: 17px;
-      font-family: 'Trebuchet MS', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 24px;
       color: #008FD5;
-      text-decoration: none;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      border-radius: 50px;
-      padding: 8px 15px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
       background: #fff;
-      border: 1px solid #3399ff;
-      display: block;
-      width: 300px;
-      min-width: 200px;
       vertical-align: center;
       text-align: center;
       -webkit-font-smoothing: antialiased;
       text-transform: uppercase;
+    }
+
+    .staRHs .btn{
+      color: #1D1E20;
     }
 
     .btn-danger {
@@ -405,17 +411,10 @@
     /* iPhone Retina */
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 640px) {
       /* Must include !important on each style to override inline styles */
-      #footer p {
-        font-size: 9px;
-      }
-
-      .aimee {
-        display: block !important;
-      }
-
+     
       .title {
         flex-direction: column !important;
-        font-size: 30px !important;
+        font-size: 46px !important;
       }
 
       .mobile_header {
@@ -442,7 +441,7 @@
 
       .title {
         flex-direction: column !important;
-        font-size: 30px !important;
+        font-size: 46px !important;
       }
 
       .mobile_header {
@@ -476,7 +475,7 @@
 
       .title {
         flex-direction: column !important;
-        font-size: 30px !important;
+        font-size: 46px !important;
       }
 
       .mobile_header {
@@ -505,16 +504,18 @@
   </style>
 </head>
 <body
-  style="font-family: 'Roboto', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 24px; max-width: 100%; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;">
+  style="max-width: 100%; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;"
+  class="{{{area}}}"
+>
 <table width="100%" cellpadding="0" cellspacing="0" border="0"
-       style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 24px; margin: 0; padding: 0; width: 100%; font-size: 17px; background: #3399ff;">
+       style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 24px; margin: 0; padding: 0; width: 100%; font-size: 17px;">
   <tr>
     <td style="border-collapse: collapse;">
       <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
-              style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #0686CB; color: #fff;">
+              style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
         <tr>
           <td valign="top" width="700" style="border-collapse: collapse;">
-            <div style="max-width: 700px; margin: 0 auto; display: flex">
+            <div style="margin: 0 auto; display: flex">
 
               <h1 class="title">
 
@@ -534,8 +535,6 @@
           <tr>
             <td style="border-collapse: collapse; height: 2px; background-color: #E31919 ; background-repeat: repeat-x; background-size: auto 5px;"></td>
           </tr>
-         {{else}}
-         <!-- <td style="border-collapse: collapse; height: 2px; background-color: #fff ; background-repeat: repeat-x; background-size: auto 5px;"></td>-->
          {{/if}}
       </table>
     </td>
@@ -543,10 +542,10 @@
   <tr>
     <td valign="top" style="border-collapse: collapse;">
       <table cellpadding="0" cellspacing="0" border="0" align="center"
-             style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3399ff; color: white; border-radius: 3px; margin-bottom: 1rem; overflow:hidden !important">
+             style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: white; border-radius: 3px; margin-bottom: 1rem; overflow:hidden !important">
         <tr>
           <td width="700" valign="top" style="border-collapse: collapse;">
-            <div style="max-width: 700px; margin: 0 auto;">
+            <div style=" margin: 0 auto;">
 
               {{{content}}}
 
@@ -557,28 +556,20 @@
     </td>
   </tr>
   <tr>
-    <td style="border-collapse: collapse;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
-             style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 1rem; background: white; color: #989EA6;">
-        <tr>
-          <td
-            style="border-collapse: collapse; height: 5px; background-repeat: repeat-x; background-size: auto 5px;"></td>
-        </tr>
-        <tr>
-          <td valign="top" align="center" style="border-collapse: collapse;">
-            <div style="max-width: 700px; margin: 0 auto;">
-              <p style=" color: #2162A2; font-size: 12px; line-height: 20px; margin: 0 0 16px; margin-top: 16px;">
-                Made with <span class="heart">❤</span> by
-                <a href="https://resourceful-humans.com/" target="_blank" 
-                   style="color: #2162A2; font-weight: bold; text-decoration: none; word-break: break-word;">
-                  Resourceful Humans
-                </a><br/>
-                <img class="logo" src="https://networhk.net/img/aimee/RHlogo.png">
-              </p>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <td valign="top" align="center" style="display:flex">
+      <div style="margin:0 auto;display:flex">
+        <span style="font-size: 18px; line-height: 45px;">
+          Made with <span class="heart">❤</span> by
+        </span>
+        <a href="https://resourceful-humans.com/" target="_blank" >
+          {{#if area}}
+            <img class="logo" src="https://networhk.net/img/aimee/rh_logo.svg" width="265" height="45">
+            {{else}}
+            <img class="logo" src="https://networhk.net/img/aimee/rh_logo_black.svg" width="265" height="45">
+          {{/if}}
+          
+        </a>
+      </div>
     </td>
   </tr>
 </table>

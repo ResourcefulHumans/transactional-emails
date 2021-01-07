@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= recipient.firstname %>, please confirm your email address",
   "title": "Email Verification",
   "type_error": false,

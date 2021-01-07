@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= recipient.firstname %>, <%= sender.firstname %> rejected to take over ownership of <%= contribution.title %>",
   "title": "Ownership Takeover Rejected",
   "type_error": false,

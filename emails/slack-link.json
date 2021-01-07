@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] <%= recipient.firstname %>, here is your verification code for Slack",
   "title": "Slack Verification Code",
   "type_error": false,

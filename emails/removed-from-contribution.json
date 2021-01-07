@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] You have been removed from: <%= contribution.title %>",
   "title": "Removed from contribution",
   "type_error": false,

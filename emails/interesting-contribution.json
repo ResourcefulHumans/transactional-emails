@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[netwoRHk] Check out this new, open contribution: <%= contribution.title %>",
   "title": "Check this out",
   "type_error": false,

@@ -1,4 +1,5 @@
 {
+  "area": "",
   "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health has been degraded",
   "title": "Health degraded",
   "type_error": true,
