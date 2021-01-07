@@ -26,7 +26,6 @@
       text-transform: uppercase;
       font-size: 64px;
       font-weight: bold;
-      color: #fff;
       margin: 0 auto;
       padding: 60px 0 30px 0;
       line-height: 1em;
@@ -97,9 +96,6 @@
     .aimee {
       display: flex;
     }
-    .aimee_vertical {
-      display: inline;
-    }
 
     .body_div {
       display: flex;
@@ -140,6 +136,11 @@
       margin-left: 10px;
       width: 265px;
       height: 45px;
+    }
+
+    .footer {
+      font-size: 18px; 
+      line-height: 45px;
     }
 
     .title {
@@ -234,7 +235,6 @@
     .rate p {
       font-size: 12px;
       line-height: 16px;
-      color: #fff;
       font-weight: bold;
       text-align: center;
       word-break: break-word;
@@ -245,18 +245,6 @@
       width: 32px; 
       height: 32px;
       margin: 0 auto 16px auto;
-    }
-
-    /* slider background */
-    .bck_slider_img {
-      background-image: url("https://networhk.net/img/aimee/aimee_slider_desktop.png");
-      height: 40px;
-      width: 75%; 
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position:center center;
-      margin-bottom: 5px;
-      margin: auto;
     }
 
     /* Mobile */
@@ -292,12 +280,6 @@
       .desktop_header {
         display: none !important;
       }
-
-        /* slider background */
-      .bck_slider_img {
-        background-image: url("https://networhk.net/img/aimee/aimee_slider_mobile.png") !important;
-      }
-
     }
 
     /* Not all email clients will obey these, but the important ones will */
@@ -332,9 +314,19 @@
         display: none !important;
       }
 
-      /* slider background */
-      .bck_slider_img {
-        background-image: url(".https://networhk.net/img/aimee/aimee_slider_mobile.png") !important;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .logo {
+        width: 132px !important;
+        height: 22px !important;
+      }
+
+      .footer {
+        font-size: 14px !important; 
+        line-height: 22px !important;
       }
 
     }
@@ -356,6 +348,38 @@
         pointer-events: auto;
         cursor: default;
       }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #fff !important;
+        background: #3399ff !important; 
+      }
+
+      .staRHs {
+        color: #fff !important;
+        background: #1D1E20 !important; 
+      }
+      a, a:link, a:visited, a:active, a:hover {
+        color: #fff !important;
+      }
+
+      .btn {
+        color: #008FD5 !important;
+        background: #fff !important;
+      }
+
+      p,
+      span,
+      h1.title {
+        color: #fff !important;
+      }
+
+      .staRHs .btn{
+        color: #fff !important;
+        color: #1D1E20 !important;
+      }
+        
     }
 
     div.content {
@@ -421,6 +445,20 @@
         display: none !important;
       }
 
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .logo {
+        width: 132px !important;
+        height: 22px !important;
+      }
+
+      .footer {
+        font-size: 14px !important; 
+        line-height: 22px !important;
+      }
     }
 
     /* Android targeting */
@@ -448,15 +486,23 @@
         display: none !important;
       }
 
-    }
-
-    @media only screen and (-webkit-device-pixel-ratio: 1) {
-      /* Put CSS for medium density (mdpi) Android layouts in here */
       img {
         max-width: 100%;
         height: auto;
       }
+
+      .logo {
+        width: 132px !important;
+        height: 22px !important;
+      }
+
+      .footer {
+        font-size: 14px !important; 
+        line-height: 22px !important;
+      }
     }
+
+   
 
     @media only screen and (-webkit-device-pixel-ratio: 1.5) {
       /* Put CSS for high density (hdpi) Android layouts in here */
@@ -482,17 +528,41 @@
         display: none !important;
       }
 
-    }
-
-    /* Galaxy Nexus */
-    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
       img {
         max-width: 100%;
         height: auto;
       }
 
+      .logo {
+        width: 132px !important;
+        height: 22px !important;
+      }
+
+      .footer {
+        font-size: 14px !important; 
+        line-height: 22px !important;
+      }
+    }
+
+    /* Galaxy Nexus */
+    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
       body {
         font-size: 16px;
+      }
+
+      .image_div img {
+        width: auto !important;
+        height: 300px !important;
+      }
+
+      .logo {
+        width: 132px !important;
+        height: 22px !important;
+      }
+
+      .footer {
+        font-size: 14px !important; 
+        line-height: 22px !important;
       }
     }
 
@@ -510,7 +580,7 @@
       <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
               style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
         <tr>
-          <td valign="top" width="700" style="border-collapse: collapse;">
+          <td valign="top" style="border-collapse: collapse;">
             <div style="margin: 0 auto; display: flex">
 
               <h1 class="title">
@@ -540,7 +610,7 @@
       <table cellpadding="0" cellspacing="0" border="0" align="center"
              style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: white; border-radius: 3px; margin-bottom: 1rem; overflow:hidden !important">
         <tr>
-          <td width="700" valign="top" style="border-collapse: collapse;">
+          <td valign="top" style="border-collapse: collapse;">
             <div style=" margin: 0 auto;">
 
               {{{content}}}
@@ -553,15 +623,15 @@
   </tr>
   <tr>
     <td valign="top" align="center" style="display:flex">
-      <div style="margin:0 auto;display:flex">
-        <span style="font-size: 18px; line-height: 45px;">
+      <div style="margin:5px auto;display:flex">
+        <span class="footer">
           Made with <span class="heart">❤</span> by
         </span>
         <a href="https://resourceful-humans.com/" target="_blank" >
           {{#if area}}
-            <img class="logo" src="https://networhk.net/img/aimee/rh_logo.png" width="265" height="45">
+            <img class="logo" src="https://networhk.net/img/aimee/rh_logo.png">
             {{else}}
-            <img class="logo" src="https://networhk.net/img/aimee/rh_logo_black.png" width="265" height="45">
+            <img class="logo" src="https://networhk.net/img/aimee/rh_logo_black.png">
           {{/if}}
           
         </a>
