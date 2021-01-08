@@ -5,5 +5,3 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 [x] <%= task.description %>
 
 {{includes.contribution}}
-
--AImee
