@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-FYI, <%= sender.firstname %> <%= sender.lastname %> has added a new task:
+<%= sender.firstname %> <%= sender.lastname %> has added a new task:
 
 [ ] <%= task.description %>
 

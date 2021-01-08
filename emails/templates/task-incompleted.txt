@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-FYI, <%= sender.firstname %> <%= sender.lastname %> has marked this task as incomplete:
+<%= sender.firstname %> <%= sender.lastname %> has marked this task as incomplete:
 
 [ ] <%= task.description %>
 

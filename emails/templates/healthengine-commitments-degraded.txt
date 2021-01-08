@@ -8,6 +8,3 @@ last <%= healthEngine.degradesAfter %>.
 
 Go to your netwoRHk:
 <%= networhk.networhkLink %>
-
-All the best,
-AImee

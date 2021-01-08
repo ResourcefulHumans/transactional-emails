@@ -5,6 +5,3 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
 View contribution:
 <%= contribution.$link %>
-
-All the best,
-AImee

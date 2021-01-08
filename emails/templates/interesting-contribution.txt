@@ -3,6 +3,3 @@ Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 Check this out! A new open contribution was just created, that you might find interesting:
 
 {{includes.contribution}}
-
-All the best,
-AImee

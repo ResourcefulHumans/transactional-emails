@@ -1,6 +1,6 @@
 Hi <%= recipient.firstname %> <%= recipient.lastname %>,
 
-FYI, <%= sender.firstname %> <%= sender.lastname %> has deleted this task:
+<%= sender.firstname %> <%= sender.lastname %> has deleted this task:
 
 [-] <%= task.description %>
 
