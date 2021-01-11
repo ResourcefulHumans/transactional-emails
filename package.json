@@ -1,6 +1,6 @@
 {
   "name": "transactional-emails",
-  "version": "2.18.3",
+  "version": "2.18.4",
   "description": "Transactional emails for our products",
   "main": "index.js",
   "scripts": {
