@@ -24,6 +24,8 @@ To deploy new version do following steps:
 - Email Change: [HTML](http://resourcefulhumans.github.io/transactional-emails/email-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/email-change.txt)
 - Confirm password change: [HTML](http://resourcefulhumans.github.io/transactional-emails/password-change.html), [Text](http://resourcefulhumans.github.io/transactional-emails/password-change.txt)
  
+ - Set first password: [HTML](http://resourcefulhumans.github.io/transactional-emails/set-first-password.html), [Text](http://resourcefulhumans.github.io/transactional-emails/set-first-password.txt)
+ 
 #### Commitments
 
 - Invite to contribute: [HTML](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.html), [Text](http://resourcefulhumans.github.io/transactional-emails/invite-to-contribute.txt)
