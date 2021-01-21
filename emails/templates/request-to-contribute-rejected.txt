@@ -1,12 +1,2 @@
-Hey <%= recipient.firstname %> <%= recipient.lastname %>,
-
-I have some disappointing news. <%= sender.firstname %> <%= sender.lastname %> rejected to add you to:
-<%= contribution.title %>
-
 View contribution:
 <%= contribution.$link %>
-
-You might want to reach out and if you want to know why.
-
-Hugs,
-AImee

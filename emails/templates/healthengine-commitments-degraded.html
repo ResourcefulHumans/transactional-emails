@@ -1,42 +1,21 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-          The health of your commitments listed below has been degraded. Please click on the link and share with your collegues why you chose to let it degrade.
-        </p>
-      </div>
-      <div class="image_div">
-      <img src="https://networhk.net/img/aimee/health_degraded.png" alt="">
+    <div class="image_div">
+      <img src="https://networhk.net/img/aimee/health_degraded.png" alt="" />
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  </div>
 
-        <p>
-          The health of your commitments listed below has been degraded. Please click on the link and share with your collegues why you chose to let it degrade.
-        </p>
-      </div>
-      <div class="include_div">
-        <ul>
-          <% _.forEach(contributions, function(contribution) { %>
-          <li>
-            <a href=https://app.networhk.net/#/me/workload/contribution/<%= contribution.id %>" target="_blank" class="fas fa-external-link-alt">
-              <%= contribution.title %> ⇱
-            </a>
-          </li>
-          <% }); %>
-        </ul>
-
-        <div class="action">
-          <a href="<%= networhk.networhkLink %>#/me/workload" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Go to your netwoRHk</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-        </div>
-      </div>
+  <div class="include_div">
+    <div class="action">
+      <a
+        href="<%= networhk.networhkLink %>#/me/workload"
+        target="_blank"
+        class="btn"
+      >
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+        <strong>Go to your netwoRHk</strong>
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      </a>
     </div>
   </div>
 </div>

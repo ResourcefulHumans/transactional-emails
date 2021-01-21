@@ -1,42 +1,17 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-          I have some disappointing news. <strong><%= sender.firstname %> <%= sender.lastname %></strong> rejected to add you to:
-          <em><%= contribution.title %></em>
-        </p>
-      </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/invitation_rejected.png" alt="">
+    <div class="image_div">
+      <img
+        src="https://networhk.net/img/aimee/invitation_rejected.png"
+        alt=""
+      />
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-          I have some disappointing news. <strong><%= sender.firstname %> <%= sender.lastname %></strong> rejected to add you to:
-          <em><%= contribution.title %></em>
-        </p>
-      </div>
-      <div class="action">
-
-          <a href="<%= contribution.$link %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>View contribution</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-
-
-        <p>
-            You might want to reach out and if you want to know why.
-        </p>
-      </div>
-      <p>
-        Hugs,<br/>
-        AImee
-      </p>
-    </div>
+  </div>
+  <div class="action">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>View contribution</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
   </div>
 </div>

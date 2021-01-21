@@ -1,7 +1,7 @@
 {
   "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> rejected the invitation to: <%= contribution.title %>",
-  "title": "Invitation Rejected",
+  "title": "OH NO! INVITATION DECLINED",
   "type_error": false,
   "defaults": {
     "recipient": {

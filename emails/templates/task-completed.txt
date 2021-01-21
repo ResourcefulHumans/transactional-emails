@@ -1,7 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-<%= sender.firstname %> <%= sender.lastname %> has completed this task:
-
-[x] <%= task.description %>
-
-{{includes.contribution}}
+View Contribution:
+<%= contribution.$link %>

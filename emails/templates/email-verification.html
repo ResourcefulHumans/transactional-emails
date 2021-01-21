@@ -1,39 +1,19 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-      <p><strong>Hello <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-      <p>
-        You’re almost there. Please click the link below to verify your email address:
-      </p>
+    <div class="image_div">
+      <img src="https://networhk.net/img/aimee/verify_email.png" alt="" />
     </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/verify_email.png" alt="">
+  </div>
+  <div>
+    <div class="action">
+      <a href="<%= link %>" target="_blank" class="btn">
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+        <strong>Yes, It's my email</strong>
+        <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      </a>
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hello <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  </div>
 
-        <p>
-          You’re almost there. Please click the link below to verify your email address:
-        </p>
-      </div>
-      <div class="action">
-        <a href="<%= link %>" target="_blank" class="btn">
-          <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          <strong>Yes, It's my email</strong>
-          <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-        </a>
-      </div>
-
-      <p>
-        Thanks a million, <br/>
-        AImee
-      </p>
-
-      <hr/>
-
-      <p>P.S. Ignore this message if you did not give us your email address.</p>
-    </div>
-  </div>  
+  <hr />
+  <p>P.S. Ignore this message if you did not give us your email address.</p>
 </div>

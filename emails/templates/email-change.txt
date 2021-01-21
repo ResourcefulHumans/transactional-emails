@@ -1,7 +1,3 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-You've requested that we change your email.
-
 Please click this link to confirm your email change:
 
 <%= link %>

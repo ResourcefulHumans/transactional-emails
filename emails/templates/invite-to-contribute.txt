@@ -1,12 +1,2 @@
-  Hello <%= recipient.firstname %> <%= recipient.lastname %>,
-
-You must be AWESOME!! <%= sender.firstname %> <%= sender.lastname %>
-has invited you to contribute to 
-<%= contribution.title %>
-contribution crew.
-
-Click here to Accept or Reject their invitation:
+Check It Out:
 <%= contribution.$link %>
-
-Rock on,
-AImee

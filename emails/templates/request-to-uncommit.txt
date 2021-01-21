@@ -1,10 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-I hope this doesn’t come as a shock. <%= sender.firstname %> <%= sender.lastname %> asks to uncommit from:
-<%= contribution.title %>
-
-Click here to Approve or Reject this request:
+View Contribution:
 <%= contribution.$link %>
-
-Kindly,
-AImee

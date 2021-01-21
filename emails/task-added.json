@@ -1,7 +1,7 @@
 {
   "area": "",
   "subject": "[netwoRHk] ✓ new task in <%= contribution.title %>: <%= task.description %>",
-  "title": "<%= contribution.title %>",
+  "title": "New Task",
   "type_error": false,
   "defaults": {
     "recipient": {

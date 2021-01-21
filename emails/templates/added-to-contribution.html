@@ -1,31 +1,17 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-        <p>
-          Great news! You have been added to:
-        </p>
+    <div class="image_div">
+      <img
+        src="https://networhk.net/img/aimee/invitation_accepted.png"
+        alt=""
+      />
     </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/invitation_accepted.png" alt="">
-    </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-        <p>
-          Great news! You have been added to:
-        </p>
-      </div>
-      <div>
-          <div class="include_div">
-            {{includes.contribution}}
-          </div>
-
-        <p>
-          Have fun,<br/>
-          AImee
-        </p>
-      </div>
-    </div>
-  </div>  
+  </div>
+  <div class="action">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Check it out</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </div>
 </div>

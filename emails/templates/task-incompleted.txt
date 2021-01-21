@@ -1,7 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-<%= sender.firstname %> <%= sender.lastname %> has marked this task as incomplete:
-
-[ ] <%= task.description %>
-
-{{includes.contribution}}
+View Contribution:
+<%= contribution.$link %>

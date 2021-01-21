@@ -1,5 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-The following contribution has been updated:
-
-{{includes.contribution}}
+View Contribution:
+<%= contribution.$link %>

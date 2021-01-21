@@ -1,10 +1,2 @@
-Hey <%= recipient.firstname %> <%= recipient.lastname %>,
-
-You must be doing something cool because a <%= sender.firstname %> <%= sender.lastname %> has asked to contribute to:
-<%= contribution.title %>
-
-Click here to Approve or Reject this request …
+Check Who It Is:
 <%= contribution.$link %>
-
-Rock on,
-AImee

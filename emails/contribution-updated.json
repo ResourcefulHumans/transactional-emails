@@ -1,7 +1,7 @@
 {
   "area": "",
-  "subject": "[netwoRHk] Contribution has changed: <%= contribution.title %>",
-  "title": "Update",
+  "subject": "[netwoRHk] Contribution updated: <%= contribution.title %>",
+  "title": "CONTRIBUTION UPDATED",
   "type_error": false,
   "defaults": {
     "recipient": {

@@ -1,42 +1,19 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-      <p>
-        It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
-        soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
-      </p>
-    </div>
     <div class="image_div">
-      <img src="https://networhk.net/img/aimee/check_health.png" alt="">
+      <img src="https://networhk.net/img/aimee/check_health.png" alt="" />
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  </div>
 
-        <p>
-          It’s that time again. The health of your commitments in the <strong><%= networhk.label %> netwoRHk</strong> listed below will be degraded
-          soon. You can reinforce your commitment within <em><%= healthEngine.degradesIn %></em>.
-        </p>
-      </div>
-      <div class="include_div">
-        <ul>
-        <% _.forEach(contributions, function(contribution) { %>
-          <li><%= contribution.title %></li>
-        <% }); %>
-        </ul>
-
-        <hr>
-
-        <div class="action">
-          <a href="<%= networhk.networhkLink %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Go to your netwoRHk</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-        </div>
-      </div>
-    </div>
+  <div class="action">
+    <a
+      href="https://app.networhk.net/#/to/netwoRHk"
+      target="_blank"
+      class="btn"
+    >
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Update Your Health</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
   </div>
 </div>

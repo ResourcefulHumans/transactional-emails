@@ -1,10 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-It’s that time again. The health of your commitments in the <%= networhk.label %> netwoRHk listed below will be degraded
-soon. You can reinforce your commitment within <%= healthEngine.degradesIn %>.
-
-<% _.forEach(contributions, function(contribution) { %>- <%= contribution.title %>
-<% }); %>
-
-Go to your netwoRHk:
-<%= networhk.networhkLink %>
+Update Your Health:
+https://app.networhk.net/#/to/netwoRHk

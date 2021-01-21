@@ -1,8 +1,8 @@
 {
   "area": "",
   "subject": "[netwoRHk] You have been added to: <%= contribution.title %>",
-  "title": "Added to contribution",
-  "type_error": false,  
+  "title": "YEAH! REQUEST ACCEPTED",
+  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

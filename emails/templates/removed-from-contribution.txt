@@ -1,8 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-Thank you for contributing. You’ve been successfully removed from:
-
-{{includes.contribution}}
-
-Take care,
-AImee
+Check It Out:
+<%= contribution.$link %>

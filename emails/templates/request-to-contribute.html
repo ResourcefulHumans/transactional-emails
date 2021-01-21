@@ -1,39 +1,14 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-            You must be doing something cool because a <strong><%= sender.firstname %> <%= sender.lastname %></strong> has asked to contribute to:
-          <em><%= contribution.title %></em>
-        </p>
-      </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/invitation_accepted.png" alt="">
+    <div class="image_div">
+      <img src="https://networhk.net/img/aimee/aimee_cheerleader.png" alt="" />
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hey <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-            You must be doing something cool because a <strong><%= sender.firstname %> <%= sender.lastname %></strong> has asked to contribute to:
-          <em><%= contribution.title %></em>
-        </p>
-      </div>
-      <div class="action">
-
-          <a href="<%= contribution.$link %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>Click here to Answer</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-
-      </div>
-
-      <p>
-        Rock on,<br/>
-        AImee
-      </p>
-    </div>
-  </div> 
+  </div>
+  <div class="action">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Check Who It Is</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </div>
 </div>

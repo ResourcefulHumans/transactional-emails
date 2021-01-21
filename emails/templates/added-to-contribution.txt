@@ -1,8 +1,2 @@
-Hey <%= recipient.firstname %> <%= recipient.lastname %>,
-
-Great news! You have been added to:
-
-{{includes.contribution}}
-
-Have fun,
-AImee
+Check it out:
+<%= contribution.$link %>

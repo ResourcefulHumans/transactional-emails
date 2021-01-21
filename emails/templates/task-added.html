@@ -1,30 +1,14 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> has added a new task:
-        </p>
-      </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/new_task.png" alt="">
+    <div class="image_div">
+      <img src="https://networhk.net/img/aimee/new_task.png" alt="" />
     </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-        <p>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> has added a new task:
-        </p>
-      </div>
-      <div class="include_div">
-        <ul>
-          <li><%= task.description %></li>
-        </ul>
-
-        {{includes.contribution}}
-      </div>
-    </div>
+  </div>
+  <div class="action">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>View Contribution</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
   </div>
 </div>

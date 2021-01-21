@@ -1,10 +1,2 @@
-Hey <%= recipient.firstname %> <%= recipient.lastname %>,
-
-Great news! <%= sender.firstname %> <%= sender.lastname %>  just accepted your invitation to:
-<%= contribution.title %>
-
-View contribution:
+Check It Out:
 <%= contribution.$link %>
-
-Have fun,<br/>
-AImee

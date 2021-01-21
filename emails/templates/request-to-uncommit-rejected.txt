@@ -1,10 +1,2 @@
-Hi <%= recipient.firstname %> <%= recipient.lastname %>,
-
-You must be too important. <%= sender.firstname %> <%= sender.lastname %> just rejected to uncommit you from:
-<%= contribution.title %>
-
 View contribution:
 <%= contribution.$link %>
-
-Hugs,
-AImee

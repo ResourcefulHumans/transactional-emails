@@ -1,34 +1,15 @@
 <div class="content">
   <div class="aimee">
-    <div class="mobile_header">
-      <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
-
-      <p>
-        <strong><%= sender.firstname %> <%= sender.lastname %></strong> just updated his/her status to <strong><%= commitment.status %></strong> to:
-        <em><%= contribution.title %></em>
-      </p>
+    <div class="image_div">
+      <img src="https://networhk.net/img/aimee/health_degraded.png" alt="" />
     </div>
-    <div class="image_div">  
-      <img src="https://networhk.net/img/aimee/aimee_generic.png" alt="">
-    </div>
-    <div>
-      <div class="desktop_header">
-        <p><strong>Hi <%= recipient.firstname %> <%= recipient.lastname %>,</strong></p>
+  </div>
 
-        <p>
-          <strong><%= sender.firstname %> <%= sender.lastname %></strong> just updated his/her status to <strong><%= commitment.status %></strong> to:
-          <em><%= contribution.title %></em>
-        </p>
-      </div>
-      <div class="action">
-
-          <a href="<%= contribution.$link %>" target="_blank" class="btn">
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-            <strong>View contribution</strong>
-            <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
-          </a>
-
-      </div>
-    </div>
-  </div>    
+  <div class="action">
+    <a href="<%= contribution.$link %>" target="_blank" class="btn">
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+      <strong>Go fix it</strong>
+      <!--[if gte mso 11]>&nbsp; &nbsp; &nbsp;<![endif]-->
+    </a>
+  </div>
 </div>
