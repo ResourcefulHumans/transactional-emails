@@ -1,4 +1,2 @@
-<%= emailBodyTxt %>
-
-Check out the feedback you got:
+Check out your feedback:
 https://app.networhk.net/#/stars/<%= starh.id %>

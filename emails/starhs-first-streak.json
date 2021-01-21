@@ -1,10 +1,9 @@
 {
   "area": "staRHs",
-  "subject": "<%= emailSubject %>",
-  "title": "You Are Awesome!",
+  "subject": "[staRHs] Your First Streak",
+  "title": "YIPPIE! YOU SENT ALL YOUR STARS LAST WEEK!",
   "type_error": false,
   "defaults": {
-    "emailSubject": "[staRHs] You got a Star! 🌠",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"

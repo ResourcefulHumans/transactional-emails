@@ -1,10 +1,9 @@
 {
   "area": "staRHs",
-  "subject": "<%= emailSubject %>",
-  "title": "You Are Awesome!",
+  "subject": "[staRHs] You Lost Your Streak",
+  "title": "Oh No! YOU LOST YOUR STREAK...",
   "type_error": false,
   "defaults": {
-    "emailSubject": "[staRHs] You got a Star! 🌠",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"
