@@ -1,612 +1,678 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= subject %></title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= subject %></title>
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en"
+    />
 
-  <style type="text/css">
-    /* Template styling */
-    body, td, input, span, p, textarea, select, h1, .btn {
-      font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-
-    body {
-      width: 100%;
-      max-width: 100%;
-      font-size: 16px;
-      line-height: 24px;
-      color: #fff;
-      background: #3399ff; 
-    }
-
-    .staRHs {
-      background: #1D1E20; 
-    }
-
-    h1.title {
-      text-transform: uppercase;
-      font-size: 48px;
-      font-weight: bold;
-      margin: 0 auto;
-      padding: 60px 0 30px 0;
-      line-height: 1em;
-    }
-
-    .title {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-
-    p, ul, ul li {
-      font-size: 16px;
-      margin: 0 0 16px;
-      line-height: 24px;
-    }
-
-    ul {
-      margin-bottom: 24px;
-    }
-
-    ul li {
-      margin-bottom: 8px;
-    }
-
-    p.mini {
-      font-size: 12px;
-      line-height: 18px;
-      color: #ABAFB4;
-    }
-
-    p.message {
-      font-size: 16px;
-      line-height: 20px;
-      margin-bottom: 4px;
-    }
-
-    hr {
-      margin: 2rem 0;
-      width: 100%;
-      border: none;
-      border-bottom: 1px solid #3399ff;
-    }
-
-    a, a:link, a:visited, a:active, a:hover {
-      font-weight: bold;
-      color: #fff;
-      text-decoration: none;
-      word-break: break-word;
-    }
-
-    a:active, a:hover {
-      text-decoration: underline;
-    }
-
-    .time {
-      font-size: 11px;
-      color: #ABAFB4;
-      padding-right: 6px;
-    }
-
-    .avatar {
-      border-radius: 2px;
-    }
-
-    .heart {
-      color: red;
-    }
-
-    .staRHs .heart {
-      color: #008FD5;
-    }
-
-    .aimee {
-      display: flex;
-    }
-
-    .body_div {
-      display: flex;
-    }
-
-    .body_text {
-      margin: 0 auto;
-      font-size: 19px;
-    }
-
-    .image_div {
-      display:flex;
-      margin-right: 32px;
-      margin-left: 32px;
-    }
-
-    .image_div img {
-      max-width: inherit;
-      height: 405px;
-      margin: 0 auto;
-    }
-
-    .include_div {
-      margin:16px auto;
-    }
-
-    .desktop_header {
-      margin: 40px 24px 32px 0;
-    }
-
-    .logo {
-      margin-left: 10px;
-      width: 265px;
-      height: 45px;
-    }
-
-    .footer {
-      font-size: 18px; 
-      line-height: 45px;
-    }
-
-    .gold {
-      color: #FFC931;
-    }
-
-    del {
-      text-decoration: line-through;
-    }
-
-    #footer p {
-      margin-top: 16px;
-      font-size: 12px;
-    }
-
-    /* Client-specific Styles */
-    #outlook a {
-      padding: 0;
-    }
-
-    body {
-      width: 100% !important;
-      -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-      margin: 0 auto;
-      padding: 0;
-    }
-
-    .ExternalClass {
-      width: 100%;
-    }
-
-    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
-      line-height: 100%;
-    }
-
-    #backgroundTable {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      line-height: 100% !important;
-    }
-
-    /* Some sensible defaults for images
-    Bring inline: Yes. */
-    img {
-      outline: none;
-      text-decoration: none;
-      -ms-interpolation-mode: bicubic;
-    }
-
-    a img {
-      border: none;
-    }
-
-    .image_fix {
-      display: block;
-    }
-
-    /* Outlook 07, 10 Padding issue fix
-    Bring inline: No.*/
-    table td {
-      border-collapse: collapse;
-    }
-
-    /* Fix spacing around Outlook 07, 10 tables
-    Bring inline: Yes */
-    table {
-      border-collapse: collapse;
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
-    }
-
-    /* Rate */
-    .rate table {
-      width: 100%;
-      margin-top: 16px;
-    }
-
-    .rate a {
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-    }
-
-    .rate p {
-      font-size: 12px;
-      line-height: 16px;
-      font-weight: bold;
-      text-align: center;
-      word-break: break-word;
-      margin:0 1px;
-    }
-
-    .rate img {
-      width: 32px; 
-      height: 32px;
-      margin: 0 auto 16px auto;
-    }
-
-    div.content {
-      padding: 32px;
-    }
-    div.action {
-      display: flex;
-    }
-
-    .btn {
-      display: inline;
-      margin: 40px auto;
-      text-decoration: none;
-      border-style: none;
-      border: 0;
-      padding: 10px;
-      font-size: 24px;
-      color: #008FD5;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      background: #fff;
-      vertical-align: center;
-      text-align: center;
-      -webkit-font-smoothing: antialiased;
-      text-transform: uppercase;
-    }
-
-    .staRHs .btn{
-      color: #1D1E20;
-    }
-
-    .btn-danger {
-      background: #dc0000;
-      border: 1px solid #dc0000;
-    }
-
-    hr {
-      border: none;
-      border-bottom: 1px solid #ECECEC;
-      margin: 2.5rem 0;
-      width: 100%;
-    }
-
-    .gold {
-      color: #F2B646;
-    }
-
-    /* Mobile */
-    @media only screen and (max-device-width: 480px) {
-      /* Part one of controlling phone number linking for mobile. */
-      a[href^="tel"], a[href^="sms"] {
-        text-decoration: none;
-        color: blue; /* or whatever your want */
-        pointer-events: none;
-        cursor: default;
-      }
-
-      .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
-        text-decoration: default;
-        color: orange !important;
-        pointer-events: auto;
-        cursor: default;
-      }
-
-      .aimee {
-        display: block !important;
-      }
-
-      .title {
-        flex-direction: column !important;
-        font-size: 40px !important;
-      }
-
+    <style type="text/css">
+      /* Template styling */
+      body,
+      td,
+      input,
+      span,
+      p,
+      textarea,
+      select,
+      h1,
       .btn {
-        font-size: 20px !important;
+        font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial,
+          sans-serif;
       }
 
-    }
-
-    /* Not all email clients will obey these, but the important ones will */
-    @media only screen and (max-width: 480px) {
-      .card {
-        padding: 1rem 0.75rem !important;
-      }
-
-      .link_option {
-        font-size: 14px;
-      }
-
-      hr {
-        margin: 2rem -0.75rem !important;
-        padding-right: 1.5rem !important;
-      }
-
-      .aimee {
-        display: block !important;
-      }
-
-      .title {
-        flex-direction: column !important;
-        font-size: 40px !important;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .logo {
-        width: 132px !important;
-        height: 22px !important;
-      }
-
-      .footer {
-        font-size: 14px !important; 
-        line-height: 22px !important;
-      }
-
-    }
-
-    /* More Specific Targeting */
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-      /* You guessed it, ipad (tablets, smaller screens, etc) */
-      /* repeating for the ipad */
-      a[href^="tel"], a[href^="sms"] {
-        text-decoration: none;
-        color: blue; /* or whatever your want */
-        pointer-events: none;
-        cursor: default;
-      }
-
-      .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
-        text-decoration: default;
-        color: orange !important;
-        pointer-events: auto;
-        cursor: default;
-      }
-    }
-
-    @media (prefers-color-scheme: dark) {
       body {
-        color: #fff !important;
-        background: #3399ff !important; 
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        background: #3399ff;
       }
 
       .staRHs {
-        color: #fff !important;
-        background: #1D1E20 !important; 
+        background: #1d1e20;
       }
 
-      .btn {
-        color: #008FD5 !important;
-        background: #fff !important;
+      h1.title {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 0 auto;
+        padding: 60px 0 30px 0;
+        line-height: 1em;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
       }
 
       p,
-      span,
-      h1.title {
-        color: #fff !important;
-      }
-
-      .staRHs .btn{
-        color: #fff !important;
-        color: #1D1E20 !important;
-      }
-        
-    }
-
-    /* iPhone Retina */
-    @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 640px) {
-      /* Must include !important on each style to override inline styles */
-     
-      .title {
-        flex-direction: column !important;
-        font-size: 40px !important;
-      }
-      
-      .btn {
-        font-size: 20px !important;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .logo {
-        width: 132px !important;
-        height: 22px !important;
-      }
-
-      .footer {
-        font-size: 14px !important; 
-        line-height: 22px !important;
-      }
-    }
-
-    /* Android targeting */
-    @media only screen and (-webkit-device-pixel-ratio: .75) {
-      /* Put CSS for low density (ldpi) Android layouts in here */
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .aimee {
-        display: block !important;
-      }
-
-      .title {
-        flex-direction: column !important;
-        font-size: 40px !important;
-      }
-
-      .btn {
-        font-size: 20px !important;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .logo {
-        width: 132px !important;
-        height: 22px !important;
-      }
-
-      .footer {
-        font-size: 14px !important; 
-        line-height: 22px !important;
-      }
-    }
-
-    @media only screen and (-webkit-device-pixel-ratio: 1.5) {
-      /* Put CSS for high density (hdpi) Android layouts in here */
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .aimee {
-        display: block !important;
-      }
-
-      .title {
-        flex-direction: column !important;
-        font-size: 40px !important;
-      }
-
-      .btn {
-        font-size: 20px !important;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .logo {
-        width: 132px !important;
-        height: 22px !important;
-      }
-
-      .footer {
-        font-size: 14px !important; 
-        line-height: 22px !important;
-      }
-    }
-
-    /* Galaxy Nexus */
-    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
-      body {
+      ul,
+      ul li {
         font-size: 16px;
+        margin: 0 0 16px;
+        line-height: 24px;
+      }
+
+      ul {
+        margin-bottom: 24px;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+      }
+
+      p.mini {
+        font-size: 12px;
+        line-height: 18px;
+        color: #abafb4;
+      }
+
+      p.message {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 4px;
+      }
+
+      hr {
+        margin: 2rem 0;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #3399ff;
+      }
+
+      a,
+      a:link,
+      a:visited,
+      a:active,
+      a:hover {
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        word-break: break-word;
+      }
+
+      a:active,
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .time {
+        font-size: 11px;
+        color: #abafb4;
+        padding-right: 6px;
+      }
+
+      .avatar {
+        border-radius: 2px;
+      }
+
+      .heart {
+        color: red;
+      }
+
+      .staRHs .heart {
+        color: #008fd5;
+      }
+
+      .aimee {
+        display: flex;
+      }
+
+      .body_div {
+        display: flex;
+      }
+
+      .body_text {
+        margin: 0 auto;
+        font-size: 19px;
+      }
+
+      .image_div {
+        display: flex;
+        margin-right: 32px;
+        margin-left: 32px;
       }
 
       .image_div img {
-        width: auto !important;
-        height: 300px !important;
+        max-width: inherit;
+        height: 405px;
+        margin: 0 auto;
+      }
+
+      .include_div {
+        margin: 16px auto;
+      }
+
+      .desktop_header {
+        margin: 40px 24px 32px 0;
       }
 
       .logo {
-        width: 132px !important;
-        height: 22px !important;
+        margin-left: 10px;
+        width: 265px;
+        height: 45px;
       }
 
       .footer {
-        font-size: 14px !important; 
-        line-height: 22px !important;
+        font-size: 18px;
+        line-height: 45px;
       }
-    }
 
-    /* end Android targeting */
-  </style>
-</head>
-<body
-  style="max-width: 100%; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;"
-  class="{{{area}}}"
->
-<table width="100%" cellpadding="0" cellspacing="0" border="0"
-       style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 24px; margin: 0; padding: 0; width: 100%; font-size: 17px;">
-  <tr>
-    <td style="border-collapse: collapse;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
-              style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <tr>
-          <td valign="top" style="border-collapse: collapse;">
-            <div style="margin: 0 auto; display: flex">
+      .gold {
+        color: #ffc931;
+      }
 
-              <h1 class="title">
+      del {
+        text-decoration: line-through;
+      }
 
-                {{#if type_error}}
-                  <div style="margin:0 5px 5px 0;">
-                    <img src="https://networhk.net/img/icons/warning_round.png">
-                  </div>
-                {{/if}}
+      #footer p {
+        margin-top: 16px;
+        font-size: 12px;
+      }
 
-                {{{title}}}
-              </h1>
+      /* Client-specific Styles */
+      #outlook a {
+        padding: 0;
+      }
 
-            </div>
-          </td>
-        </tr>
-        {{#if type_error}}
-          <tr>
-            <td style="border-collapse: collapse; height: 2px; background-color: #E31919 ; background-repeat: repeat-x; background-size: auto 5px;"></td>
-          </tr>
-         {{/if}}
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" style="border-collapse: collapse;">
-      <table cellpadding="0" cellspacing="0" border="0" align="center"
-             style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: white; border-radius: 3px; margin-bottom: 1rem; overflow:hidden !important">
-        <tr>
-          <td valign="top" style="border-collapse: collapse;">
-            <div style=" margin: 0 auto;">
+      body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0 auto;
+        padding: 0;
+      }
 
-              {{{content}}}
+      .ExternalClass {
+        width: 100%;
+      }
 
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" align="center" style="display:flex">
-      <div style="margin:5px auto;display:flex">
-        <span class="footer">
-          Made with <span class="heart">❤</span> by
-        </span>
-        <a href="https://resourceful-humans.com/" target="_blank" >
-          {{#if area}}
-            <img class="logo" src="https://networhk.net/img/aimee/rh_logo.png">
-            {{else}}
-            <img class="logo" src="https://networhk.net/img/aimee/rh_logo_black.png">
-          {{/if}}
-          
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-</body>
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+
+      #backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        line-height: 100% !important;
+      }
+
+      /* Some sensible defaults for images
+    Bring inline: Yes. */
+      img {
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      a img {
+        border: none;
+      }
+
+      .image_fix {
+        display: block;
+      }
+
+      /* Outlook 07, 10 Padding issue fix
+    Bring inline: No.*/
+      table td {
+        border-collapse: collapse;
+      }
+
+      /* Fix spacing around Outlook 07, 10 tables
+    Bring inline: Yes */
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      /* Rate */
+      .rate table {
+        width: 100%;
+        margin-top: 16px;
+      }
+
+      .rate a {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      .rate p {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+        text-align: center;
+        word-break: break-word;
+        margin: 0 1px;
+      }
+
+      .rate img {
+        width: 32px;
+        height: 32px;
+        margin: 0 auto 16px auto;
+      }
+
+      div.content {
+        padding: 32px;
+      }
+      div.action {
+        display: flex;
+      }
+
+      .btn {
+        display: inline;
+        margin: 40px auto;
+        text-decoration: none;
+        border-style: none;
+        border: 0;
+        padding: 10px;
+        font-size: 24px;
+        color: #1d1e20;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        background: #fff;
+        vertical-align: center;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        text-transform: uppercase;
+      }
+
+      .btn-danger {
+        background: #dc0000;
+        border: 1px solid #dc0000;
+      }
+
+      hr {
+        border: none;
+        border-bottom: 1px solid #ececec;
+        margin: 2.5rem 0;
+        width: 100%;
+      }
+
+      .gold {
+        color: #f2b646;
+      }
+
+      /* Mobile */
+      @media only screen and (max-device-width: 480px) {
+        /* Part one of controlling phone number linking for mobile. */
+        a[href^="tel"],
+        a[href^="sms"] {
+          text-decoration: none;
+          color: blue; /* or whatever your want */
+          pointer-events: none;
+          cursor: default;
+        }
+
+        .mobile_link a[href^="tel"],
+        .mobile_link a[href^="sms"] {
+          text-decoration: default;
+          color: orange !important;
+          pointer-events: auto;
+          cursor: default;
+        }
+
+        .aimee {
+          display: block !important;
+        }
+
+        .title {
+          flex-direction: column !important;
+          font-size: 40px !important;
+        }
+
+        .btn {
+          font-size: 20px !important;
+        }
+      }
+
+      /* Not all email clients will obey these, but the important ones will */
+      @media only screen and (max-width: 480px) {
+        .card {
+          padding: 1rem 0.75rem !important;
+        }
+
+        .link_option {
+          font-size: 14px;
+        }
+
+        hr {
+          margin: 2rem -0.75rem !important;
+          padding-right: 1.5rem !important;
+        }
+
+        .aimee {
+          display: block !important;
+        }
+
+        .title {
+          flex-direction: column !important;
+          font-size: 40px !important;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .logo {
+          width: 132px !important;
+          height: 22px !important;
+        }
+
+        .footer {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+      }
+
+      /* More Specific Targeting */
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /* You guessed it, ipad (tablets, smaller screens, etc) */
+        /* repeating for the ipad */
+        a[href^="tel"],
+        a[href^="sms"] {
+          text-decoration: none;
+          color: blue; /* or whatever your want */
+          pointer-events: none;
+          cursor: default;
+        }
+
+        .mobile_link a[href^="tel"],
+        .mobile_link a[href^="sms"] {
+          text-decoration: default;
+          color: orange !important;
+          pointer-events: auto;
+          cursor: default;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #fff !important;
+          background: #3399ff !important;
+        }
+
+        .staRHs {
+          color: #fff !important;
+          background: #1d1e20 !important;
+        }
+
+        .btn {
+          color: #1d1e20 !important;
+          background: #fff !important;
+        }
+
+        p,
+        span,
+        h1.title {
+          color: #fff !important;
+        }
+      }
+
+      /* iPhone Retina */
+      @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 640px) {
+        /* Must include !important on each style to override inline styles */
+
+        .title {
+          flex-direction: column !important;
+          font-size: 40px !important;
+        }
+
+        .btn {
+          font-size: 20px !important;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .logo {
+          width: 132px !important;
+          height: 22px !important;
+        }
+
+        .footer {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+      }
+
+      /* Android targeting */
+      @media only screen and (-webkit-device-pixel-ratio: 0.75) {
+        /* Put CSS for low density (ldpi) Android layouts in here */
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .aimee {
+          display: block !important;
+        }
+
+        .title {
+          flex-direction: column !important;
+          font-size: 40px !important;
+        }
+
+        .btn {
+          font-size: 20px !important;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .logo {
+          width: 132px !important;
+          height: 22px !important;
+        }
+
+        .footer {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+      }
+
+      @media only screen and (-webkit-device-pixel-ratio: 1.5) {
+        /* Put CSS for high density (hdpi) Android layouts in here */
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .aimee {
+          display: block !important;
+        }
+
+        .title {
+          flex-direction: column !important;
+          font-size: 40px !important;
+        }
+
+        .btn {
+          font-size: 20px !important;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .logo {
+          width: 132px !important;
+          height: 22px !important;
+        }
+
+        .footer {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+      }
+
+      /* Galaxy Nexus */
+      @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+        body {
+          font-size: 16px;
+        }
+
+        .image_div img {
+          width: auto !important;
+          height: 300px !important;
+        }
+
+        .logo {
+          width: 132px !important;
+          height: 22px !important;
+        }
+
+        .footer {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+      }
+
+      /* end Android targeting */
+    </style>
+  </head>
+  <body
+    style="
+      max-width: 100%;
+      width: 100% !important;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      margin: 0 auto;
+      padding: 0;
+    "
+    class="{{{area}}}"
+  >
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        line-height: 24px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 17px;
+      "
+    >
+      <tr>
+        <td style="border-collapse: collapse">
+          <table
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            align="center"
+            style="
+              border-collapse: collapse;
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+            "
+          >
+            <tr>
+              <td valign="top" style="border-collapse: collapse">
+                <div style="margin: 0 auto; display: flex">
+                  <h1 class="title">
+                    {{#if type_error}}
+                    <div style="margin: 0 5px 5px 0">
+                      <img
+                        src="https://networhk.net/img/icons/warning_round.png"
+                      />
+                    </div>
+                    {{/if}} {{{title}}}
+                  </h1>
+                </div>
+              </td>
+            </tr>
+            {{#if type_error}}
+            <tr>
+              <td
+                style="
+                  border-collapse: collapse;
+                  height: 2px;
+                  background-color: #e31919;
+                  background-repeat: repeat-x;
+                  background-size: auto 5px;
+                "
+              ></td>
+            </tr>
+            {{/if}}
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-collapse: collapse">
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            align="center"
+            style="
+              border-collapse: collapse;
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+              color: white;
+              border-radius: 3px;
+              margin-bottom: 1rem;
+              overflow: hidden !important;
+            "
+          >
+            <tr>
+              <td valign="top" style="border-collapse: collapse">
+                <div style="margin: 0 auto">{{{content}}}</div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="center" style="display: flex">
+          <div style="margin: 5px auto; display: flex">
+            <span class="footer">
+              Made with <span class="heart">❤</span> by
+            </span>
+            <a href="https://resourceful-humans.com/" target="_blank">
+              {{#if area}}
+              <img
+                class="logo"
+                src="https://networhk.net/img/aimee/rh_logo.png"
+              />
+              {{else}}
+              <img
+                class="logo"
+                src="https://networhk.net/img/aimee/rh_logo_black.png"
+              />
+              {{/if}}
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
