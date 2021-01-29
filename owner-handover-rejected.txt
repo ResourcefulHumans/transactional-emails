@@ -1,0 +1,40 @@
+Hi Tony Stark,
+
+I have some disappointing news. Jason Wilkes rejected to take over ownership
+for this contribution:
+
+-----------------------------------------------------------------------
+
+# Build the Gamma Cannon
+
+Priority: gold
+Done:     no
+Pending:  no
+
+I need your help to build the Gamma Cannon so we can stop Whitney Frost!
+
+Once it's build we need to
+
+- Test it (we might skip that…)
+- Fire it at Whitney!
+
+## Tasks (4)
+
+[x] Bring the prototype to the lab
+[ ] Finish the construction
+[ ] Test it
+[ ] Fire it at Whitney Frost!
+
+
+View contribution:
+http://networhk.com/
+
+
+Hugs,
+AImee
+
+--
+NetwoRHk - 2019
+Made with ❤ by Resourceful Humans
+
+https://resourceful-humans.com/
