@@ -1,7 +1,7 @@
 {
   "area": "",
   "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will be degraded soon",
-  "title": "Health degrade pending",
+  "title": "Are Things Going Ok?",
   "type_error": false,
   "defaults": {
     "recipient": {
