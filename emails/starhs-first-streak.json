@@ -1,7 +1,8 @@
 {
   "area": "staRHs",
   "subject": "[staRHs] Your First Streak",
-  "title": "YIPPIE! YOU SENT ALL YOUR STARS LAST WEEK!",
+  "title": "YIPPIE!",
+  "title2": "YOU SENT ALL YOUR STARS LAST WEEK!",
   "type_error": false,
   "defaults": {
     "recipient": {

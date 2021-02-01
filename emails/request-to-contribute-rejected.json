@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> rejected to add you to: <%= contribution.title %>",
   "title": "REQUEST TO CONTRIBUTE REJECTED",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

@@ -20,7 +20,7 @@
       select,
       h1,
       .btn {
-        font-family: "Roboto", "Tahoma", "Helvetica Neue", Helvetica, Arial,
+        font-family: 'Roboto', 'Tahoma', 'Helvetica Neue', Helvetica, Arial,
           sans-serif;
       }
 
@@ -48,7 +48,7 @@
 
       .title {
         display: flex;
-        flex-direction: row;
+        flex-direction: column !important;
         justify-content: center;
         text-align: center;
       }
@@ -314,16 +314,16 @@
       /* Mobile */
       @media only screen and (max-device-width: 480px) {
         /* Part one of controlling phone number linking for mobile. */
-        a[href^="tel"],
-        a[href^="sms"] {
+        a[href^='tel'],
+        a[href^='sms'] {
           text-decoration: none;
           color: blue; /* or whatever your want */
           pointer-events: none;
           cursor: default;
         }
 
-        .mobile_link a[href^="tel"],
-        .mobile_link a[href^="sms"] {
+        .mobile_link a[href^='tel'],
+        .mobile_link a[href^='sms'] {
           text-decoration: default;
           color: orange !important;
           pointer-events: auto;
@@ -335,7 +335,6 @@
         }
 
         .title {
-          flex-direction: column !important;
           font-size: 40px !important;
         }
 
@@ -364,7 +363,6 @@
         }
 
         .title {
-          flex-direction: column !important;
           font-size: 40px !important;
         }
 
@@ -388,16 +386,16 @@
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         /* You guessed it, ipad (tablets, smaller screens, etc) */
         /* repeating for the ipad */
-        a[href^="tel"],
-        a[href^="sms"] {
+        a[href^='tel'],
+        a[href^='sms'] {
           text-decoration: none;
           color: blue; /* or whatever your want */
           pointer-events: none;
           cursor: default;
         }
 
-        .mobile_link a[href^="tel"],
-        .mobile_link a[href^="sms"] {
+        .mobile_link a[href^='tel'],
+        .mobile_link a[href^='sms'] {
           text-decoration: default;
           color: orange !important;
           pointer-events: auto;
@@ -433,7 +431,6 @@
         /* Must include !important on each style to override inline styles */
 
         .title {
-          flex-direction: column !important;
           font-size: 40px !important;
         }
 
@@ -470,7 +467,6 @@
         }
 
         .title {
-          flex-direction: column !important;
           font-size: 40px !important;
         }
 
@@ -506,7 +502,6 @@
         }
 
         .title {
-          flex-direction: column !important;
           font-size: 40px !important;
         }
 
@@ -606,7 +601,9 @@
                         src="https://networhk.net/img/icons/warning_round.png"
                       />
                     </div>
-                    {{/if}} {{{title}}}
+                    {{/if}} {{{title}}} {{#if title2}}
+                    <div>{{{title2}}}</div>
+                    {{/if}}
                   </h1>
                 </div>
               </td>

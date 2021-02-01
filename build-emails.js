@@ -12,7 +12,7 @@ let showdown = require('showdown')
 let converter = new showdown.Converter()
 let transactionTemplates = require('./')
 
-function run () {
+function run() {
   let templatedata = {
     webHost: process.env.WEB_HOST || 'http://example.com/'
   }
@@ -20,48 +20,50 @@ function run () {
   console.log()
   console.log('Building emails files …')
   console.log(' data:')
-  _map(templatedata, function (value, key) {
+  _map(templatedata, function(value, key) {
     console.log('  ' + key + ': ' + value)
   })
 
-  return transactionTemplates.load()
-    .map((email) => {
-      // Write to disk for preview
-      let target = path.join(__dirname, '/build/' + email.identifier)
-      console.log('Writing ' + email.identifier, '->', target)
-      let data = {}
-      _merge(data, templatedata)
-      _merge(data, email.defaults)
-      data.subject = _template(email.subject)(data)
-      data.title = _template(email.title)(data)
-      data.type_error = email.type_error
-      let formatContent = (data) => {
-        if (!(typeof data === 'object')) {
-          return data
-        }
-        if (data['@markdown']) {
-          return {
-            '@text': data['@markdown'],
-            '@html': converter.makeHtml(data['@markdown'])
-          }
-        }
-        _forEach(data, (value, key) => {
-          data[key] = formatContent(value)
-        })
+  return transactionTemplates.load().map(email => {
+    // Write to disk for preview
+    let target = path.join(__dirname, '/build/' + email.identifier)
+    console.log('Writing ' + email.identifier, '->', target)
+    let data = {}
+    _merge(data, templatedata)
+    _merge(data, email.defaults)
+    data.subject = _template(email.subject)(data)
+    data.title = _template(email.title)(data)
+    data.title2 = _template(email.title2)(data)
+    data.type_error = email.type_error
+    let formatContent = data => {
+      if (!(typeof data === 'object')) {
         return data
       }
-      formatContent(data)
-      data._ = require('lodash')
-      return Promise.join(
-        fs.writeFileAsync(target + '.html', _template(email.html)(data)),
-        fs.writeFileAsync(target + '.txt', _template(email.text)(data))
-      )
-    })
+      if (data['@markdown']) {
+        return {
+          '@text': data['@markdown'],
+          '@html': converter.makeHtml(data['@markdown'])
+        }
+      }
+      _forEach(data, (value, key) => {
+        data[key] = formatContent(value)
+      })
+      return data
+    }
+    formatContent(data)
+    data._ = require('lodash')
+    return Promise.join(
+      fs.writeFileAsync(target + '.html', _template(email.html)(data)),
+      fs.writeFileAsync(target + '.txt', _template(email.text)(data))
+    )
+  })
 }
 
-run().then(function () {
-  process.exit(0)
-}).catch(function (err) {
-  console.error(err)
-  process.exit(1)
-})
+run()
+  .then(function() {
+    process.exit(0)
+  })
+  .catch(function(err) {
+    console.error(err)
+    process.exit(1)
+  })

@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] You have been removed from: <%= contribution.title %>",
   "title": "Removed from contribution",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

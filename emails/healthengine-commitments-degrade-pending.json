@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will be degraded soon",
   "title": "Are Things Going Ok?",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

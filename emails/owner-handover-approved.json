@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] <%= recipient.firstname %>, <%= sender.firstname %> accepted to take over ownership of <%= contribution.title %>",
   "title": "Ownership Takeover Approved",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "sender": {

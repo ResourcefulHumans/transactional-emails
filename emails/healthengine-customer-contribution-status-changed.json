@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[<%= networhk.label %> netwoRHk] <%= customer.name %> changed the status of <%= contribution.title %> to: <%= status.status %>",
   "title": "<%= customer.name %> says: <%= status.status %>!",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

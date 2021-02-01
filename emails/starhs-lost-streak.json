@@ -1,7 +1,8 @@
 {
   "area": "staRHs",
   "subject": "[staRHs] You Lost Your Streak",
-  "title": "Oh No! YOU LOST YOUR STREAK...",
+  "title": "Oh No!",
+  "title2": "YOU LOST YOUR STREAK...",
   "type_error": false,
   "defaults": {
     "recipient": {

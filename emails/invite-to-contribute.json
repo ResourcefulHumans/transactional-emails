@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> invites you to contribute to: <%= contribution.title %>",
   "title": "YOU ARE INVITED TO CONTRIBUTE",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

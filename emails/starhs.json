@@ -2,6 +2,7 @@
   "area": "staRHs",
   "subject": "<%= emailSubject %>",
   "title": "You Are Awesome!",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "emailSubject": "[staRHs] You got a Star! 🌠",

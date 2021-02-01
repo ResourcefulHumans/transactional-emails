@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] Contribution updated: <%= contribution.title %>",
   "title": "CONTRIBUTION UPDATED",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

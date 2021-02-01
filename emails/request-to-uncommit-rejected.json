@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> rejected to uncommit you from: <%= contribution.title %>",
   "title": "REQUEST TO UNCOMMIT REJECTED",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

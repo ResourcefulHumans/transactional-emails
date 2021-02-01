@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[<%= networhk.label %> netwoRHk] The <%= contribution.title %> contributions' health has been degraded",
   "title": "Health degraded",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {

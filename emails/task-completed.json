@@ -2,6 +2,7 @@
   "area": "",
   "subject": "[netwoRHk] ✓ completed task in <%= contribution.title %>: <%= task.description %>",
   "title": "Completed Task",
+  "title2": "",
   "type_error": false,
   "defaults": {
     "recipient": {
