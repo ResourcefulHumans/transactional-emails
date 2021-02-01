@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] Contribution updated: <%= contribution.title %>",
+  "subject": "[netwoRHk] Contribution updated",
   "title": "CONTRIBUTION UPDATED",
   "title2": "",
   "type_error": false,
@@ -10,7 +10,7 @@
       "lastname": "Wilkes"
     },
     "contribution": {
-      "$link": "http://networhk.com/",
+      "$link": "https://app.airh.team/#/me/contributions/contribution/840",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "open": "no",

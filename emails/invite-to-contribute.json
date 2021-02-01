@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> invites you to contribute to: <%= contribution.title %>",
+  "subject": "[netwoRHk] <%= sender.firstname %> invites you to contribute!",
   "title": "YOU ARE INVITED TO CONTRIBUTE",
   "title2": "",
   "type_error": false,
@@ -14,7 +14,7 @@
       "lastname": "Stark"
     },
     "contribution": {
-      "$link": "http://networhk.com/",
+      "$link": "https://app.airh.team/#/me/contributions/contribution/840",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "description": {

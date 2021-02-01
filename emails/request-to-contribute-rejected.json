@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> rejected to add you to: <%= contribution.title %>",
+  "subject": "[netwoRHk] <%= sender.firstname %> rejected to add you",
   "title": "REQUEST TO CONTRIBUTE REJECTED",
   "title2": "",
   "type_error": false,
@@ -14,7 +14,7 @@
       "lastname": "Stark"
     },
     "contribution": {
-      "$link": "http://networhk.com/",
+      "$link": "https://app.airh.team/#/me/contributions/contribution/840",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "description": {

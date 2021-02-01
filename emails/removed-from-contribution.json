@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] You have been removed from: <%= contribution.title %>",
+  "subject": "[netwoRHk] You have been removed from a contribution",
   "title": "Removed from contribution",
   "title2": "",
   "type_error": false,
@@ -10,7 +10,7 @@
       "lastname": "Wilkes"
     },
     "contribution": {
-      "$link": "http://networhk.com/",
+      "$link": "https://app.airh.team/#/me/contributions/contribution/840",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "open": "no",

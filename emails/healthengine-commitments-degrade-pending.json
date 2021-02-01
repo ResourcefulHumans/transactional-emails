@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health will be degraded soon",
+  "subject": "[netwoRHk] Your commitments' health will be degraded soon",
   "title": "Are Things Going Ok?",
   "title2": "",
   "type_error": false,
@@ -11,7 +11,7 @@
     },
     "contributions": [
       {
-        "$link": "http://networhk.com/",
+        "$link": "https://app.airh.team/#/me/contributions/contribution/840",
         "title": "Build the Gamma Cannon",
         "priority": "gold",
         "description": {
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "$link": "http://networhk.com/",
+        "$link": "https://app.airh.team/#/me/contributions/contribution/840",
         "title": "Fix the Tracker Receiver",
         "description": {
           "@markdown": "Please fix the Tracker Receiver so we can find Underwood and mount a rescue attempt."

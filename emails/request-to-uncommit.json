@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> <%= sender.lastname %> wants to uncommit from: <%= contribution.title %>",
+  "subject": "[netwoRHk] <%= sender.firstname %> wants to uncommit",
   "title": "REQUEST TO UNCOMMIT",
   "title2": "",
   "type_error": false,
@@ -14,7 +14,7 @@
       "lastname": "Wilkes"
     },
     "contribution": {
-      "$link": "http://networhk.com/",
+      "$link": "https://app.airh.team/#/me/contributions/contribution/840",
       "title": "Build the Gamma Cannon",
       "priority": "gold",
       "description": {
