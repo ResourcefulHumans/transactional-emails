@@ -74,8 +74,7 @@ module.exports = {
                     product,
                     area: emailConfig.area,
                     title: emailConfig.title,
-                    title2: emailConfig.title2,
-                    type_error: emailConfig.type_error
+                    title2: emailConfig.title2
                   }),
                   {
                     webResources: {
@@ -106,8 +105,7 @@ module.exports = {
                 content: textTemplate,
                 product,
                 title: emailConfig.title,
-                title2: emailConfig.title2,
-                type_error: emailConfig.type_error
+                title2: emailConfig.title2
               })
             }
           })

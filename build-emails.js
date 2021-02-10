@@ -34,7 +34,6 @@ function run() {
     data.subject = _template(email.subject)(data)
     data.title = _template(email.title)(data)
     data.title2 = _template(email.title2)(data)
-    data.type_error = email.type_error
     let formatContent = data => {
       if (!(typeof data === 'object')) {
         return data

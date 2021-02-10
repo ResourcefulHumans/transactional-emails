@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> wants to uncommit",
+  "subject": "[netwoRHk] Request to uncommit",
   "title": "REQUEST TO UNCOMMIT",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Tony",

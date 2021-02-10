@@ -3,7 +3,7 @@
   "subject": "[netwoRHk] <%= recipient.firstname %>, here is your verification code for Slack",
   "title": "Slack Verification Code",
   "title2": "",
-  "type_error": false,
+
   "defaults": {
     "recipient": {
       "firstname": "Jason",

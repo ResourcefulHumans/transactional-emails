@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= recipient.firstname %>, <%= sender.firstname %> rejected to take over ownership of <%= contribution.title %>",
+  "subject": "[netwoRHk] Request rejected!",
   "title": "Ownership Takeover Rejected",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "sender": {
       "firstname": "Jason",

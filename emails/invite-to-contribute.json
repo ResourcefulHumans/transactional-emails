@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> invites you to contribute!",
+  "subject": "[netwoRHk] You are invited!",
   "title": "YOU ARE INVITED TO CONTRIBUTE",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

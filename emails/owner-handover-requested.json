@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= recipient.firstname %>, <%= sender.firstname %> wants you to take over ownership of <%= contribution.title %>",
+  "subject": "[netwoRHk] Wanna be captain?",
   "title": "Please take over Ownership",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "sender": {
       "firstname": "Tony",

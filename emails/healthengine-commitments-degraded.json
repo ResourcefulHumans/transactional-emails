@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[<%= networhk.label %> netwoRHk] <%= recipient.firstname %>, your commitments' health has been degraded",
+  "subject": "[netwoRHk] <%= recipient.firstname %>, your commitments' health has been degraded",
   "title": "Health degraded",
   "title2": "",
-  "type_error": true,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

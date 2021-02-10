@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] ✓ completed task in <%= contribution.title %>: <%= task.description %>",
+  "subject": "[netwoRHk] Task completed!",
   "title": "Completed Task",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

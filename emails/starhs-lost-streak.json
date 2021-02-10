@@ -1,9 +1,9 @@
 {
   "area": "staRHs",
-  "subject": "[staRHs] Looser!",
+  "subject": "[staRHs] Loser!",
   "title": "Oh No!",
   "title2": "YOU LOST YOUR STREAK!",
-  "type_error": false,
+
   "defaults": {
     "recipient": {
       "firstname": "Jason",

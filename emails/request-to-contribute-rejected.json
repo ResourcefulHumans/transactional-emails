@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> rejected to add you",
+  "subject": "[netwoRHk] Request declined",
   "title": "REQUEST TO CONTRIBUTE REJECTED",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

@@ -594,32 +594,13 @@
               <td valign="top" style="border-collapse: collapse">
                 <div style="margin: 0 auto; display: flex">
                   <h1 class="title">
-                    {{#if type_error}}
-                    <div style="margin: 0 5px 5px 0">
-                      <img
-                        src="https://networhk.net/img/icons/warning_round.png"
-                      />
-                    </div>
-                    {{/if}} {{{title}}} {{#if title2}}
+                    {{{title}}} {{#if title2}}
                     <div>{{{title2}}}</div>
                     {{/if}}
                   </h1>
                 </div>
               </td>
             </tr>
-            {{#if type_error}}
-            <tr>
-              <td
-                style="
-                  border-collapse: collapse;
-                  height: 2px;
-                  background-color: #e31919;
-                  background-repeat: repeat-x;
-                  background-size: auto 5px;
-                "
-              ></td>
-            </tr>
-            {{/if}}
           </table>
         </td>
       </tr>

@@ -1,9 +1,8 @@
 {
   "area": "staRHs",
-  "subject": "[staRHs] You keep on rocking!",
+  "subject": "[staRHs] Keep on rocking!",
   "title": "YIPPIE!",
   "title2": "YOU SENT ALL YOUR STARS AGAIN LAST WEEK!",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

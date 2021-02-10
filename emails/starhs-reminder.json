@@ -1,9 +1,8 @@
 {
   "area": "staRHs",
-  "subject": "[staRHs] Share your Stars!",
+  "subject": "[staRHs] Share your stars!",
   "title": "IS YOUR CREW AWESOME?!",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

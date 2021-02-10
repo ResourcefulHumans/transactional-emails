@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= sender.firstname %> rejected to uncommit",
+  "subject": "[netwoRHk] Request declined",
   "title": "REQUEST TO UNCOMMIT REJECTED",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",

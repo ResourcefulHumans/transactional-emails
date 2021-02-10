@@ -1,9 +1,8 @@
 {
   "area": "",
-  "subject": "[netwoRHk] - <%= sender.firstname %> updated his/her status to <%= commitment.status %>",
+  "subject": "[netwoRHk] Oh no!",
   "title": "OH NO!",
   "title2": "THINGS ARE NOT WELL",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Tony",

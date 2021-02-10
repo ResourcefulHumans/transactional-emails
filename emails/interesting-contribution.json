@@ -3,7 +3,6 @@
   "subject": "[netwoRHk] Check out this new, open contribution: <%= contribution.title %>",
   "title": "Check this out",
   "title2": "",
-  "type_error": false,
   "defaults": {
     "recipient": {
       "firstname": "Jason",
