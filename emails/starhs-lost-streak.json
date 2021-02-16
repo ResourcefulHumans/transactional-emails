@@ -1,9 +1,8 @@
 {
   "area": "staRHs",
-  "subject": "[staRHs] Loser!",
-  "title": "Oh No!",
-  "title2": "YOU LOST YOUR STREAK!",
-
+  "subject": "[staRHs] You Missed the Wave",
+  "title": "YOU BROKE THE STREAK OF",
+  "title2": "SENDING ALL YOUR STARHS...",
   "defaults": {
     "recipient": {
       "firstname": "Jason",
