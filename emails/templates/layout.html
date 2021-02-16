@@ -44,11 +44,9 @@
         margin: 0 auto;
         padding: 60px 0 30px 0;
         line-height: 1em;
-      }
 
-      .title {
         display: flex;
-        flex-direction: column !important;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
       }
@@ -592,13 +590,11 @@
           >
             <tr>
               <td valign="top" style="border-collapse: collapse">
-                <div style="margin: 0 auto; display: flex">
-                  <h1 class="title">
-                    {{{title}}} {{#if title2}}
-                    <div>{{{title2}}}</div>
-                    {{/if}}
-                  </h1>
-                </div>
+                <h1 style="margin: 0 auto" class="title">
+                  {{{title}}} {{#if title2}}
+                  <div>{{{title2}}}</div>
+                  {{/if}}
+                </h1>
               </td>
             </tr>
           </table>
