@@ -1,0 +1,13 @@
+{
+  "area": "",
+  "subject": "[netwoRHk] Welcome to the future of work",
+  "title": "Awesome, Almost done!",
+  "title2": "Welcome to the future of work",
+  "defaults": {
+    "recipient": {
+      "firstname": "Jason",
+      "lastname": "Wilkes"
+    },
+    "link": "https://app.networhk.net/"
+  }
+}

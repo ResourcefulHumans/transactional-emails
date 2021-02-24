@@ -1,0 +1,2 @@
+Set Your Password:
+<%= link %>
