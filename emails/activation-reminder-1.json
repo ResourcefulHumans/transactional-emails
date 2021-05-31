@@ -1,8 +1,8 @@
 {
   "area": "",
-  "subject": "[aiRH] Activate your account!",
-  "title": "Wow! You Got A New Account!",
-  "title2": "",
+  "subject": "[aiRH] <%= recipient.firstname %>, activate your account!",
+  "title": "Remember To",
+  "title2": " Activate Your Account",
   "defaults": {
     "recipient": {
       "firstname": "Jason",

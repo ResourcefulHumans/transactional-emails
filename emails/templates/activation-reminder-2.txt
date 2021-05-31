@@ -1,0 +1,6 @@
+Your Activation Link Will Expire In 13 days
+
+
+Activate It Here:
+<%= link %>
+

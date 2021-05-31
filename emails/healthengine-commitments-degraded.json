@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= recipient.firstname %>, your commitments' health has been degraded",
+  "subject": "[aiRH] <%= recipient.firstname %>, your commitments' health has been degraded",
   "title": "Health degraded",
   "title2": "",
   "defaults": {
