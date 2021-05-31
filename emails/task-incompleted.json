@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] Incompleted task in <%= contribution.title %>: <%= task.description %>",
+  "subject": "[aiRH] Incompleted task in <%= contribution.title %>: <%= task.description %>",
   "title": "Incompleted Task",
   "title2": "",
   "defaults": {

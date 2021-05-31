@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] <%= recipient.firstname %>, here is your verification code for Slack",
+  "subject": "[aiRH] <%= recipient.firstname %>, here is your verification code for Slack",
   "title": "Slack Verification Code",
   "title2": "",
 

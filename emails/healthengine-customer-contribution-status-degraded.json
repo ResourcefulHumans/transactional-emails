@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[<%= networhk.label %> netwoRHk] The <%= contribution.title %> contributions' health has been degraded",
+  "subject": "[aiRH] The <%= contribution.title %> contributions' health has been degraded",
   "title": "Health degraded",
   "title2": "",
   "defaults": {

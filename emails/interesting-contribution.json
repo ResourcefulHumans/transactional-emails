@@ -1,6 +1,6 @@
 {
   "area": "",
-  "subject": "[netwoRHk] Check out this new, open contribution: <%= contribution.title %>",
+  "subject": "[aiRH] Check out this new, open contribution: <%= contribution.title %>",
   "title": "Check this out",
   "title2": "",
   "defaults": {
