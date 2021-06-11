@@ -1,0 +1,25 @@
+{
+    "area": "staRHs",
+    "subject": "[aiRH] Congrats on you first star shared!",
+    "title": "HURRAY YOU DID IT! WELCOME TO THE CLUB",
+    "title2": "OF SHARING POSITIVE FEEDBACK.",
+    "defaults": {
+      "recipient": {
+        "firstname": "Jason",
+        "lastname": "Wilkes"
+      },
+      "sender": {
+        "firstname": "Tony",
+        "lastname": "Stark"
+      },
+      "starh": {
+        "id": "123",
+        "message": "For your help in defeating Whitney Frost! #teamstark",
+        "amount": 3
+      },
+      "networhk": {
+        "label": "Strategic Scientific Reserve",
+        "networhkLink": "http://app.networhk.net/"
+      }
+    }
+  }
