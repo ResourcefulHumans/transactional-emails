@@ -15,6 +15,8 @@ To deploy new version do following steps:
 - ssh to production
 - run node dist/console configure-mailer
 
+To preview the emails run npm build
+
 ## E-Mails
 
 ### netwoRHk
