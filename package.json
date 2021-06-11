@@ -38,11 +38,11 @@
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
+    "prettier": "^1.14.3",
     "pretty-quick": "^3.1.0",
     "semantic-release": "^6.3.2",
     "standard": "^10.0.0-beta.0",
-    "validate-commit-msg": "^2.11.2",
-    "prettier": "^1.14.3"
+    "validate-commit-msg": "^2.11.2"
   },
   "husky": {
     "hooks": {
