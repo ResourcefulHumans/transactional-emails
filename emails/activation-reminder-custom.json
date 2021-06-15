@@ -1,8 +1,8 @@
 {
     "area": "",
     "subject": "[aiRH] <%= recipient.firstname %>, activate your account!",
-    "title": "Last Chance To",
-    "title2": " Activate Your Account",
+    "title": "Don't Miss Out",
+    "title2": " Activate Your Account!",
     "defaults": {
       "recipient": {
         "firstname": "Jason",
