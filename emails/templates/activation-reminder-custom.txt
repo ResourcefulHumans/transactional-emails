@@ -1,0 +1,5 @@
+Your Activation Link Will Expire In <%= days%> days
+
+
+Activate It Here:
+<%= link %>
