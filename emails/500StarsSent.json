@@ -2,24 +2,5 @@
   "area": "staRHs",
   "subject": "[aiRH] 500 stars shared",
   "title": "OMG - you have shared ",
-  "title2": "500 stars",
-  "defaults": {
-    "recipient": {
-      "firstname": "Jason",
-      "lastname": "Wilkes"
-    },
-    "sender": {
-      "firstname": "Tony",
-      "lastname": "Stark"
-    },
-    "starh": {
-      "id": "123",
-      "message": "For your help in defeating Whitney Frost! #teamstark",
-      "amount": 3
-    },
-    "networhk": {
-      "label": "Strategic Scientific Reserve",
-      "networhkLink": "http://app.networhk.net/"
-    }
-  }
+  "title2": "500 stars"
 }

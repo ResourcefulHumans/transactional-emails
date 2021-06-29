@@ -4,10 +4,6 @@
   "title": "Email Change",
   "title2": "",
   "defaults": {
-    "recipient": {
-      "firstname": "Jason",
-      "lastname": "Wilkes"
-    },
     "link": "http://networhk.com/"
   }
 }

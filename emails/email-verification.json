@@ -4,10 +4,10 @@
   "title": "Email Verification",
   "title2": "",
   "defaults": {
+    "link": "http://networhk.com/",
     "recipient": {
       "firstname": "Jason",
       "lastname": "Wilkes"
-    },
-    "link": "http://networhk.com/"
-  }
+    }
+  } 
 }
