@@ -2,24 +2,6 @@
   "area": "staRHs",
   "subject": "[aiRH] You Missed the Wave",
   "title": "YOU BROKE THE STREAK OF",
-  "title2": "SENDING ALL YOUR STARHS...",
-  "defaults": {
-    "recipient": {
-      "firstname": "Jason",
-      "lastname": "Wilkes"
-    },
-    "sender": {
-      "firstname": "Tony",
-      "lastname": "Stark"
-    },
-    "starh": {
-      "id": "123",
-      "message": "For your help in defeating Whitney Frost! #teamstark",
-      "amount": 3
-    },
-    "networhk": {
-      "label": "Strategic Scientific Reserve",
-      "networhkLink": "http://app.networhk.net/"
-    }
-  }
+  "title2": "SENDING ALL YOUR STARHS..."
+  
 }
