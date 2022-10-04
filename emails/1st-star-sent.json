@@ -2,5 +2,8 @@
     "area": "staRHs",
     "subject": "[aiRH] Congrats on you first star shared!",
     "title": "HURRAY YOU DID IT! WELCOME TO THE CLUB",
-    "title2": "OF SHARING POSITIVE FEEDBACK."
+    "title2": "OF SHARING POSITIVE FEEDBACK.",
+    "defaults": {
+      "link": "https://app.networhk.net/"
+    }
   }

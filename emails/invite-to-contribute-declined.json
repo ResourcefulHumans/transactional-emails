@@ -4,6 +4,7 @@
   "title": "OH NO!",
   "title2": "INVITATION DECLINED",
   "defaults": {
+    "link": "https://app.networhk.net/",
     "recipient": {
       "firstname": "Tony",
       "lastname": "Stark"

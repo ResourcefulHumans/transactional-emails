@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] Share your stars!",
   "title": "IS YOUR CREW AWESOME?!",
-  "title2": ""
+  "title2": "",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

@@ -1,3 +1,10 @@
 <%= customer.name %> says: <%= status.status %>!
 
 They just changed the status of the contribution to <%= status.status %>!
+
+Android App:
+https://play.google.com/store/apps/details?id=net.networhk.starhs
+
+Ios App:
+https://apps.apple.com/us/app/staRHs-positive-feedback/id1474070752
+

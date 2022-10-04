@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] 200 stars shared",
   "title": "Yay! you have shared 200 stars!",
-  "title2": ""
+  "title2": "",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

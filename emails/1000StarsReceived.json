@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] 1000 stars received in total!",
   "title": "1000 stars for my feedback  ",
-  "title2": "lover. "
+  "title2": "lover. ",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

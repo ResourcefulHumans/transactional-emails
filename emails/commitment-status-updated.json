@@ -4,7 +4,7 @@
   "title": "OH NO!",
   "title2": "THINGS ARE NOT WELL",
   "defaults": {
-   
+    "link": "https://app.networhk.net/",
     "contribution": {
       "$link": "https://app.airh.team/#/me/contributions/contribution/840"
       

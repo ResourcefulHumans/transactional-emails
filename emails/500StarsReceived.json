@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] 500 stars received in total!",
   "title": "500 hundred stars! ",
-  "title2": "High five for that! "
+  "title2": "High five for that! ",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

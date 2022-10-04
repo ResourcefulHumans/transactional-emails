@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] 1000 stars shared!",
   "title": "I can't believe it, 1000 stars  ",
-  "title2": "from you are in the universe."
+  "title2": "from you are in the universe.",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

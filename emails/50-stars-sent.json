@@ -2,5 +2,8 @@
     "area": "staRHs",
     "subject": "[aiRH] 50 Stars Shared!",
     "title": "WOW, YOU SHARED YOUR 50TH STAR!",
-    "title2": "LET'S AIM FOR 100 NOW!"
+    "title2": "LET'S AIM FOR 100 NOW!",
+    "defaults": {
+      "link": "https://app.networhk.net/"
+    }
   }

@@ -2,5 +2,8 @@
   "area": "staRHs",
   "subject": "[aiRH] 200 stars received in total!",
   "title": "Incredible 200 stars for you! ",
-  "title2": "your crew loves you."
+  "title2": "your crew loves you.",
+  "defaults": {
+    "link": "https://app.networhk.net/"
+  }
 }

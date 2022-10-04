@@ -1,2 +1,8 @@
 Check out your feedback:
 https://app.networhk.net/#/stars/<%= starh.id %>
+
+Android App:
+https://play.google.com/store/apps/details?id=net.networhk.starhs
+
+Ios App:
+https://apps.apple.com/us/app/staRHs-positive-feedback/id1474070752

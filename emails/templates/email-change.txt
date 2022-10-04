@@ -2,7 +2,15 @@ Please click this link to confirm your email change:
 
 <%= link %>
 
+Android App:
+https://play.google.com/store/apps/details?id=net.networhk.starhs
+
+Ios App:
+https://apps.apple.com/us/app/staRHs-positive-feedback/id1474070752
+
+
 -----------------------------------------------------------------------
 
 If you did not request to change your email, just ignore this
 message.
+
