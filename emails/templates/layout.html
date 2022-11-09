@@ -30,11 +30,11 @@
         font-size: 16px;
         line-height: 24px;
         color: #fff;
-        background: radial-gradient(#0686CB, #0A2256);
+        background: radial-gradient(#0686cb, #0a2256);
       }
 
       .staRHs {
-        background: radial-gradient(#0686CB, #0A2256);
+        background: radial-gradient(#0686cb, #0a2256);
       }
 
       h1.title {
@@ -279,14 +279,21 @@
       div.content {
         padding: 32px;
       }
+
       div.action {
         display: flex;
+        justify-content: center;
+      }
+
+      .action-block {
+        display: block !important;
+        text-align: center !important;
       }
 
       .border {
         border-style: solid !important;
         border: 1 !important;
-       
+
         border-color: #1d1e20 !important;
         border-width: 0.5px;
       }
@@ -332,7 +339,8 @@
         a[href^='tel'],
         a[href^='sms'] {
           text-decoration: none;
-          color: blue; /* or whatever your want */
+          color: blue;
+          /* or whatever your want */
           pointer-events: none;
           cursor: default;
         }
@@ -404,7 +412,8 @@
         a[href^='tel'],
         a[href^='sms'] {
           text-decoration: none;
-          color: blue; /* or whatever your want */
+          color: blue;
+          /* or whatever your want */
           pointer-events: none;
           cursor: default;
         }
@@ -421,12 +430,12 @@
       @media (prefers-color-scheme: dark) {
         body {
           color: #fff !important;
-          background: radial-gradient(#0686CB, #0A2256) !important;
+          background: radial-gradient(#0686cb, #0a2256) !important;
         }
 
         .staRHs {
           color: #fff !important;
-          background: radial-gradient(#0686CB, #0A2256) !important;
+          background: radial-gradient(#0686cb, #0a2256) !important;
         }
 
         .btn {
@@ -565,6 +574,7 @@
       /* end Android targeting */
     </style>
   </head>
+
   <body
     style="
       max-width: 100%;
